@@ -40,6 +40,7 @@ DE:
     * [Home_de](https://github.com/MilosKozak/AndroidAPS/wiki/Home_de)
     * [Sicherheit Geht Vor](https://github.com/MilosKozak/AndroidAPS/wiki/Sicherheit_Geht_Vor_de)
     * [[Screenshots]]
+    * [[Objectives_de]]
     * [Glossar_de](https://github.com/MilosKozak/AndroidAPS/wiki/Glossar_de)
 * AndroidAPS installieren
     * [Android Studio installieren](https://developer.android.com/studio/install.html)
