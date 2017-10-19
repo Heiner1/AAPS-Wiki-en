@@ -57,7 +57,7 @@ DE:
     * [Circadian Percentage Profil_de](https://github.com/MilosKozak/AndroidAPS/wiki/Circadian-Percentage-Profil_de)
     * [Profilfunktion ab Version 1.5_de](https://github.com/MilosKozak/AndroidAPS/wiki/Profilfunktion-ab-Version-1.5_de)   
     * [Profil "Free-Peak 0ref"](https://github.com/MilosKozak/AndroidAPS/wiki/Profil-%22Free-Peak-0ref%22.)
-    * [[SMS Commands]]
+    * [[SMS Commands_de]]
     * [Tipps und Tricks_de](https://github.com/MilosKozak/AndroidAPS/wiki/Tipps-und-Tricks_de)
     * [Logfiles erhalten_de](https://github.com/MilosKozak/AndroidAPS/wiki/Logfiles-erhalten_de)
 
