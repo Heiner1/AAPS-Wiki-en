@@ -25,6 +25,7 @@ Usage:
 * [[SMS Commands]]
 * [[Tips and tricks]]
 * [[Accessing logfiles]]
+* [[Dev branch]]
 
 Sources:
 * [[Mentions]]
