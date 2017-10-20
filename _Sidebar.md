@@ -14,7 +14,6 @@ Configuration:
 * [[DanaR Insulin Pump]]
 * [[Nightscout]]
 * [[BG Source]]
-* [[AndroidAPS]]
 * [[Watchfaces]]
 
 Usage:
