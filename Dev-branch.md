@@ -18,6 +18,9 @@ Switching profiles can also now be triggered by NS Client (picking it up from a 
 **DanaR/RS Bolus Speeds**<br>
 In Preferences under DanaR/DanaRS pump settings you can select the default bolus speed used (12sec per 1u, 30sec per 1u or 60sec per 1u).
 
+**Temp Targets Default**<br>
+In Preferences under Other you can set default values for the different types of temp target (eating soon and activity).  When you select a temp target then if you choose for example "Eating Soon" from the drop down box, it will automatically populate the duration and value for you based on the figures you provided.
+
 **GUI**<br>
 The Overview layout has been improved, and more icons added.  DanaR communication is more detailed in status line.
 
