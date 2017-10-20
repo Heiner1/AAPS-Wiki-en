@@ -12,7 +12,8 @@ AndroidAPS has a series of Objectives that need to be completed to walk you thro
  
 * **Objective 3:** Understanding your open loop, including its temp basal recommendations
   *Start to understand the thinking behind the temp basal recommendations by looking at the [determine basal logic](https://openaps.readthedocs.io/en/latest/docs/While%20You%20Wait%20For%20Gear/Understand-determine-basal.html) and both the forecast line in AndroidAPS homescreen/Nightscout and the summary of outputs from the calculations in your OpenAPS tab.
-<br><br>_Stop here if you are open looping with a virtual pump._
+  <br><br>_You will want to set your target higher than usual until you are confident in the calculations and settings.  The system allows a low target to be a minimum of 4 or maximum of 10, and a high target to be a minimum of 5 and maximum of 15.  A temporary target as a single value can be anywhere in the range of 4 to 15.  The target is the value that calculations are based on, and not the same as where you aim to keep your blood glucose values within.  If your target is very wide (say, 3 or more mmol wide), you will often find because blood glucose is eventually predicted to be somewhere in that wide range not many fluctuating temporary basal rates are suggested. You may want to experiment with adjusting your targets to be a closer together range (say, 1 or less mmol wide), and observe how the behavior of your system changes as a result.  You can view a wider range (green lines) on the graph for the values you aim to keep your blood glucose within by entering different values in Preference > Range for Visualisation._
+  <br><br>_Stop here if you are open looping with a virtual pump._
 
 * **Objective 4:** Starting to close the loop with Low Glucose Suspend
   * Select Closed Loop either from Preferences, or by pressing and holding the Open Loop button in the top left of the home screen.
@@ -24,7 +25,6 @@ AndroidAPS has a series of Objectives that need to be completed to walk you thro
 * **Objective 5:** Tuning the closed loop, raising max IOB above 0 and gradually lowering BG targets
   * Raise your maxIOB above 0 over a period of 1 day, the default is recommended to be 2 but you should slowly work up to this until you know your settings work for you.
   * Once confident on how much IOB suits your looping patterns then reduce your targets to your desired level.
-<br><br>_The system allows a low target to be a minimum of 4 or maximum of 10, and a high target to be a minimum of 5 and maximum of 15.  A temporary target as a single value can be anywhere in the range of 4 to 15._
  
 * **Objective 6:** Adjust basals and ratios if needed, and then enable auto-sens
   * You can use [autotune](https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/autotune.html) as a one off to check your basals remain accurate, or do a traditional basal test.
