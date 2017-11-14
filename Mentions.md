@@ -6,3 +6,5 @@
 
 [https://btvnovinite.bg/video/bulgaria/dnes-e-svetovnijat-den-za-borba-s-diabeta.html](https://btvnovinite.bg/video/bulgaria/dnes-e-svetovnijat-den-za-borba-s-diabeta.html)
 
+[http://www.ndr.de/fernsehen/sendungen/visite/Das-Gesundheitsmagazin,sendung706258.html](http://www.ndr.de/fernsehen/sendungen/visite/Das-Gesundheitsmagazin,sendung706258.html @16:40)
+
