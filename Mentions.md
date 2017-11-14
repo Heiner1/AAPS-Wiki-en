@@ -6,5 +6,5 @@
 
 [https://btvnovinite.bg/video/bulgaria/dnes-e-svetovnijat-den-za-borba-s-diabeta.html](https://btvnovinite.bg/video/bulgaria/dnes-e-svetovnijat-den-za-borba-s-diabeta.html)
 
-[http://www.ndr.de/fernsehen/sendungen/visite/Das-Gesundheitsmagazin,sendung706258.html @16:40](http://www.ndr.de/fernsehen/sendungen/visite/Das-Gesundheitsmagazin,sendung706258.html)
+[https://www.ndr.de/fernsehen/sendungen/visite/Diabetes-Blutzucker-automatisch-einstellen,visite13788.html](https://www.ndr.de/fernsehen/sendungen/visite/Diabetes-Blutzucker-automatisch-einstellen,visite13788.html)
 
