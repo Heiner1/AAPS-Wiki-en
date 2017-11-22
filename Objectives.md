@@ -2,7 +2,7 @@ AndroidAPS has a series of Objectives that need to be completed to walk you thro
  
 * **Objective 1:** Setting up visualization and monitoring, and analysing basals and ratios
   * Select the right blood glucose source for your setup.  See [BG Source](https://github.com/MilosKozak/AndroidAPS/wiki/BG-Source) for more information.
-  * Select the right Pump in ConfigBuilder (select Virtual Pump if you are using a pump model with no AndroidAPS driver for open looping) to ensure your pump status can communicate with AndroidAPS.  If using DanaR pump then ensure you have followed [DanaR Insulin Pump] and [AndroidAPS](https://github.com/MilosKozak/AndroidAPS/wiki/AndroidAPS)  instructions to ensure the link between pump and AndroidAPS.
+  * Select the right Pump in ConfigBuilder (select Virtual Pump if you are using a pump model with no AndroidAPS driver for open looping) to ensure your pump status can communicate with AndroidAPS.  If using DanaR pump then ensure you have followed [DanaR Insulin Pump](https://github.com/MilosKozak/AndroidAPS/wiki/DanaR-Insulin-Pump) instructions to ensure the link between pump and AndroidAPS.
   * Follow instructions in [Nightscout](https://github.com/MilosKozak/AndroidAPS/wiki/Nightscout) page to ensure Nightscout can receive and display this data.
 <br><br>_You may need to wait for the next blood glucose reading to arrive before AndroidAPS will recognise it._
  
