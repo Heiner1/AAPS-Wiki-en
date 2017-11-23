@@ -11,16 +11,17 @@ How to install AndroidAPS:
 * [[Update to new version]]
 
 Configuration:
+* [[BG Source]]
 * [[DanaR Insulin Pump]]
 * [[Nightscout]]
-* [[BG Source]]
 * [[Watchfaces]]
+* [[Preferences]]
 
 Usage:
 * [[Objectives]]
 * [[Open APS features]]
 * [[Circadian Percentage Profile]]
-* [[Working with profiles in 1.5+|Working with profiles in 1.5]]
+* [[Working with profiles in v1.5+]]
 * [[SMS Commands]]
 * [[Tips and tricks]]
 * [[Accessing logfiles]]
