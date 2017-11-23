@@ -8,6 +8,7 @@ AndroidAPS has a series of Objectives that need to be completed to walk you thro
  
 * **Objective 2:** Starting on an open loop
   * Select Open Loop either from Preferences, or by pressing and holding the Loop button in top left of the home screen.
+  * Work through the [[Preferences]] to set up for you.
   * Manually enact at least 20 of the temporary basal rate suggestions over a period of 7 days; input them to your pump and confirm in AndroidAPS that you have accepted them.  Ensure this data shows in AndroidAPS and Nightscout.
  
 * **Objective 3:** Understanding your open loop, including its temp basal recommendations
