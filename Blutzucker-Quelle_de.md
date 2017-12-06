@@ -6,6 +6,12 @@ _Mit xdrip…_<br>
 * Falls du mit AndroidAPS kalibrieren willst dann gehe in xdrip zu Settings > Interapp Compatibility > Accept Calibrations und wähle ON. Du solltest auch die Optionen in Settings > Less Common Settings > Advanced Calibration Settings kontrollieren.
 * Wähle in AndroidAPS > CONFIG BUILDER > xdrip.
 
+_Mit der Dexcom G5 App..._<Br>
+* Zur Zeit nur im dev Branch, und in mmol/l (mg/dl version in Kürze verfügbar).
+* Downloade die apk von [hier](https://github.com/dexcomapp/dexcomapp).
+* Deinstalliere die originale Dexcom App, falls du sie noch hast.
+* Wähle im Config Builder Dexcom G5 App.
+
 _Mit OTG cable ('traditional' Nightscout)…_<br>
 * Falls noch nicht eingerichtet, dann downloade Nightscout Uploader app vom Play Store und folge den Einstellungen auf [Nightscout](http://www.nightscout.info/wiki/welcome/basic-requirements).
 * Gib in den AndroidAPS Einstellungen > NSClient deine Nightscout URL und dein Nightscout API-Key ein.
