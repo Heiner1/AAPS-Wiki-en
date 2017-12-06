@@ -8,7 +8,7 @@ _If using xdrip…_<br>
 
 _If using Dexcom G5 App..._<Br>
 * Just dev, and in mmol/l (mg/dl version coming soon).
-* Download the apk from [here](https://github.com/dexcomapp/dexcomapp).
+* Download the apk from [here](https://github.com/dexcomapp/dexcomapp), just this version works.
 * Deinstall original Dexcom app, if not allready done.
 * Select Dexcom G5 App in ConfigBuilder
 
