@@ -1,4 +1,4 @@
-* Download the [AndroidAPS repository](https://github.com/MilosKozak/AndroidAPS) and extract the files. **NOTE** If you are using Android Studio version 3.0 you need to download the ```dev``` branch.
+* Download the [AndroidAPS repository](https://github.com/MilosKozak/AndroidAPS) and extract the files.
 
 * Run Android Studio and select 'Open an existing Android Studio project', selecting the location of the extracted files.
 
