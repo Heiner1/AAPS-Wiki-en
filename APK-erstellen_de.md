@@ -7,9 +7,9 @@
 
 [[https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/fullwearcontrolrelease.png]] 
 
-* Wähle den build type, den du kompilieren möchtest. Die verschiedenen Optionen sind hier unten beschrieben, wir empfehlen  **bold** für die standard AndroidAPS App (**fullWearcontrolRelease**) oder _italic_ für die elterliche Loop Kontrolle (_nsclientWearRelease_).
+* Wähle den build type, den du kompilieren möchtest. Die verschiedenen Optionen sind hier unten beschrieben, wir empfehlen für die standard AndroidAPS App (**fullWearcontrolRelease**) oder für die elterliche Loop Kontrolle (**nsclientWearRelease**).
     * **full - full app**
-    * _nsclient - Downloadet die Behandlungen von NS und uploadet Careportal Eintragungen (keine Möglichkeit zum Loopen, nur für die Kontrolle von wo anders)_
+    * **nsclient** - Downloadet die Behandlungen von NS und uploadet Careportal Eintragungen (keine Möglichkeit zum Loopen, nur für die Kontrolle von wo anders)_
     * openloop - nur der OpenAPS Teil der App (keine Pumpentreiber)
     * pumpcontrol - nur die Möglichkeit die Dana R von der App aus zu bedienen (kein Loop, nur für z.B. Bolus)<br><br>
 
