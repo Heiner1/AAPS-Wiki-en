@@ -12,10 +12,10 @@ How to install AndroidAPS:
 
 Configuration:
 * [[BG Source]]
-* [[DanaR Insulin Pump]]
 * [[Nightscout]]
-* [[Watchfaces]]
+* [[DanaR Insulin Pump]]
 * [[Preferences]]
+* [[Watchfaces]]
 
 Usage:
 * [[Objectives]]
