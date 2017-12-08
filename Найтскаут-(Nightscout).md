@@ -10,7 +10,7 @@
   * `ENABLE` = `careportal boluscalc food bwp cage sage iage iob cob basal ar2 rawbg pushover bgi pump openaps`
   * `DEVICESTATUS_ADVANCED` = `true`
   * `PUMP_FIELDS` = `reservoir battery clock`
-  * Various alarms can be set for [monitoring the pump](https://github.com/nightscout/cgm-remote-monitor#pump-pump-monitoring), battery % in particular is encouraged:
+  * Можете да си добавите различни аларми за [наблюдение на помпата](https://github.com/nightscout/cgm-remote-monitor#pump-pump-monitoring), %  заряд на батерията е препоръчителен:
     * `PUMP_WARN_BATT_P` = `51`
     * `PUMP_URGENT_BATT_P` = `26`
 
