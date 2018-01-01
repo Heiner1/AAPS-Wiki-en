@@ -137,7 +137,7 @@ xDrip+ ist eine weitere ausgereifte App, die unzählige Möglichkeiten bietet. A
 ## Energiesparoptionen deaktivieren
 Im Samsung Galaxy S7 auf Menü > Einstellungen > Gerätewartung > Akku > Nicht überwachte Apps > +Apps hinzufügen: Hier nacheinander die Apps AndroidAPS, Dexcom G5 Mobile, xDrip+ und ggf. AndroidWear auswählen (falls die Smartwatch verwendet wird)
 
-## Optional: Samsung Smartwatch 3 einrichten
+## Optional: Sony Smartwatch 3 (SWR50) einrichten
 Mit der Smartwatch lässt sich das Leben mit Diabetes noch viel unauffälliger gestalten. Über sie kann am Handgelenk jederzeit der aktuelle Glukosezucker, der Status der Loop etc. angezeigt werden und es können Bolusgaben vorgenommen werden. Dazu wie folgt vorgehen:
 
 * In AAPS: Config Builder > Generell > Wear > aktivieren und im Zahnrädchen daneben: Steuerung von der Uhr - aktiv
