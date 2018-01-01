@@ -83,8 +83,7 @@ Die Original-App von Dexcom aus dem Google Play Store wird nicht funktionieren, 
 Dazu folgende Schritte ausführen:
 
 1. Falls die Original-Dexcom-App bereits installiert ist: Sensor stoppen, App deinstallieren über Menü > Einstellungen > Apps > Dexcom G5 Mobile > Deinstallieren
-2. Modifizierte Dexcom-App von [https://github.com/dexcomapp/dexcomapp?files=1](https://github.com/dexcomapp/dexcomapp?files=1) herunterladen.
-> ACHTUNG: Derzeit ist die als mg/dl bezeichnete Version TROTZDEM in mmol/l! Die Entwickler beheben diesen Fehler hoffentlich bald. Bis dahin hilft eine direkte Kontaktaufnahme zu Milos Kozak über die einschlägigen Facebook-Gruppen...
+2. Modifizierte Dexcom-App mit in der richtigen Einheit (mg/dl oder mmol/l) von [https://github.com/dexcomapp/dexcomapp?files=1](https://github.com/dexcomapp/dexcomapp?files=1) herunterladen.
 3. Modifizierte Dexcom-App auf dem Smartphone installieren (= die heruntergeladene *.apk-Datei auswählen)
 4. Modifizierte Dexcom-App starten, den Sensor nach Anweisung aktivieren / kalibrieren und die Aufwärmphase abwarten
 5. Wenn die ersten beiden Kalibrierungen erfolgreich waren und die modifizierte Dexcom-App den aktuellen Wert anzeigt, dann im Menü (= drei waagerechte Striche links oben in der App) auf "Warnungen" und folgende Konfiguration einstellen<br>
