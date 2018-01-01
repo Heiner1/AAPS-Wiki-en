@@ -23,8 +23,8 @@ Dennoch können die Daten bei bestehender Datenverbindung automatisch zu **Night
 4. Optional: [Sony Smartwatch 3 (SWR50)](https://www.sonymobile.com/de/products/smart-products/smartwatch-3-swr50/)
 > Bezugsquelle: Da die Uhr ein Auslaufmodell ist, muss man im Fachhandel oder im Internet ggf. etwas suchen. Falls sie zu einem akzeptablen Preis nur in grellen Neonfarben erhältlich ist, dann kann man sie trotzdem bestellen und das Band tauschen. Hierfür gibt es bei eBay unter dem Suchbegriff "SWR50 adapter" Adapter, in die die Uhr exakt reinpasst und an die man jedes beliebige Uhrenband (in der passenden Größe) machen kann.
 
-# Optional: [Nightscout](http://www.nightscout.info/) online einrichten
-Nightscout ist eine Website, über die die meisten Daten der eingerichteten Loop "in der Cloud" gesammelt werden können. Das ermöglicht umfangreiche Statistiken und Auswertungen, aber auch die Synchronisation der Werte mit weiteren Geräten oder das Teilen der Behandlungsdaten mit Familienmitgliedern, Freunden oder Ärzten.
+# Optional: Nightscout online einrichten
+[Nightscout.info](http://www.nightscout.info/) ist eine Website, über die die meisten Daten der eingerichteten Loop "in der Cloud" gesammelt werden können. Das ermöglicht umfangreiche Statistiken und Auswertungen, aber auch die Synchronisation der Werte mit weiteren Geräten oder das Teilen der Behandlungsdaten mit Familienmitgliedern, Freunden oder Ärzten.
 
 1. Nightscout über Heroku installieren
 
