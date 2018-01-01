@@ -1,3 +1,4 @@
+![](https://user-images.githubusercontent.com/32912987/34470732-6a3b4b62-ef38-11e7-8428-03e1aec39ee7.png)
 # Beschreibung
 > ACHTUNG: Diese Methode ist derzeit nur möglich, wenn die Entwicklerversion (dev-branch) von AndroidAPS installiert wird. Diese Version kann noch Fehler enthalten und verschiedene Probleme machen. Deshalb ist die beschriebene Methode noch experimentell!
 
@@ -61,6 +62,7 @@ Android Studio auf dem Computer oder Notebook (Windows, Mac, Linux) benötigt > 
 [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html) beschrieben
 
 # Smartphone einrichten
+<img src="https://user-images.githubusercontent.com/32912987/34470734-6ee34ade-ef38-11e7-9214-337a9c607243.png" width="250">
 
 ## Firmware des Samsung Galaxy S7 überprüfen
 * Menü > Einstellungen > Telefoninfo > Softwareinfo: Hier sollte "Android-Version 7.0" stehen (diese Version ist erfolgreich getestet)
@@ -73,6 +75,8 @@ Menü > Einstellungen > Gerätesicherheit > Unbekannte Quellen > Schieber nach r
 Menü > Einstellungen > Verbindungen > Bluetooth > Schieber nach rechts (= aktiv)
 
 ## Dexcom App (modifizierte Version) installieren
+<img src="https://user-images.githubusercontent.com/32912987/34470739-77d835e6-ef38-11e7-9c47-37a71f74e6cc.png" width="250"> <br>
+
 Die Original-App von Dexcom aus dem Google Play Store wird nicht funktionieren, weil sie die Werte nicht an andere Apps weitergibt. Darum ist eine von der Community leicht modifizierte Version erforderlich. Nur sie kann später mit AAPS kommunizieren. Unter [https://github.com/dexcomapp/dexcomapp?files=1](https://github.com/dexcomapp/dexcomapp?files=1) ist eine mmol/l-Version und eine mg/dl-Version der modifizierten Dexcom-App hinterlegt. Vorteil gegenüber frei entwickelten Auslese-Apps wie xDrip+ ist, dass es sich um die vom Hersteller zertifizierte Auslese-/Glukoseberechnungsmethode handelt und "verpasste Werte" nach dem erneuten Verbinden noch aufgefüllt werden (das kann xDrip+ derzeit noch nicht).
 
 
@@ -114,8 +118,8 @@ Dazu folgende Schritte ausführen:
 * Beschränkungen: Zielsetzungen aktivieren
 * Treatments: Behandlungen aktivieren
 * Generell: Aktionen, Careportal, Laufende Benachrichtigungen jeweils aktivieren
-* "Integrierter NSClient" aktivieren und im Zahnrädchen daneben: Nightscout URL = `https://DEINAPPNAME.herokuapp.com`, Nightscout API-Key = `DEINAPIKEY`, Aktiviere lokalen Broadcast = `aktivieren`, Alarm-Optionen = `alles deaktiviert`
-
+* "Integrierter NSClient" aktivieren und im Zahnrädchen daneben: Nightscout URL = `https://DEINAPPNAME.herokuapp.com`, Nightscout API-Key = `DEINAPIKEY`, Aktiviere lokalen Broadcast = `aktivieren`, Alarm-Optionen > `alles deaktivieren` <br>
+<img src="https://user-images.githubusercontent.com/32912987/34470736-741c728c-ef38-11e7-9152-f48b501f333b.png" width="250">
 
 ## xDrip+ installieren
 xDrip+ ist eine weitere ausgereifte App, die unzählige Möglichkeiten bietet. Anders als von den Entwicklern eigentlich gedacht, wird xDrip+ aber bei dieser Methode nicht auch zum Sammeln der Glukosedaten vom Dexcom G5 verwendet, sondern nur, um Alarme auszugeben und auf dem Android-Homescreen im Widget den aktuellen Gluosewert samt Kurve anzuzeigen. Mit xDrip+ können die Alarme nämlich viel individueller eingestellt werden als mit der Dexcom-Software, AAPS oder Nightscout (keine Einschränkung bei der Auswahl der Sounds, verschiedene Alarme je nach Tages-/Nachtzeit etc.).
@@ -132,12 +136,19 @@ xDrip+ ist eine weitere ausgereifte App, die unzählige Möglichkeiten bietet. A
 * Einstellungen > Inter-App-Einstellungen > Accept Calibrations > AN
 * Menü > Sensor starten (ist nur "pro forma" und hat nichts mit dem G5-Sensor zu tun. Nötig, da sonst regelmäßig eine Fehlermeldung kommt)
 
+Beispiel für ein Alarm-Setup:
+<br>
+<img src="https://user-images.githubusercontent.com/32912987/34470740-7934de30-ef38-11e7-8e33-74bb22015406.png" width="250">
+
+
 4. Auf dem Android Homescreen an eine freie Stelle lange drücken > Widgets > "xDrip+" auswählen, halten und an die gewünschte Stelle ziehen > loslassen
 
 ## Energiesparoptionen deaktivieren
 Im Samsung Galaxy S7 auf Menü > Einstellungen > Gerätewartung > Akku > Nicht überwachte Apps > +Apps hinzufügen: Hier nacheinander die Apps AndroidAPS, Dexcom G5 Mobile, xDrip+ und ggf. AndroidWear auswählen (falls die Smartwatch verwendet wird)
 
 ## Optional: Sony Smartwatch 3 (SWR50) einrichten
+<img src="https://user-images.githubusercontent.com/32912987/34470733-6d9df16a-ef38-11e7-8a4f-bd77697e7655.png" width="150">
+<br>
 Mit der Smartwatch lässt sich das Leben mit Diabetes noch viel unauffälliger gestalten. Über sie kann am Handgelenk jederzeit der aktuelle Glukosezucker, der Status der Loop etc. angezeigt werden und es können Bolusgaben vorgenommen werden. Dazu wie folgt vorgehen:
 
 * In AAPS im Smartphone: Config Builder > Generell > Wear > aktivieren und im Zahnrädchen daneben: Steuerung von der Uhr = aktiv
