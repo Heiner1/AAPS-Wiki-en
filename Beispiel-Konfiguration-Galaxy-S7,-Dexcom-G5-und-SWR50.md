@@ -104,9 +104,9 @@ Dazu folgende Schritte ausführen:
 > Wichtig: Die Variante "fullWearControl-Release" verwenden!
 7. Die erstellte *.apk-Datei auf das Smartphone laden / per E-Mail schicken und dort installieren
 8. AAPS im Smartphone starten und folgende Einstellungen unter dem Menüpunkt **Config Builder** vornehmen:
-* Profil: Lokales Profil
+* Profil: je nach Wunsch
 * Insulin: das verwendete Insulin auswählen
-* BZ Quelle: Dexcom G5 App (patched), dann auf das Zahnrädchen, Upload BG data to NS deaktivieren, Send BG data to xDrip+ aktivieren
+* BZ Quelle: `Dexcom G5 App (patched)`, dann auf das Zahnrädchen, Upload BG data to NS `aktivieren` (falls Nightscout verwendet werden soll), Send BG data to xDrip+ `aktivieren`
 * Pumpe: DanaR
 * Empfindlichkeitserkennung: je nach Wunsch
 * APS: je nach Wunsch
