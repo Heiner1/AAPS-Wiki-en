@@ -122,11 +122,11 @@ xDrip+ ist eine weitere ausgereifte App, die unzählige Möglichkeiten bietet. A
 
 1. Letzte stabile apk-Version von xDrip+ mit dem Smartphone herunterladen unter [https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk](https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk) - nicht die Version aus dem GooglePlay-Store!
 
-2. xDrip+ installieren, indem die *.apk-Datei ausgewählt wird
+2. xDrip+ installieren, indem die heruntergeladene *.apk-Datei ausgewählt wird
 
 3. xDrip+ starten und im Menü (drei waagerechte Striche links oben) folgende Einstellungen vornehmen:
 
-* Einstellungen > Warnungen > Glukose-Alarm-Liste > Warnungen (niedrig) und (hoch) je nach Bedarf erstellen. Die bestehenden Alarme können mit einem langen Fingerdruck auf geändert werden
+* Einstellungen > Warnungen > Glukose-Alarm-Liste > Warnungen (niedrig) und (hoch) je nach Bedarf erstellen. Die bestehenden Alarme können mit einem langen Fingerdruck geändert werden
 * Einstellungen > Kalibrierungs-Erinnerungen: deaktiviert (wird über die Dexcom-App erinnert)
 * Einstellungen > Datenquelle > 640G/EverSense
 * Einstellungen > Inter-App-Einstellungen > Accept Calibrations > AN
