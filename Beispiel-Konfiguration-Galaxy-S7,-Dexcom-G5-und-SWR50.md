@@ -144,4 +144,5 @@ Mit der Smartwatch lässt sich das Leben mit Diabetes noch viel unauffälliger g
 * In der Smartwatch: Einstellungen > Ziffernblatt ändern > AAPSv2
 
 # Pumpe einrichten
-- Text folgt -
+
+siehe [Einrichtung DanaR für AAPS](https://github.com/MilosKozak/AndroidAPS/wiki/DanaR-Insulinpumpe_de)
