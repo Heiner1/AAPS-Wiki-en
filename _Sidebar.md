@@ -43,7 +43,6 @@ DE:
     * [[Screenshots]]
     * [[Objectives_de]]
     * [Glossar_de](https://github.com/MilosKozak/AndroidAPS/wiki/Glossar_de)
-    * [Beispiel Konfiguration Galaxy S7, Dexcom G5 und SWR50](https://github.com/MilosKozak/AndroidAPS/wiki/Beispiel-Konfiguration-Galaxy-S7,-Dexcom-G5-und-SWR50)
 * AndroidAPS installieren
     * [Android Studio installieren](https://developer.android.com/studio/install.html)
     * [APK erstellen_de](https://github.com/MilosKozak/AndroidAPS/wiki/APK-erstellen_de)
@@ -63,6 +62,9 @@ DE:
     * [[SMS Commands_de]]
     * [Tipps und Tricks_de](https://github.com/MilosKozak/AndroidAPS/wiki/Tipps-und-Tricks_de)
     * [Logfiles erhalten_de](https://github.com/MilosKozak/AndroidAPS/wiki/Logfiles-erhalten_de)
+* Beispiel-Setups und Erfahrungsberichte:
+    * [Beispiel Konfiguration Galaxy S7, Dexcom G5 und SWR50](https://github.com/MilosKozak/AndroidAPS/wiki/Beispiel-Konfiguration-Galaxy-S7,-Dexcom-G5-und-SWR50)
+
 
 
 Български:
