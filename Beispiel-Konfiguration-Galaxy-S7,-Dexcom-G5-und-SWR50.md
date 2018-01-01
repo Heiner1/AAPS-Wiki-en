@@ -130,7 +130,7 @@ xDrip+ ist eine weitere ausgereifte App, die unzählige Möglichkeiten bietet. A
 * Einstellungen > Kalibrierungs-Erinnerungen: deaktiviert (wird über die Dexcom-App erinnert)
 * Einstellungen > Datenquelle > 640G/EverSense
 * Einstellungen > Inter-App-Einstellungen > Accept Calibrations > AN
-* Menü > Sensor starten (sonst kommt regelmäßig eine Fehlermeldung)
+* Menü > Sensor starten (ist nur "pro forma" und hat nichts mit dem G5-Sensor zu tun. Nötig, da sonst regelmäßig eine Fehlermeldung kommt)
 
 4. Auf dem Android Homescreen an eine freie Stelle lange drücken > Widgets > "xDrip+" auswählen, halten und an die gewünschte Stelle ziehen > loslassen
 
