@@ -2,7 +2,7 @@
 # Beschreibung
 > ACHTUNG: Diese Methode ist derzeit nur möglich, wenn die Entwicklerversion (dev-branch) von AndroidAPS installiert wird. Diese Version kann noch Fehler enthalten und verschiedene Probleme machen. Deshalb ist die beschriebene Methode noch experimentell!
 
-In dieser Variante ist das Smartphone **Samsung Galaxy S7** das "Herzstück" und die Schaltzentrale der Loop. Es liest mit der originalen, aber von der Community leicht modifizierten Dexcom-App das kontinuierliche Glukosemesssystem "Dexcom G5" aus und steuert auf Basis dieser Daten über die App "AndroidAPS" (AAPS) die Insulinpumpe "DanaR" von SOOIL (per Handeingabe auf Vorschlag der App oder vollautomatisch nach Eingabe der Mahlzeit-KH). Weitere Geräte werden nicht benötigt.
+In dieser Variante ist das Smartphone **Samsung Galaxy S7** das "Herzstück" und die Schaltzentrale der Loop. Es liest mit der originalen, aber von der Community leicht modifizierten Dexcom-App das kontinuierliche Glukosemesssystem **Dexcom G5** aus und steuert auf Basis dieser Daten über die App "AndroidAPS" (AAPS) die Insulinpumpe **DanaR** von SOOIL (per Handeingabe auf Vorschlag der App oder vollautomatisch nach Eingabe der Mahlzeit-KH). Weitere Geräte werden nicht benötigt.
 
 Die **Alarme** für zu niedrige oder zu hohe Glukosewerte werden nicht über die sehr eingeschränkte Dexcom-App (bietet nur wenige vorgegebene Sounds), sondern über die App "xDrip+" im Smartphone ganz nach individuellem Bedarf eingestellt. So können je nach Tages- oder Nachtzeit unterschiedliche Alarmtöne oder Vibrationen eingerichtet werden. 
 
