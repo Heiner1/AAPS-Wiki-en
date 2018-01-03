@@ -40,7 +40,7 @@ Hierzu nach folgender Anleitung vorgehen: [http://www.nightscout.info/wiki/welco
 * Settings > Schaltfläche "Reveal Config Vars" anklicken
 * Variablen hinzufügen oder wie folgt ändern:<br>
    ENABLE = `careportal boluscalc food bwp cage sage iage iob cob basal ar2 rawbg pushover bgi pump openapsbasal loop`<br>
-   DEVICESTATUS_ADVANCED = `true`<br>
+   DEVICESTATUS_ADVANCED = `on`<br>
    PUMP_FIELDS = `reservoir battery clock`
 <br><br>
 Ein Alarm bei niedrigem Pumpen-Batteriestand in % kann wie folgt aktiviert werden:<br>
