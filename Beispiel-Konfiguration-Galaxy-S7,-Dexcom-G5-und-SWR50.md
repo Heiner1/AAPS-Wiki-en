@@ -113,11 +113,11 @@ Dazu im Smartphone folgende Schritte ausführen:
 ## AAPS installieren
 > Hinweis: Sobald die modifizierte Dexcom-Software in der Version 1.56 von AAPS enthalten ist, muss nicht mehr auf die Entwicklungsversion dev zurückgegriffen werden. Dieser Schritt muss dann im Wiki angepasst werden.
 
-1. https://github.com/MilosKozak/AndroidAPS
+1. Auf dem wie oben beschrieben vorbereiteten Computer/Notebook [https://github.com/MilosKozak/AndroidAPS](https://github.com/MilosKozak/AndroidAPS) aufrufen
 2. Branch "dev" auswählen
 3. Schaltfläche "Clone or download" > Download ZIP auswählen
 4. Heruntergeladene ZIP-Datei in einem neuen Ordner entpacken
-5. Android Studio starten
+5. Android Studio auf dem Computer/Laptop starten
 6. Der Anleitung unter [https://github.com/MilosKozak/AndroidAPS/wiki/APK-erstellen_de](https://github.com/MilosKozak/AndroidAPS/wiki/APK-erstellen_de) folgen
 > Wichtig: Die Variante "fullWearControl-Release" verwenden!
 7. Die erstellte *.apk-Datei auf das Smartphone laden / per E-Mail schicken und dort installieren
