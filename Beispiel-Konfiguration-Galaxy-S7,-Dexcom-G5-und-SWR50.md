@@ -6,7 +6,7 @@ In dieser Variante ist das Smartphone **Samsung Galaxy S7** das "Herzstück" und
 
 Die **Alarme** für zu niedrige oder zu hohe Glukosewerte werden nicht über die sehr eingeschränkte Dexcom-App (bietet nur wenige vorgegebene Sounds), sondern über die App "xDrip+" im Smartphone ganz nach individuellem Bedarf eingestellt. So können je nach Tages- oder Nachtzeit unterschiedliche Alarmtöne oder Vibrationen eingerichtet werden. 
 
-Falls gewünscht, können alle aktuellen Glukose- und Behandlungsdaten auf einer **"Sony Smartwatch 3"** (SWR50) am Handgelenk angezeigt werden. Über die Smartwatch kann dann auch z.B. diskret das Mahlzeiten-Bolus gesetzt werden.
+Falls gewünscht, können alle aktuellen Glukose- und Behandlungsdaten auf einer **"Sony Smartwatch 3"** (SWR50) am Handgelenk angezeigt werden. Über diese Smartwatch kann dann auch z.B. diskret das Mahlzeiten-Bolus gesetzt werden.
 
 Das System funktioniert **offline**, also ohne dass zum Betrieb eine Datenverbindung des Smartphones zum Internet erforderlich ist. 
 
@@ -19,10 +19,13 @@ Dennoch können die Daten bei bestehender Datenverbindung automatisch zu **Night
 > Alternativen: siehe Android-Smartphones in der [Dexcom Kompatibilitätsliste](https://www.dexcom.com/ous-compatibility-page) (Punkt "Dexcom G5 Mobile App", NICHT die unter "Dexcom Follower App" Genannten)
 2. [DanaR](https://www.ime-dc.de/de/insulintherapie/insulinpumpen/dana-r)
 > Bezugsquelle: In Deutschland auf Rezept oder privat über die Firma [IME-DC GmbH](http://www.ime-dc.de) 
+> Alternativen: [DanaRS](http://www.sooil.com/eng/product/)(in Deutschland noch nicht erhältlich), demnächst wahrscheinlich auch die [Roche Combo](http://www.accu-chek.de/produkte/de/insulinpumpentherapie/combo/index.jsp)
 3. [Dexcom G5](https://www.nintamed.eu/p/products/dexcomg5)
 > Bezugsquelle: In Deutschland auf Rezept oder privat über die Firma [Nintamed](https://www.nintamed.eu/)
+> Alternativen: MM640g-CGM (Auslesen direkt über AAPS möglich), Dexcom G4 mit Eigenbau-ShareReceiver (über xDrip+), Eversense (über xDrip+), Freestyle Libre-DIY-CGM mit [Bluecon Nightrider](https://www.ambrosiasys.com/how-it-works), [blueReader](https://unendlichkeit.net/wordpress/), [manipulierte Sony SmartWatch 3 (SWR50) direkt auf dem Sensor](https://drive.google.com/file/d/0B-zDwCDqX5mKQUdvUEF6Qzl3aDQ/view)
 4. Optional: [Sony Smartwatch 3 (SWR50)](https://www.sonymobile.com/de/products/smart-products/smartwatch-3-swr50/)
 > Bezugsquelle: Da die Uhr ein Auslaufmodell ist, muss man im Fachhandel oder im Internet ggf. etwas suchen. Falls sie zu einem akzeptablen Preis nur in grellen Neonfarben erhältlich ist, dann kann man sie trotzdem bestellen und das Band tauschen. Hierfür gibt es bei eBay unter dem Suchbegriff "SWR50 adapter" Adapter, in die die Uhr exakt reinpasst und an die man jedes beliebige Uhrenband (in der passenden Größe) machen kann.
+> Alternativen: [Android Wear Smartwatches](https://github.com/MilosKozak/AndroidAPS/wiki/Smartwatch-Visualisierung_de)
 
 # Optional: Nightscout online einrichten
 [Nightscout.info](http://www.nightscout.info/) ist eine Website, über die die meisten Daten der eingerichteten Loop "in der Cloud" gesammelt werden können. Das ermöglicht umfangreiche Statistiken und Auswertungen, aber auch die Synchronisation der Werte mit weiteren Geräten oder das Teilen der Behandlungsdaten mit Familienmitgliedern, Freunden oder Ärzten.
@@ -59,7 +62,7 @@ PUMP_URGENT_BATT_P = `26`
 # Computer/Notebook vorbereiten
 Um aus dem frei verfügbaren OpenSource-Quellcode von AAPS eine Android-App selbst erstellen zu können, wird 
 Android Studio auf dem Computer oder Notebook (Windows, Mac, Linux) benötigt > Installieren wie unter
-[https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html) beschrieben
+[https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html) beschrieben.
 
 # Smartphone einrichten
 <img src="https://user-images.githubusercontent.com/32912987/34470734-6ee34ade-ef38-11e7-9214-337a9c607243.png" width="250">
@@ -71,6 +74,8 @@ Android Studio auf dem Computer oder Notebook (Windows, Mac, Linux) benötigt > 
 ## Installation von unbekannten Quellen erlauben
 Menü > Einstellungen > Gerätesicherheit > Unbekannte Quellen > Schieber nach rechts (= aktiv)
 
+Diese Einstellung sollte aus Sicherheitsgründen wieder auf inaktiv gestellt werden, wenn die Installation aller hier beschriebenen Apps abgeschlossen ist.
+
 ## Bluetooth aktivieren
 Menü > Einstellungen > Verbindungen > Bluetooth > Schieber nach rechts (= aktiv)
 
@@ -80,7 +85,7 @@ Menü > Einstellungen > Verbindungen > Bluetooth > Schieber nach rechts (= aktiv
 Die Original-App von Dexcom aus dem Google Play Store wird nicht funktionieren, weil sie die Werte nicht an andere Apps weitergibt. Darum ist eine von der Community leicht modifizierte Version erforderlich. Nur sie kann später mit AAPS kommunizieren. Unter [https://github.com/dexcomapp/dexcomapp?files=1](https://github.com/dexcomapp/dexcomapp?files=1) ist eine mmol/l-Version und eine mg/dl-Version der modifizierten Dexcom-App hinterlegt. Vorteil gegenüber frei entwickelten Auslese-Apps wie xDrip+ ist, dass es sich um die vom Hersteller zertifizierte Auslese-/Glukoseberechnungsmethode handelt und "verpasste Werte" nach dem erneuten Verbinden noch aufgefüllt werden (das kann xDrip+ derzeit noch nicht).
 
 
-Dazu folgende Schritte ausführen:
+Dazu im Smartphone folgende Schritte ausführen:
 
 1. Falls die Original-Dexcom-App bereits installiert ist: Sensor stoppen, App deinstallieren über Menü > Einstellungen > Apps > Dexcom G5 Mobile > Deinstallieren
 2. Modifizierte Dexcom-App mit in der richtigen Einheit (mg/dl oder mmol/l) von [https://github.com/dexcomapp/dexcomapp?files=1](https://github.com/dexcomapp/dexcomapp?files=1) herunterladen.
@@ -109,7 +114,7 @@ Dazu folgende Schritte ausführen:
 8. AAPS im Smartphone starten und folgende Einstellungen unter dem Menüpunkt **Config Builder** vornehmen:
 * Profil: je nach Wunsch
 * Insulin: das verwendete Insulin auswählen
-* BZ Quelle: `Dexcom G5 App (patched)`, dann auf das Zahnrädchen, Upload BG data to NS `aktivieren` (falls Nightscout verwendet werden soll), Send BG data to xDrip+ `aktivieren`
+* BZ Quelle: `Dexcom G5 App (patched)`, dann auf das Zahnrädchen daneben, Upload BG data to NS `aktivieren` (falls Nightscout verwendet werden soll), Send BG data to xDrip+ `aktivieren`
 * Pumpe: DanaR
 * Empfindlichkeitserkennung: je nach Wunsch
 * APS: je nach Wunsch
@@ -133,12 +138,14 @@ xDrip+ ist eine weitere ausgereifte App, die unzählige Möglichkeiten bietet. A
 * Einstellungen > Kalibrierungs-Erinnerungen: deaktiviert (wird über die Dexcom-App erinnert)
 * Einstellungen > Datenquelle > 640G/EverSense
 * Einstellungen > Inter-App-Einstellungen > Accept Calibrations > AN
-* Menü > Sensor starten (ist nur "pro forma" und hat nichts mit dem G5-Sensor zu tun. Nötig, da sonst regelmäßig eine Fehlermeldung kommt)
+* Menü > Sensor starten (ist nur "pro forma" und hat nichts mit dem laufenden G5-Sensor zu tun. Dies ist nötig, da sonst regelmäßig eine Fehlermeldung kommt)
 
 Beispiel für ein Alarm-Setup:
 <br>
 <img src="https://user-images.githubusercontent.com/32912987/34470740-7934de30-ef38-11e7-8e33-74bb22015406.png" width="250">
 
+Der "< 55 mg/dl-Alarm" wird über die Dexcom-App ausgegeben, dies kann auch nicht abgeschaltet werden. 
+> Tipp für Besprechungen / Kirchenbesuche / Kino etc.: Wenn im Samsung Galaxy S7 der "Nicht stören-Modus" aktiviert ist (Menü > Einstellungen > Töne und Vibration > Nicht stören: nach rechts schieben), dann vibriert das Smartphone bei dem nicht abschaltbaren Dexcom-Niedrigalarm nur und gibt keine akustische Warnung aus. Bei den übrigen, über xDrip+ eingerichteten Alarmen kann jeweils ausgewählt werden, ob der Lautlosmodus ignoriert werden soll oder nicht.
 
 4. Auf dem Android Homescreen an eine freie Stelle lange drücken > Widgets > "xDrip+" auswählen, halten und an die gewünschte Stelle ziehen > loslassen
 
@@ -148,10 +155,14 @@ Im Samsung Galaxy S7 auf Menü > Einstellungen > Gerätewartung > Akku > Nicht �
 ## Optional: Sony Smartwatch 3 (SWR50) einrichten
 <img src="https://user-images.githubusercontent.com/32912987/34470733-6d9df16a-ef38-11e7-8a4f-bd77697e7655.png" width="150">
 <br>
-Mit der Smartwatch lässt sich das Leben mit Diabetes noch viel unauffälliger gestalten. Über sie kann am Handgelenk jederzeit der aktuelle Glukosezucker, der Status der Loop etc. angezeigt werden und es können Bolusgaben vorgenommen werden. Dazu wie folgt vorgehen:
+Mit der Smartwatch lässt sich das Leben mit Diabetes noch viel unauffälliger gestalten. Über sie kann am Handgelenk jederzeit der aktuelle Glukosezucker, der Status der Loop etc. angezeigt werden und es können Bolusgaben vorgenommen werden. Dazu mit dem Finger auf dem AAPSv2-Ziffernblatt die linke obere Ecke doppelt antippen. Die SWR50 läuft in der Regel einen ganzen Tag, bis der Akku wieder aufgeladen werden muss (selbes Ladegerät wie das Samsung Galaxy S7: microUSB). 
 
+Die Uhr wird wie folgt eingerichtet:
+
+* Im Smartphone über das GooglePlay-Store die App "Android Wear" installieren und die SWR50 nach dortigen Anweisungen koppeln
 * In AAPS im Smartphone: Config Builder > Generell > Wear > aktivieren und im Zahnrädchen daneben: Steuerung von der Uhr = aktiv
 * In der Smartwatch: Einstellungen > Ziffernblatt ändern > AAPSv2
+* Ggf. beide Geräte einmal neu starten
 
 # Pumpe einrichten
 
