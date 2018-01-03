@@ -14,16 +14,19 @@ Dennoch können die Daten bei bestehender Datenverbindung automatisch zu **Night
 
 # Benötigte Komponenten
 1. [Samsung Galaxy S7](http://www.samsung.com/de/smartphones/galaxy-s7/overview/)
+
 Bezugsquelle: Elektrofachhandel, Internetshops
 
 Alternativen: siehe Android-Smartphones in der [Dexcom Kompatibilitätsliste](https://www.dexcom.com/ous-compatibility-page) (Punkt "Dexcom G5 Mobile App", NICHT die unter "Dexcom Follower App" Genannten)
 
 2. [DanaR](https://www.ime-dc.de/de/insulintherapie/insulinpumpen/dana-r)
+
 Bezugsquelle: In Deutschland auf Rezept oder privat über die Firma [IME-DC GmbH](http://www.ime-dc.de) 
 
 Alternativen: [DanaRS](http://www.sooil.com/eng/product/) (in Deutschland noch nicht erhältlich), demnächst wahrscheinlich auch die [Roche Combo](http://www.accu-chek.de/produkte/de/insulinpumpentherapie/combo/index.jsp)
 
 3. [Dexcom G5](https://www.nintamed.eu/p/products/dexcomg5)
+
 Bezugsquelle: In Deutschland auf Rezept oder privat über die Firma [Nintamed](https://www.nintamed.eu/)
 
 Alternativen: MM640g-CGM (Auslesen direkt über AAPS möglich), Dexcom G4 mit Eigenbau-ShareReceiver (über xDrip+), Eversense (über xDrip+), Freestyle Libre-DIY-CGM mit [Bluecon Nightrider](https://www.ambrosiasys.com/how-it-works), [blueReader](https://unendlichkeit.net/wordpress/), [manipulierte Sony SmartWatch 3 (SWR50) direkt auf dem Sensor](https://drive.google.com/file/d/0B-zDwCDqX5mKQUdvUEF6Qzl3aDQ/view)
