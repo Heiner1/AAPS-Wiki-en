@@ -1,6 +1,6 @@
 * Download the [AndroidAPS repository](https://github.com/MilosKozak/AndroidAPS) and extract the files or use git clone
-https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot%202018-01-02%2008.32.12.png
-https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot%202018-01-05%2008.54.26.png
+![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot%202018-01-02%2008.32.12.png)
+![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot%202018-01-05%2008.54.26.png)
 
 
 * Run Android Studio and select 'Open an existing Android Studio project', selecting the location of the extracted files.
