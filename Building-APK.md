@@ -1,5 +1,5 @@
 * Download the [AndroidAPS repository](https://github.com/MilosKozak/AndroidAPS) and extract the files 
-or use git clone
+or use git clone in Android Studio
 
 ![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot%201.png)
 ![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot2.png)
