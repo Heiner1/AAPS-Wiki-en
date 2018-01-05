@@ -1,4 +1,6 @@
-* Download the [AndroidAPS repository](https://github.com/MilosKozak/AndroidAPS) and extract the files or use git clone
+* Download the [AndroidAPS repository](https://github.com/MilosKozak/AndroidAPS) and extract the files 
+or use git clone
+
 ![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot%201.png)
 ![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot2.png)
 
