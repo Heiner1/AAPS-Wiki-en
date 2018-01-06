@@ -10,7 +10,7 @@ Falls gewünscht, können alle aktuellen Glukose- und Behandlungsdaten auf einer
 
 Das System funktioniert **offline**, also ohne dass zum Betrieb eine Datenverbindung des Smartphones zum Internet erforderlich ist. 
 
-Dennoch können die Daten bei bestehender Datenverbindung automatisch zu **Nightscout** "in die Cloud" hochgeladen werden, um umfangreiche Auswertungen für den Arztbesuch zu erhalten oder jederzeit die aktuellen Werte mit Familienmitgliedern zu teilen.
+Dennoch werden die Daten bei bestehender Datenverbindung automatisch zu **Nightscout** "in die Cloud" hochgeladen werden, um umfangreiche Auswertungen für den Arztbesuch zu erhalten oder jederzeit die aktuellen Werte mit Familienmitgliedern zu teilen.
 
 # Benötigte Komponenten
 1. [Samsung Galaxy S7](http://www.samsung.com/de/smartphones/galaxy-s7/overview/)
@@ -37,7 +37,7 @@ Bezugsquelle: Da die Uhr ein Auslaufmodell ist, muss man im Fachhandel oder im I
 
 Alternativen: [Android Wear Smartwatches](https://github.com/MilosKozak/AndroidAPS/wiki/Smartwatch-Visualisierung_de)
 
-# Optional: Nightscout online einrichten
+# Nightscout online einrichten
 [Nightscout.info](http://www.nightscout.info/) ist eine Website, über die die meisten Daten der eingerichteten Loop "in der Cloud" gesammelt werden können. Das ermöglicht umfangreiche Statistiken und Auswertungen, aber auch die Synchronisation der Werte mit weiteren Geräten oder das Teilen der Behandlungsdaten mit Familienmitgliedern, Freunden oder Ärzten.
 
 1. Nightscout über Heroku installieren
@@ -124,7 +124,7 @@ Dazu im Smartphone folgende Schritte ausführen:
 8. AAPS im Smartphone starten und folgende Einstellungen unter dem Menüpunkt **Config Builder** vornehmen:
 * Profil: je nach Wunsch
 * Insulin: das verwendete Insulin auswählen
-* BZ Quelle: `Dexcom G5 App (patched)`, dann auf das Zahnrädchen daneben, Upload BG data to NS `aktivieren` (falls Nightscout verwendet werden soll), Send BG data to xDrip+ `aktivieren`
+* BZ Quelle: `Dexcom G5 App (patched)`, dann auf das Zahnrädchen daneben, Upload BG data to NS `aktivieren`, Send BG data to xDrip+ `aktivieren`
 * Pumpe: DanaR
 * Empfindlichkeitserkennung: je nach Wunsch
 * APS: je nach Wunsch
