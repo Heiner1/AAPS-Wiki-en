@@ -119,7 +119,7 @@ Dazu im Smartphone folgende Schritte ausführen:
 4. Heruntergeladene ZIP-Datei in einem neuen Ordner entpacken
 5. Android Studio auf dem Computer/Laptop starten
 6. Der Anleitung unter [https://github.com/MilosKozak/AndroidAPS/wiki/APK-erstellen_de](https://github.com/MilosKozak/AndroidAPS/wiki/APK-erstellen_de) folgen
-> Wichtig: Die Variante "fullWearControl-Release" verwenden!
+> Wichtig: Die Variante "fullRelease" verwenden!
 7. Die erstellte *.apk-Datei auf das Smartphone laden / per E-Mail schicken und dort installieren
 8. AAPS im Smartphone starten und folgende Einstellungen unter dem Menüpunkt **Config Builder** vornehmen:
 * Profil: je nach Wunsch
