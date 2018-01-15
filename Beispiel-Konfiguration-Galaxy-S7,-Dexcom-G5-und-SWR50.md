@@ -121,7 +121,7 @@ Dazu im Smartphone folgende Schritte ausführen:
 6. Der Anleitung unter [https://github.com/MilosKozak/AndroidAPS/wiki/APK-erstellen_de](https://github.com/MilosKozak/AndroidAPS/wiki/APK-erstellen_de) folgen
 > Wichtig: Die Variante "fullRelease" verwenden!
 7. Die erstellte *.apk-Datei auf das Smartphone laden / per E-Mail schicken und dort installieren
-8. AAPS im Smartphone starten und folgende Einstellungen unter dem Menüpunkt **Config Builder** vornehmen:
+8. AAPS im Smartphone starten und folgende Einstellungen unter dem Menüpunkt **Konfigurations-Generator** (ehemals "Config Builder") vornehmen:
 * Profil: je nach Wunsch
 * Insulin: das verwendete Insulin auswählen
 * BZ Quelle: `Dexcom G5 App (patched)`, dann auf das Zahnrädchen daneben, Upload BG data to NS `aktivieren`, Send BG data to xDrip+ `aktivieren`
