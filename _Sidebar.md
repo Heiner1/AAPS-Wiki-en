@@ -63,7 +63,7 @@ DE:
     * [Tipps und Tricks_de](https://github.com/MilosKozak/AndroidAPS/wiki/Tipps-und-Tricks_de)
     * [Logfiles erhalten_de](https://github.com/MilosKozak/AndroidAPS/wiki/Logfiles-erhalten_de)
 * Beispiel-Setups und Erfahrungsberichte:
-    * [Beispiel Konfiguration Galaxy S7, Dexcom G5 und SWR50](https://github.com/MilosKozak/AndroidAPS/wiki/Beispiel-Konfiguration-Galaxy-S7,-Dexcom-G5-und-SWR50)
+    * [Beispiel Konfiguration Galaxy S7, Dexcom G5 und SWR50](https://github.com/MilosKozak/AndroidAPS/wiki/Beispiel-Konfiguration-Galaxy-S7,-DanaR,-Dexcom-G5-und-SWR50)
 
 
 
