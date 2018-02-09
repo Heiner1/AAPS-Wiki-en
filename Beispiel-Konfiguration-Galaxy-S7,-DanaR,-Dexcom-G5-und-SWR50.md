@@ -1,6 +1,5 @@
 ![](https://user-images.githubusercontent.com/32912987/34470732-6a3b4b62-ef38-11e7-8428-03e1aec39ee7.png)
 # Beschreibung
-> ACHTUNG: Diese Methode ist derzeit nur möglich, wenn die Entwicklerversion (dev-branch) von AndroidAPS installiert wird. Diese Version kann noch Fehler enthalten und verschiedene Probleme machen. Deshalb ist die beschriebene Methode noch experimentell!
 
 In dieser Variante ist das Smartphone **Samsung Galaxy S7** das "Herzstück" und die Schaltzentrale der Loop. Es liest mit der originalen, aber von der Community leicht modifizierten Dexcom-App das kontinuierliche Glukosemesssystem **Dexcom G5** aus und steuert auf Basis dieser Daten über die App "AndroidAPS" (AAPS) die Insulinpumpe **DanaR** von SOOIL (per Handeingabe auf Vorschlag der App oder vollautomatisch nach Eingabe der Mahlzeit-KH). Weitere Geräte werden nicht benötigt.
 
@@ -78,7 +77,7 @@ Android Studio auf dem Computer oder Notebook (Windows, Mac, Linux) benötigt > 
 <img src="https://user-images.githubusercontent.com/32912987/34470734-6ee34ade-ef38-11e7-9214-337a9c607243.png" width="250">
 
 ## Firmware des Samsung Galaxy S7 überprüfen
-* Menü > Einstellungen > Telefoninfo > Softwareinfo: Hier sollte "Android-Version 7.0" stehen (diese Version ist erfolgreich getestet)
+* Menü > Einstellungen > Telefoninfo > Softwareinfo: Hier sollte die getestete Firmware-Version stehen: "Android-Version 7.0 
 * Falls nicht: Menü > Einstellungen > Software-Update durchführen
 
 ## Installation von unbekannten Quellen erlauben
@@ -111,10 +110,9 @@ Dazu im Smartphone folgende Schritte ausführen:
 * Kurzer Blick `EIN` (kann auch deaktiviert werden, aber die Anzeige des aktuellen Glukosewerts in der Statuszeile des Smartphones ist praktisch)
 
 ## AAPS installieren
-> Hinweis: Sobald die modifizierte Dexcom-Software in der Version 1.56 von AAPS enthalten ist, muss nicht mehr auf die Entwicklungsversion dev zurückgegriffen werden. Dieser Schritt muss dann im Wiki angepasst werden.
 
 1. Auf dem wie oben beschrieben vorbereiteten Computer/Notebook [https://github.com/MilosKozak/AndroidAPS](https://github.com/MilosKozak/AndroidAPS) aufrufen
-2. Branch "dev" auswählen
+2. Branch "master" Version 1.58 auswählen (mit älteren Versionen geht es nicht)
 3. Schaltfläche "Clone or download" > Download ZIP auswählen
 4. Heruntergeladene ZIP-Datei in einem neuen Ordner entpacken
 5. Android Studio auf dem Computer/Laptop starten
