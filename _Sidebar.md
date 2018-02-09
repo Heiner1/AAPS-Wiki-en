@@ -102,5 +102,5 @@ DE:
 * [[Връзка с други потребители]]
 * [Facebook група](https://www.facebook.com/groups/1900195340201874/)
 
-
-
+한국어:
+* [시작하기 동영상가이드](https://www.youtube.com/playlist?list=PLmlEpiNnQaSnwy9dfUwnOHkilVtzNaSlq)
