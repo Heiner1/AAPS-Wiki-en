@@ -62,8 +62,8 @@ Setup
       multiple basal rates), which cause the loop functionality to be restricted when used because
       it's not possible to run the loop in a safe manner when used.
     - Verify the _Quick Info Text_ is set to "QUICK INFO" (without the quotes, found under _Insulin Pump Options_).
-    - Set maximum TBR to 500%
-    - Disable end of TBR alert
+    - Set TBR _Maximum Adjustment_ to 500%
+    - Disable _Signal End of Temporary Basal Rate_
     - Set TBR duration step-size to 15 min
   - Recommended (some marked blue in screenshots)
     - Set low cartridge alarm to your liking
