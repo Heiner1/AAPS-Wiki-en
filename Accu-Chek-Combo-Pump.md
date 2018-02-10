@@ -8,8 +8,8 @@ if you're willing to put in the time required. Don't rush into it,
 but allow yourself time to learn. You alone are responsible for what
 you do with it.**
 
-Hardware requirements
----------------------
+## Hardware requirements
+
 - A Roche Accu-Chek Combo (any firmware, they all work)
 - A Smartpix or Realtyme device together with the 360 Configuration
   Software to configure the pump.
@@ -22,8 +22,8 @@ Hardware requirements
   phone to use with ruffy/AAPS, which must also be rooted. This allows using phones with Android < 8.1 but
   has not been widely tested: https://github.com/gregorybel/combo-pairing/blob/master/README.md
 
-Limitations
------------
+## Limitations
+
 - Extended bolus and multiwave bolus are not supported.
 - Only one basal profile is supported.
 - Setting a basal profile other than 1 on the pump, or delivering extended boluses or multiwave
@@ -53,8 +53,8 @@ Limitations
 - Issuing a bolus from the pump will be detected (checked for whenever AAPS connects to the pump), but might take up to 20 minutes in the worst case. Boluses on the pump are always checked before a high TBR or a bolus issued by AAPS.
 - Setting a TBR on the pump is to be avoided since the loop assumes control of TBRs. Detecting a new TBR on the pump might take up to 20 minutes and the TBR's effect will only be accounted from the moment it is detected, so in the worst case there might be 20 minutes of a TBR that is not reflected in IOB. 
 
-Setup
------
+## Setup
+
 - Configure the pump using 360 config software.
   - Required (marked green in screenshots):
     - Set/leave the menu configuration as "Standard", this will show only the supported
@@ -103,8 +103,8 @@ Setup
   correctly and your basal profile is up to date as AAPS will sync the basal profile
   to the pump. Then activate the Combo plugin.
 
-Usage
------
+## Usage
+
 - Keep in mind that this is not a product, esp. in the beginning the user needs to monitor and understand the system,
   its limitations and how it can fail. It is strongly advised NOT to use this system when the person
   using it is not able to fully understand the system.
@@ -161,8 +161,8 @@ Usage
 - Don't press any buttons on the pump while AAPS communicates with the pump (Bluetooth logo is
   shown on the pump).
 
-Tested phones
--------------
+## Tested phones
+
 Testing phones: use the phone with the Combo at least one week (better two weeks). Notice how often _pump unreachable_ alerts occur, which require either rebooting the phone or pressing a button on the pump. Only if you encounter none of these issues add the phone here with the comment "no issues". Otherwise add the rough frequency these errors occur.
 - ZTE Axon 7 with G5 running official LineageOS 14.1: no issues
 - Xiaomi Redmi 4x running unofficial LineageOS 14.1: no issues
@@ -173,8 +173,3 @@ Testing phones: use the phone with the Combo at least one week (better two weeks
 - Moto G 1st Gen running official LineageOS 14.1: no issues
 - Moto G 2nd Gen LTE running official LineageOS 14.1: no issues
 - Huawei P8 Lite running unofficial LineageOS 14.1: rare connection problems (approx. 1 per week) that can be resolved by pressing a button on the pump.
-
-
-Reporting bugs
---------------
-- See https://github.com/MilosKozak/AndroidAPS/blob/master/ISSUE_TEMPLATE.md
