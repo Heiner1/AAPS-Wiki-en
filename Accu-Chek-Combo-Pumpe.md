@@ -34,28 +34,20 @@ Derzeit ist nicht absehbar, dass dieses Verhalten verhindert werden kann. Wenn d
 * Das Setzen einer TBR direkt auf der Pumpe ist im closed Loop Betrieb nicht nötig und sollte im Allgemeinen nicht vorgenommen werden. Das Erkennen einer manuell gesetzten Basalrate kann bis zu 20 min Dauern und wird bei der Berechung auch nur ab dem Zeitpunkt verwendet, zu dem die TBR von AAPS eingelesen wird. Das führt dazu, dass die im Körper befindliche Insulinmenge (IOB) falsch berechnet wird.
 
 ## Setup
-
-- Configure the pump using 360 config software.
-  - Required (marked green in screenshots):
-    - Set/leave the menu configuration as "Standard", this will show only the supported
-      menus/actions on the pump and hide those which are unsupported (extended/multiwave bolus,
-      multiple basal rates), which cause the loop functionality to be restricted when used because
-      it's not possible to run the loop in a safe manner when used.
-    - Verify the _Quick Info Text_ is set to "QUICK INFO" (without the quotes, found under _Insulin Pump Options_).
-    - Set TBR _Maximum Adjustment_ to 500%
-    - Disable _Signal End of Temporary Basal Rate_
-    - Set TBR duration step-size to 15 min
-    - Enable Bluetooth
-  - Recommended (marked blue in screenshots)
-    - Set low cartridge alarm to your liking
-    - Configure a max bolus suited for your therapy to protect against bugs in the software
-    - Similarly, configure maximum TBR duration as a safeguard. Allow at least 3 hours, since
-      the option to disconnect the pump for 3 hours sets a 0% for 3 hours.
-    - Enable key lock on the pump to prevent bolusing from the pump, esp. when the
-      pump was used before and quick bolusing was a habit.
-    - Set display timeout and menu timeout to the mininum of 5.5 and 5 respectively. This allows the AAPS to
-      recover more quickly from error situations and reduces the amount of vibrations that can occur during
-      such errors
+- Konfiguriere die Pumpe mit der 360° Konfigurations-Software.
+  - Benötigt (grün markiert in den Screenshots):
+    - Setze/Lasse das Benutzermenü auf "Standard". Dadurch werden nur die benötigten Menüs/Aktionen auf der pumpe angezeigt und solche versteckt, die nicht unterstützt werden (verzögerter Bolus, Multiwave Bolus, mehrere Basalprofile), die die Loop-Funktionalität einschränken würden, da der Loop nicht sicher laufen würde, wenn diese Aktionen Verwendung fänden.
+    - Stelle sicher dass der _Quick Info Text_ auch wirklich "QUICK INFO" heißt (ohne Anführungszeichen, zu finden unter _Anzeige-/Kommunikationseinstellungen_).
+    - Stelle die _Maximale Anpassung_ der Temporären Basalrate auf 500%
+    - Deaktiviere _Ende der temporären Basalrate signalisieren_
+    - Setze die Schrittweitendauer der Temporären Basalrate auf 15 min
+    - Aktiviere Bluetooth
+  - Empfohlen (blau markiert in den Screenshots)
+    - Stelle den Restmenge bei Alarm "Amp. fast leer" ein, wie es für dich passt
+    - Konfiguriere eine maximale Bolusmenge passend zu deiner Therapie, um dich gegen Fehler in der Software zu schützen.
+    - Lege gleichermaßen die maximale Dauer einer temporären Basalrate als Sicherheitsmaßnahme fest. Erlaube mindestens  3 Stunden, da die Option die Pumpe für 3 Stunden abzulegen, 0% über 3 Stunden setzt.
+    - Stelle die Tastensperre der pumpe an, um zu verhindern, dass du von der Pumpe Bolus abgibst. Besonders, wenn du daran gewöhnt bist, Bolus von der Pumpe aus abzugeben.
+    - Stelle die Anzeigedauer und das Menü-Timeout auf das Minimum (5,5 bzw. 5). Das erlaubt AndroidAPS in Fehlerzuständen schneller wieder fortzusetzen und verringert die Anzahl an Vibrationen die während so einem Fehler auftreten können.
 
 ![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-menu-settings-de.png)
 ![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-pump-options-settings-de.png)
