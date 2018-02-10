@@ -56,7 +56,7 @@ Limitations
 Setup
 -----
 - Configure pump using 360 config software.
-  - Required:
+  - Required (marked green in screenshots):
     - Set/leave the menu configuration as "Standard", this will show only the supported
       menus/actions on the pump and hide those which are unsupported (extended/multiwave bolus,
       multiple basal rates), which cause the loop functionality to be restricted when used because
@@ -65,7 +65,7 @@ Setup
     - Set maximum TBR to 500%
     - Disable end of TBR alert
     - Set TBR duration step-size to 15 min
-  - Recommended:
+  - Recommended (some marked blue in screenshots)
     - Set low cartridge alarm to your liking
     - Configure a max bolus suited for your therapy to protect against bugs in the software
     - Similarly, configure maximum TBR duration as a safeguard. Allow at least 3 hours, since
@@ -75,6 +75,11 @@ Setup
     - Set display timeout and menu timeout to the mininum of 5.5 and 5 respectively. This allows the AAPS to
       recover more quickly from error situations and reduces the amount of vibrations that can occur during
       such errors
+
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-tbr-settings.png)
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-pump-options-settings.png)
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-menu-settings.png)
+
 - Install AndroidAPS as described in the wiki http://wiki.AndroidAPS.org and use the `combo` branch.
 - Make sure to read the wiki to understand how to setup AndroidAPS.
 - Select the MDI plugin in AndroidAPS, not the Combo plugin at this point to avoid the Combo
