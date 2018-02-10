@@ -55,83 +55,31 @@ Derzeit ist nicht absehbar, dass dieses Verhalten verhindert werden kann. Wenn d
 ![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-bolus-settings-de.png)
 ![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-insulin-settings-de.png)
 
-- Install AndroidAPS as described in the wiki http://wiki.AndroidAPS.org and use the `combo` branch.
-- Make sure to read the wiki to understand how to setup AndroidAPS.
-- Select the MDI plugin in AndroidAPS, not the Combo plugin at this point to avoid the Combo
-  plugin from interfering with ruffy during the pairing process.
-- Follow the link http://ruffy.AndroidAPS.org and clone ruffy via git. Use the same branch as you use for
-  AndroidAPS, currently there is only the `combo` branch.
-- Pair the pump using ruffy. If it doesn't work after multiple attempts, switch to the `pairing` branch,
-  pair the pump and then switch back the original branch.
-  If the pump is already paired and can be controlled via ruffy, installing the `master` branch is sufficient.
-  Note that the pairing processing is somewhat fragile (but only has to be done once)
-  and may need a few attempts; quickly acknowledge prompts and when starting over, remove the pump device
-  from the bluetooth settings beforehand. Another option to try is to go to the bluetooth menu after
-  initiating the pairing process (this keeps the phone's bluetooth discoverable as long as the menu is displayed)
-  and switch back to ruffy after confirming the pairing on the pump, when the pump displays the authorization code.
-  When AAPS is using ruffy, the ruffy app can't be used. The easiest way is to just
-  reboot the phone after the pairing process and let AAPS start ruffy in the background.
-- Before enabling the Combo plugin in AAPS make sure your profile is set up
-  correctly and your basal profile is up to date as AAPS will sync the basal profile
-  to the pump. Then activate the Combo plugin.
 
-## Usage
+- Installiere AndroidAPS wie im Wiki unter http://wiki.AndroidAPS.org beschrieben. Die Version mit Combo-Unterstützung befindet sich im Branch "combo".
+- Lies zuerst das Wiki, um zu verstehen, wie AndroidAPS kompiliert und installiert wird.
+In AndroidAPS solltest du zuerst das "MDI"-Pumpen-Plugin aktivieren - und nicht direkt das für die Combo, damit das Combo-Plugin nicht Ruffy während des Pairings stört.
+Gehe auf http://ruffy.AndroidAPS.org und kopiere den Quelltext mittels "git clone" auf deinen Rechner. Der Branch sollte hierbei genau so heißen wie der für AndroidAPS. Derzeit ist dies der combo Branch. Später wird es einen master und einen dev branch geben
+- Nachdem Ruffy kompiliert und auf dem Handy installiert ist, muss die Pumpe mit Ruffy gepairt werden. Falls dieses wiederholt nicht funktioniert, kann ein weiterer Versuch mit dem "pairing"-Branch unternommen werden. Nach dem Pairing muss aber wieder auf den "combo"-Branch gewechselt werden. Der Pairing-Prozess ist leider etwas instabil und daher sind meistens ein paar Versuche notwendig (allerdings muss das Pairing auch nur einmalig durchgeführt werden). Die auf der Pumpe und dem Handy auftretenden Dialoge sollten schnell bestätigt werden - und bevor man einen neuen Versuch startet, muss die Pumpe zuerst in den Bluetooth-Einstellungen des Telefons wieder gelöscht werden. Eine weitere Möglichkeit, den Pairing-Prozess zu unterstützen, ist es, nach dem Starten des Vorgangs auf dem Telefon in das Bluetooth-Menü des Telefons zu wechseln bis auf der Pumpe der Authorisatzions-Code angezeigt wird, um dann wieder zu Ruffy zu wechseln und diesen Code einzugeben (durch den Wechsel in das Bluetooth-Menü bleibt das Telefon für einen längeren Zeitraum sichtbar; daher ist manchmal die Pumpe besser zu finden). Wenn AndroidAPS mit der Combo genutzt wird, übernimmt es die komplette Steuerung von Ruffy (nach dem Pairing), sodass Ruffy nicht mehr manuell genutzt werden darf (z. B. als manuelle Fernbedienung für die Combo) . Um das System in einen sauberen Zustand zu bekommen, ist es am besten, das Telefon nach dem Pairing mit der Combo neu zu starten und Ruffy nur noch automatisch im Hintergrund durch AndroidAPS starten zu lassen.
+- Bevor das Combo-Plugin in AndroidAPS aktiviert wird, muss sichergestellt sein, dass das Basalratenprofil korrekt in AndroidAPS eingestellt ist, da AndroidAPS das in der Pumpe programmierte Profil mit den eigenen Einstellungen überschreibt. Wenn das Basalratenprofil also korrekt in AAPS eingestellt ist, kann das Combo-Plugin aktiviert werden.
 
-- Keep in mind that this is not a product, esp. in the beginning the user needs to monitor and understand the system,
-  its limitations and how it can fail. It is strongly advised NOT to use this system when the person
-  using it is not able to fully understand the system.
-- Read the OpenAPS documentation https://openaps.org to understand the loop algorithm AndroidAPS
-  is based upon.
-- Read in the wiki to learn about and understand AndroidAPS http://wiki.AndroidAPS.org
-- This integration uses the same functionality which the meter provides that comes with the Combo.
-  The meter allows to mirror the pump screen and forwards button presses to the pump. The connection
-  to the pump and this forwarding is what the ruffy app does. A `scripter` components reads the screen
-  and automates inputing boluses, TBRs etc and making sure inputs are processed correctly.
-  AAPS then interacts with the scripter to apply loop commands and to administer boluses.
-  This mode has some restrictions: it's comparatively slow (but well fast enough for what it is used for),
-  and setting a TBR or giving a bolus causes the pump to vibrate.
-- The integration of the Combo with AndroidAPS is designed with the assumption that all inputs are
-  made via AndroidAPS. Boluses entered on the pump directly will be detected by AAPS, but it can take
-  up to 20 min before AndroidAPS becomes aware of such a bolus. Reading boluses delivered directly on
-  the pump is a safety feature and not meant to be regularly used (the loop requires knowledge of carbs
-  consumed, which can't be entered on the pump, which is another reason why all inputs should be done
-  in AndroidAPS). 
-- Don't set or cancel a TBR on the pump. The loop assumes control of TBR and cannot work reliably otherwise, determining the start time of an active TBR is not possible.
-- The pump's first basal rate profile is read on application start and is updated by AAPS.
-  The basal rate should not be manually changed on the pump, but will be detected and corrected as a safety
-  measure (don't rely on safety measures by default, this is meant to detect an unintended change on the pump).
-- It's recommended to enable key lock on the pump to prevent bolusing from the pump, esp. when the
-  pump was used before and quick bolusing was a habit.
-  Also, with keylock enabled, accidentally pressing a key will NOT interrupt active communication
-  between AAPS and pump.
-- When a BOLUS/TBR CANCELLED alert starts on the pump during bolusing or setting a TBR, this is
-  caused by a disconnect between pump and phone. AAPS will try to reconnect and confirm the alert
-  and then retry the last action (boluses are NOT retried for safety reasons). Therefore,
-  such an alarm shall be ignored (cancelling it is not a big issue, but will lead to the currently
-  active action to have to wait till the pump's display turns off before it can reconnect to the
-  pump). If the pump's alarm continues, the last action might have failed, in which case the user
-  needs to confirm the alarm.
-- When a low cartridge or low battery alarm is raised during a bolus, they are confirmed and shown
-  as a notification in AAPS. If they occur while no connection is open to the pump, going to the
-  Combo tab and hitting the Refresh button will take over those alerts by confirming them and
-  showing a notification in AAPS.
-- When AAPS fails to confirm a TBR CANCELLED alert, or one is raised for a different reason,
-  hitting Refresh in the Combo tab establishes a connection, confirms the alert and shows
-  a notification for it in AAPS. This can safely be done, since those alerts are benign - an
-  appropriate TBR will be set again during the next loop iteration.
-- For all other alerts raised by the pump: connecting to the pump will show the alert message in
-  the Combo tab, e.g. "State: E4: Occlusion" as well as showing a notification on the main screen.
-  An error will raise an urgent notification. AAPS never confirms serious errors on the pump,
-  but let's the pump vibrate and ring to make sure the user is informed of a critical situation
-  that needs action.
-- After pairing, ruffy should not be used directly (AAPS will start in the background as needed),
-  since using ruffy at AAPS at the same time is not supported.
-- If AAPS crashes (or is stopped from the debugger) while AAPS and the pump were communicating (using
-  ruffy), it might be necessary to force close ruffy. Restarting AAPS will start ruffy again.
-  Restarting the phone is also an easy way to resolve this or you don't know how to force kill
-  an app.
-- Don't press any buttons on the pump while AAPS communicates with the pump (Bluetooth logo is
-  shown on the pump).
+## Benutzung
+
+- Denk daran, dass es sich hierbei nicht um ein fertiges Produkt handelt. Besonders zu Anfang muss der Nutzer selbst das System ständig überwachen, um zu verstehen, wo die Grenzen des Systems liegen und in welchen Situationen es nicht funktioniert. Von einer Benutzung des Systems sollte daher dringend abgesehen werden, wenn der Nutzer dieses nicht komplett versteht.
+- Lies die OpenAPS Dokumentation unter https://openaps.org, um den Closed-Loop Algorithmus zu verstehen, auf dem AndroidAPS aufbaut.
+- Lies das Wiki unter http://wiki.AndroidAPS.org, um mehr über AndroidAPS zu lernen und das System zu verstehen.
+- Das Combo-Plugin in AndroidAPS nutzt den gleichen Kommunikationskanal, der auch von dem originalen Testgerät zu der Combo genutzt wird. Das Testgerät bildet die Anzeige der Pumpe auf seinem eigenen Display ab und leitet Tastendrücke an diese weiter. Die Verbindung zu Pumpe und das Weiterleiten der Tastendrücke wird in AAPS durch Ruffy erledigt. Eine weitere Komponente im Combo-Plugin extrahiert dann Informationen aus der Anzeige der Pumpe und automatisiert das Eingeben von Boli, temporären Basalraten usw. und verifiziert, dass diese korrekt durch die Pumpe erkannt und verarbeitet werden. AndroidAPS selbst kommuniziert mit dieser Komponente, um TBR-Anpassungen und Boli-Abgaben auszuführen. Dieses Vorgehen hat allerdings Grenzen: Es ist relativ langsam (aber für uns noch schnell genug) und das Setzen einer TBR oder die Abgabe eines Bolus lassen die Pumpe vibrieren (genau so, wie dieses durch Drücken der Knöpfe an der Pumpe passiert).
+- Die Integration der Combo in AndroidAPS geht davon aus, dass alle Eingaben an der Pumpe nur noch von AndroidAPS durchgeführt werden. Manuell an der Pumpe abgegebene Boli werden zwar von AndroidAPS erkannt, es kann aber bis zu 20 Minuten dauern, bis diese Information von AndroidAPS verarbeitet wird. Die Funktion, manuelle Boli zu erkennen, ist lediglich ein Sicherheits-Feature und ist nicht dafür gedacht, normal genutzt zu werden (der Closed-Loop Algorithmus benötigt außerdem Informationen zu allen aufgenommen Kohlenhydraten, was ein weiterer Grund dafür ist, alle Eingaben nur über AAPS einzugeben).
+- Wenn AAPS genutzt wird, dürfen keine manuellen temporären Basalraten auf der Pumpe gesetzt werden. Der Closed-Loop-Algorithmus geht davon aus, die Änderungen an der Basalrate zu kontrollieren, und kann nicht wie vorgesehen funktionieren, wenn diese manuell auf der Pumpe gesetzt werden (unter anderem, da der Startzeitpunkt einer TBR über das genutzte Protokoll nicht bestimmt werden kann).
+- Das erste Basalratenprofil der Pumpe wird beim Start von AAPS eingelesen und bei Abweichungen mit den in AAPS im Profil hinterlegten Werten überschrieben. Die Basalrate sollte daher nicht manuell auf der Pumpe geändert werden, da diese Änderunge beim nächsten AAPS-Start erkannt und "korrigiert" wird. Dieser Sicherheitscheck wird durchgeführt, um unbeabsichtigte Änderungen auf der Pumpe zu erkennen und zu korrigieren.
+- Auf der Pumpe sollte die Tastensperre aktiviert sein, um zu verhindern, dass manuell ein Bolus auf der Pumpe abgegeben wird (eventuell aus Gewohnheit, da man zuvor oft die Quick-Bolus Funktion genutzt hat). Ist die Tastensperre aktiviert, führen versehentliche Tastendrücke auf der Pumpe nicht zu einem Verbindungsabbruch zwischen AndroidAPS und der Pumpe.
+- Wenn auf der Pumpe ein BOLUS- oder TBR-ABBRUCH-Alarm auftritt, während ein Bolus abgegeben oder eine neue TBR gesetzt wird, wird hierdurch die Verbindung zwischen der Pumpe und dem Smartphone getrennt. AndroidAPS versucht automatisch, sich wieder zu verbinden und den Alarm zu bestätigen, um dann zu versuchen, die letzte Aktion ein zweites Mal auszuführen (Boli werden aus Sicherheitsgründen nicht wiederholt). Sollte der automatische Verbindungsaufbau fehlschlagen, kann der Alarm nicht bestätigt werden und der Nutzer muss dies manuell auf der Pumpe machen. 
+- Wenn ein Alarm wegen niedrigem Ampullenfüllstand oder niedrigem Batterierladezustand während einer Bolusabgabe erscheint, werden diese in AAPS bestätigt und als Benachrichtigung gezeigt.  Sofern diese Alarme angezeigt werden, während keine Verbindung zur Pumpe besteht, gehe in AAPS zum Combo-Tab und drück den Button "Aktualisiere". Damit werden die Alarme manuell bestätigt und als Benachrichtigung in AAPS angezeigt.
+- Sollte AAPS einen TBR-ABBRUCH- oder auch einen anderen Alarm nicht bestätigen können, kann der Button "Aktualisiere" im Combo-Tab gedrückt werden. Dann baut AAPS eine Verbindung auf, bestätigt den Alarm und erstellt eine entsprechende Benachrichtigung. Dies ist risikolos, weil diese Alarme unproblematisch sind. Eine entsprechende TBR wird bei der nächsten Loop-Berechnung gesetzt.
+- Bei allen anderen Pumpenalarmen: Bei bestehender Kommunikation zwischen Pumpe und AAPS werden die Alarme, z. B. "E4: Verschluss" , sowohl im Combo-Tab als auch in der Übersichtsseite angezeigt. Eine Alarm verursacht eine Dringlichkeitsmeldung. AAPS bestätigt nie wichtige Fehlermeldungen der Pumpe direkt: Die Pumpe wird entweder vibrieren oder mit Alarmtönen auf krititsche Situationen hinweisen, die eine direktes Eingreifen des Pumpennutzers erfordern. 
+- Ruffy sollte nach dem Pairen nicht direkt aufgerufen werden (AAPS nutzt Ruffy im Hintergrund, sofern es benötigt wird). Die gleichzeitige Nutzung von AAPS und Ruffy auf dem Smartphone wird nicht unterstützt.
+- Falls AAPS beendet wird, während das Programm mit der Pumpe kommuniziert (mittels Ruffy), kann es notwendig sein, Ruffy zu beenden (z. B. über Android-Einstellungen > Apps > Ruffy). Ein Neustart von AAPS startet Ruffy dann selbständig. Ebenfalls kann ein Neustart des Smartphones Kommunikationsprobleme beheben.
+- Drücke keinerlei Pumpentaste, während AAPS mit der Pumpe kommuniziert (Bluetoothsymbol ist im Display der Pumpe sichtbar).
 
 ## Getestete Mobiltelefone
 
