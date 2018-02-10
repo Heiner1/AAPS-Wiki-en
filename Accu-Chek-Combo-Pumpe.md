@@ -57,11 +57,11 @@ Derzeit ist nicht absehbar, dass dieses Verhalten verhindert werden kann. Wenn d
       recover more quickly from error situations and reduces the amount of vibrations that can occur during
       such errors
 
-![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-menu-settings.png)
-![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-pump-options-settings.png)
-![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-tbr-settings.png)
-![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-bolus-settings.png)
-![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-insulin-settings.png)
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-menu-settings-de.png)
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-pump-options-settings-de.png)
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-tbr-settings-de.png)
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-bolus-settings-de.png)
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-insulin-settings-de.png)
 
 - Install AndroidAPS as described in the wiki http://wiki.AndroidAPS.org and use the `combo` branch.
 - Make sure to read the wiki to understand how to setup AndroidAPS.
