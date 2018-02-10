@@ -49,7 +49,7 @@ you do with it.**
   resets the pump's Bluetooth), before the pump accepts connections from the phone again. There is very 
   little that can be done to remedy either of those issues at this point. So if you see those errors 
   frequently your only option at this time is to get another phone that's known to work well with 
-  AndroidAPS and the Combo (see the _Tested phones_ section at the end).
+  AndroidAPS and the Combo, see the [Tested phones](https://github.com/MilosKozak/AndroidAPS/wiki/Accu-Chek-Combo-Pump#tested-phones) section at the end.
 - Issuing a bolus from the pump will be detected (checked for whenever AAPS connects to the pump), but might take up to 20 minutes in the worst case. Boluses on the pump are always checked before a high TBR or a bolus issued by AAPS.
 - Setting a TBR on the pump is to be avoided since the loop assumes control of TBRs. Detecting a new TBR on the pump might take up to 20 minutes and the TBR's effect will only be accounted from the moment it is detected, so in the worst case there might be 20 minutes of a TBR that is not reflected in IOB. 
 
