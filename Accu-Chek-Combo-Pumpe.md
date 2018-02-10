@@ -6,7 +6,7 @@ Hetz Dich nicht auch wenn andere Dir erzählen wie toll das alles ist. Nimm Dir 
 Du bist ganz alleine dafür verantwortlich was Du mit dem System machst.
 
 
-## Hardware requirements
+## Benötigte Hardware
 
 * Eine Roche Accu-Chek Combo Pumpe (egal welche Firmware, es funktionieren alle)
 * Einen Smartpix oder Realtyme Adapter und die Accu-Chek 360 Konfigurationssoftware um die Pumpe zu konfigurieren. Kunden von Roche können die Software beim Kundendienst erfragen.
