@@ -74,12 +74,12 @@ Setup
     - Set display timeout and menu timeout to the mininum of 5.5 and 5 respectively. This allows the AAPS to
       recover more quickly from error situations and reduces the amount of vibrations that can occur during
       such errors
-- Install AndroidAPS as described in the wiki http://wiki.AndroidAPS.org
+- Install AndroidAPS as described in the wiki http://wiki.AndroidAPS.org and use the `combo` branch.
 - Make sure to read the wiki to understand how to setup AndroidAPS.
 - Select the MDI plugin in AndroidAPS, not the Combo plugin at this point to avoid the Combo
   plugin from interfering with ruffy during the pairing process.
 - Follow the link http://ruffy.AndroidAPS.org and clone ruffy via git. Use the same branch as you use for
-  AndroidAPS, which is usally `master`.
+  AndroidAPS, currently there is only the `combo` branch.
   if you you want to help test the in-development version.
 - Pair the pump using ruffy. If it doesn't work after multiple attempts, switch to the `pairing` branch,
   pair the pump and then switch back the original branch.
