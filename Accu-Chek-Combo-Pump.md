@@ -65,6 +65,7 @@ Setup
     - Set TBR _Maximum Adjustment_ to 500%
     - Disable _Signal End of Temporary Basal Rate_
     - Set TBR duration step-size to 15 min
+    - Enable Bluetooth
   - Recommended (marked blue in screenshots)
     - Set low cartridge alarm to your liking
     - Configure a max bolus suited for your therapy to protect against bugs in the software
