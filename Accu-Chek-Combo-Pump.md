@@ -45,7 +45,7 @@ Limitations
   is enabled, press the Refresh button in the Combo tab to see if this was caused by an intermitted 
   issue and if still no connection is established, reboot the phone which should usually fix this. 
   There is another issue were a restart doesn't help but a button on the pump must be pressed (which 
-  resets the pumps Bluetooth), before the pump accepts connections from the phone again. There is very 
+  resets the pump's Bluetooth), before the pump accepts connections from the phone again. There is very 
   little that can be done to remedy either of those issues at this point. So if you see those errors 
   frequently your only option at this time is to get another phone that's known to work well with 
   AndroidAPS and the Combo (see the _Tested phones_ section at the end).
