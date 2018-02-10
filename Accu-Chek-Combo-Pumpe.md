@@ -25,25 +25,18 @@ Beschränkungen
     Das setzen mehrerer Basalprofile oder die Abgabe eines verzögerten Bolus oder eines Multiwave-Bolus stört das Konzept von temporären Basalraten und setzt den Loop für 6h in einen low glucose suspend mode, da unter diesen Umständen keine sichere Funktion des Closed Loops gewährleistet ist.
    Derzeit kann man Zeit und Datum auf der Pumpe nicht über das Telefon einstellen, Sommer/Winterzeit Umstellungen oder Umstellungen andere Zeitzonen müssen daher händisch vorgenommen werden (automatisches einstellen der Uhr des Telefons am Vorabend abstellen erst wieder einstellen, wenn die Uhrzeit auf der Pumpe angepasst wurde).
 
-   Currently only basal rates in the range of 0.05 to 10 U/h are supported (this also applies when modifying a profile, e.g. when increasing to 200%, the highest basal rate must not exceed 5 U/h since it will be doubled. Similarly, when reducing to 50%, the lowest basal rate must be at least 0.10 U/h).
-    If the loop requests a running TBR to be cancelled the Combo will set a TBR of 90% or 110% for 15 minutes instead. This is because cancelling a TBR causes an alert on the pump which causes a lot of vibrations.
-    Occasionally (every couple of days or so) AAPS might fail to automatically cancel a TBR CANCELLED alert the user then needs to deal with (press the refresh button in AAPS to transfer the warning to AAPS or confirm the alert on the pump).
-    Bluetooth connection stability varies with different phones, causing "pump unrechable" alerts, where no connection to the pump is established anymore. If that error occurs, make sure Bluetooth is enabled, press the Refresh button in the Combo tab to see if this was caused by an intermitted issue and if still no connection is established, reboot the phone which should usually fix this. There is another issue were a restart doesn't help but a button on the pump must be pressed (which resets the pump's Bluetooth), before the pump accepts connections from the phone again. There is very little that can be done to remedy either of those issues at this point. So if you see those errors frequently your only option at this time is to get another phone that's known to work well with AndroidAPS and the Combo (see the Tested phones section at the end).
-    Issuing a bolus from the pump will be detected (checked for whenever AAPS connects to the pump), but might take up to 20 minutes in the worst case. Boluses on the pump are always checked before a high TBR or a bolus issued by AAPS.
-    Setting a TBR on the pump is to be avoided since the loop assumes control of TBRs. Detecting a new TBR on the pump might take up to 20 minutes and the TBR's effect will only be accounted from the moment it is detected, so in the worst case there might be 20 minutes of a TBR that is not reflected in IOB.
+   Basalraten werden nur im Bereich von 0,05 bis 10 U/h unterstützt ( das gilt auch, wenn die Basalrate temporär geändert wird, beispielsweise kann eine Basalrate von 5 U/h auf maximal 200% gesetzt werden und eine Basalrate von 0,1 U/h nicht weiter als auf 50% reduziert werden)._**stimmt das so?**_
+Wenn der Loop eine laufende Basalrate abbrechen will, wird stattdessen die Basalrate für 15 min. auf 90% oder 110% gesetzt. Das ist nötig, weil das Abbrechen der Basalrate auf der Combo Pumpe einen Alarm (W6 TBR Abbruch) auslöst, der durch starke Vibrationen mittgeteilt wird.
+Manchmal kann es vorkommen, dass AAPS einen W6 TBR Abbruch Alarm nicht selbst quittiert, dann muss der Benutzer die Warnung selbst bestätigen entweder durch bestätigen des Alarms auf der Pumpe oder durch den Refresh Button im Combo Tab die Warnung an AAPS übergeben, damit AAPS die Warnung bestätigen kann.
 
-Setup
+Die Stabiltät der Bluetooth Verbindung variiert je nach verwendetem Telefon stark, dies kann zu "pump unreachable" Alarmen führen, und verhindern, dass die Verbindung zur Pumpe hergestellt werden kann. Wenn dieses Verhalten auftritt, prüfe ob
+a) BT auf dem Telefon eingeschaltet ist
+b) Refresh im Combo Tab von AAPS die Verbindung wieder herstellt.
 
-    Configure the pump using 360 config software.
-        Required (marked green in screenshots):
-            Set/leave the menu configuration as "Standard", this will show only the supported menus/actions on the pump and hide those which are unsupported (extended/multiwave bolus, multiple basal rates), which cause the loop functionality to be restricted when used because it's not possible to run the loop in a safe manner when used.
-            Verify the Quick Info Text is set to "QUICK INFO" (without the quotes, found under Insulin Pump Options).
-            Set TBR Maximum Adjustment to 500%
-            Disable Signal End of Temporary Basal Rate
-            Set TBR duration step-size to 15 min
-        Recommended (some marked blue in screenshots)
-            Set low cartridge alarm to your liking
-            Configure a max bolus suited for your therapy to protect against bugs in the software
-            Similarly, configure maximum TBR duration as a safeguard. Allow at least 3 hours, since the option to disconnect the pump for 3 hours sets a 0% for 3 hours.
-            Enable key lock on the pump to prevent bolusing from the pump, esp. when the pump was used before and quick bolusing was a habit.
-            Set display timeout and menu timeout to the mininum of 5.5 and 5 respectively. This allows the AAPS to recover more quickly from error situations and reduces the amount of vibrations that can occur during such errors
+Versuche das Telefon neu starten, wenn die Schritte a und b nicht erfolgreich waren.
+Wenn alles oben genannte nicht hilft, dann kann es nötig sein auf der Pumpe einen Knopf zu drücken (dadurch wird BT auf der Pumpe gestoppt und neu gestartet).
+Derzeit ist nicht absehbar, dass dieses Verhalten verhindert werden kann. Wenn diese Fehler öfter auftreten, dann besteht die derzeit einzige Lösung in der Verwendung eines Telefons, von dem bekannt ist, dass es zuverlässig mit der Combo unter AAPS zusammenarbeitet (unten gibt es eine kurze Liste von Telefonen).
+
+Bolusabgabe direkt an der Pumpe wird von AAPS erkannt (immer wenn AAPS sich mit der Pumpe verbindet), im ungünstigsten Fall, kann das aber bis zu 20 minuten dauern. Bevor mittels AAPS die Basalrate über 100% erhöht wird oder ein Bolus abgegeben wird überprüft AAPS ob ein Bolus an der Pumpe abgegeben wird. Es wird dennoch empfohlen AAPS für alle Interaktionen mit der Pumpe zu verwenden.
+
+Das Setzen einer TBR direkt auf der Pumpe ist im closed Loop Betrieb nicht nötig und sollte im Allgemeinen nicht vorgenommen werden. Das Erkennen einer manuell gesetzten Basalrate kann bis zu 20 min Dauern und wird bei der Berechung auch nur ab dem Zeitpunkt verwendet, zu dem die TBR von AAPS eingelesen wird. Das führt dazu, dass die im Körper befindliche Insulinmenge (IOB) falsch berechnet wird.
