@@ -88,13 +88,13 @@ you do with it.**
 - Select the MDI plugin in AndroidAPS, not the Combo plugin at this point to avoid the Combo
   plugin from interfering with ruffy during the pairing process.
 - Follow the link http://ruffy.AndroidAPS.org and clone ruffy via git. Use the same branch as you use for
-  AndroidAPS, currently there is only the `combo` branch.
+  AndroidAPS, right now that's the `combo` branch, later on there will be the normal `master` and `dev` branches.
 - Pair the pump using ruffy. If it doesn't work after multiple attempts, switch to the `pairing` branch,
   pair the pump and then switch back the original branch.
-  If the pump is already paired and can be controlled via ruffy, installing the `master` branch is sufficient.
+  If the pump is already paired and can be controlled via ruffy, installing the `combo` branch is sufficient.
   Note that the pairing processing is somewhat fragile (but only has to be done once)
   and may need a few attempts; quickly acknowledge prompts and when starting over, remove the pump device
-  from the bluetooth settings beforehand. Another option to try is to go to the bluetooth menu after
+  from the Bluetooth settings beforehand. Another option to try is to go to the bluetooth menu after
   initiating the pairing process (this keeps the phone's bluetooth discoverable as long as the menu is displayed)
   and switch back to ruffy after confirming the pairing on the pump, when the pump displays the authorization code.
   When AAPS is using ruffy, the ruffy app can't be used. The easiest way is to just
