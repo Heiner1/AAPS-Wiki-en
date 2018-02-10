@@ -1,6 +1,6 @@
 # WORK IN PROGRESS
 
-Die Software ist Teil einer DIY-Lösung(Do It Yourself = Eigenbau) und kein Produkt. Daher bist **Du**gefordert. **Du** musst lesen, lernen und verstehen was das System macht und wie du es bedienst.
+Die Software ist Teil einer DIY-Lösung(Do It Yourself = Eigenbau) und kein Produkt. Daher bist **DU** gefordert. **DU** musst lesen, lernen und verstehen was das System macht und wie du es bedienst.
 Das System wird Dir nicht alle Schwierigkeiten Deiner Diabetestherapie abnehmen, aber wenn Du Willens bist die nötige Zeit zu investieren, dann kann es die Ergebnisse Deiner Therapie verbessern und die Lebensqualität erhöhen. Dir sollte klar sein, dass das System umso besser arbeitet je besser Deine Therapiegrundeinstellung ist.
 Hetz Dich nicht auch wenn andere Dir erzählen wie toll das alles ist. Nimm Dir Zeit zu lernen!
 Du bist ganz alleine dafür verantwortlich was Du mit dem System machst.
@@ -21,7 +21,7 @@ Wenn Dir rooten/pairen und so weiter nichts sagen, dann ist die letzte Variante 
 * Es wird nur ein Basalprofil unterstützt.
 * Das setzen mehrerer Basalprofile oder die Abgabe eines verzögerten Bolus oder eines Multiwave-Bolus stört das Konzept von temporären Basalraten und setzt den Loop für 6h in einen low glucose suspend mode, da unter diesen Umständen keine sichere Funktion des Closed Loops gewährleistet ist.
 * Derzeit kann man Zeit und Datum auf der Pumpe nicht über das Telefon einstellen, Sommer/Winterzeit Umstellungen oder Umstellungen andere Zeitzonen müssen daher händisch vorgenommen werden (automatisches einstellen der Uhr des Telefons am Vorabend abstellen erst wieder einstellen, wenn die Uhrzeit auf der Pumpe angepasst wurde).
-* Basalraten werden nur im Bereich von 0,05 bis 10 U/h unterstützt ( das gilt auch, wenn die Basalrate temporär geändert wird, beispielsweise kann eine Basalrate von 5 U/h auf maximal 200% gesetzt werden und eine Basalrate von 0,1 U/h nicht weiter als auf 50% reduziert werden)._**stimmt das so?**_
+* Basalraten werden nur im Bereich von 0,05 bis 10 E/h unterstützt. Dies gilt auch für Anpassungen des Profiles, welches es erlaubt die Basalrate zu verdoppeln oder zu halbieren. Auch in diesem Fall müssen die Grenzwerte eingehalten werden, so dass die Basalrate maximal 5 E/h sein darf (da nach Verdoppelung 10 E/h), bzw. minimal 0,1 E/h (da nach Halbierung 0,05 E/h).
 * Wenn der Loop eine laufende Basalrate abbrechen will, wird stattdessen die Basalrate für 15 min. auf 90% oder 110% gesetzt. Das ist nötig, weil das Abbrechen der Basalrate auf der Combo Pumpe einen Alarm (W6 TBR Abbruch) auslöst, der durch starke Vibrationen mittgeteilt wird.
 * Manchmal kann es vorkommen, dass AAPS einen W6 TBR Abbruch Alarm nicht selbst quittiert, dann muss der Benutzer die Warnung selbst bestätigen entweder durch bestätigen des Alarms auf der Pumpe oder durch den Refresh Button im Combo Tab die Warnung an AAPS übergeben, damit AAPS die Warnung bestätigen kann.
 * Die Stabiltät der Bluetooth Verbindung variiert je nach verwendetem Telefon stark, dies kann zu "pump unreachable" Alarmen führen, und verhindern, dass die Verbindung zur Pumpe hergestellt werden kann. Wenn dieses Verhalten auftritt, prüfe ob
