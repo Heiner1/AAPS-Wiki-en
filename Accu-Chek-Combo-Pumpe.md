@@ -1,7 +1,7 @@
 WORK IN PROGRESS
 
 Die Software ist Teil einer DIY-Lösung(Do It Yourself = Eigenbau) und kein Produkt. Daher bist **Du **gefordert. **Du **musst lesen, lernen und verstehen was das System macht und wie du es bedienst.
-Das System wird Dir nicht alle Schwierigkeiten Deiner Diabetestherapie abnehmen, aber wenn Du Willens bist die nötige Zeit zu investieren, dann kann es die Ergebnisse Deiner Therapie verbessern und die Lebensqualität erhöhen. Dir sollte klar sein, dass das System umso besser arbeitet, je besser Deine Therapiegrundeinstellung ist.
+Das System wird Dir nicht alle Schwierigkeiten Deiner Diabetestherapie abnehmen, aber wenn Du Willens bist die nötige Zeit zu investieren, dann kann es die Ergebnisse Deiner Therapie verbessern und die Lebensqualität erhöhen. Dir sollte klar sein, dass das System umso besser arbeitet je besser Deine Therapiegrundeinstellung ist.
 Hetz Dich nicht auch wenn andere Dir erzählen wie toll das alles ist. Nimm Dir Zeit zu lernen!
 Du bist ganz alleine dafür verantwortlich was Du mit dem System machst.
 
@@ -10,7 +10,7 @@ Hardware requirements
 
     Eine Roche Accu-Chek Combo Pumpe (egal welche Firmware, es funktionieren alle)
 
-    Einen Smartpix oder Realtyme Adapter und die Accu-Chek 360 Konfigurationssoftware umd die Pumpe zu konfigurieren. Kunden von Roche können die Software beim Kundendienst erfragen.
+    Einen Smartpix oder Realtyme Adapter und die Accu-Chek 360 Konfigurationssoftware um die Pumpe zu konfigurieren. Kunden von Roche können die Software beim Kundendienst erfragen.
 
    Ein kompatibles Telefon: Ein Android Telefone mit LineageOS 14.1 (früher CyanogenMod) oder Android 8.1 (Oreo). Eine Liste gestester Telefone findet sich hier https://docs.google.com/spreadsheets/d/1-Im_rTkWPbk-Pl_hlnh-GhfZbAlXbh4PiLNnBJqGFyk/edit#gid=0. Die Liste ist nicht abschliessend und spiegelt nur die persönliche Erfahrung der Benutzer wieder. Bitte trage Deine Erfahrung in die Liste ein und hilf damit anderen. Die ganzen DIY Projekte funktionieren nur, wenn jeder etwas zurückgibt. 
 
@@ -20,9 +20,9 @@ Wenn Dir rooten/pairen und so weiter nichts sagen, dann ist die letzte Variante 
 
 Beschränkungen
 
-    Extended bolus and multiwave bolus are not supported.
+    Verzögerter Bolus und Multiwave-Bolus werden nicht unterstützt.
     Es wird nur ein Basalprofil unterstützt.
-    Setting a basal profile other than 1 on the pump, or delivering extended boluses or multiwave boluses from the pump interferes with TBRs and forces the loop into low-suspend only mode for 6 hours as the the loop can't run safely under those conditions.
+    Das setzen mehrerer Basalprofile oder die Abgabe eines verzögerten Bolus oder eines Multiwave-Bolus stört das Konzept von temporären Basalraten und setzt den Loop für 6h in einen low glucose suspend mode, da unter diesen Umständen keine sichere Funktion des Closed Loops gewährleistet ist.
     It's currently not possible to set the time and date on the pump, so daylight saving times changes have to be performed manually (disable automatic phone clock update in the evening and update change back in the morning while also updating the pump's clock to avoid an alarm during the night).
     Currently only basal rates in the range of 0.05 to 10 U/h are supported (this also applies when modifying a profile, e.g. when increasing to 200%, the highest basal rate must not exceed 5 U/h since it will be doubled. Similarly, when reducing to 50%, the lowest basal rate must be at least 0.10 U/h).
     If the loop requests a running TBR to be cancelled the Combo will set a TBR of 90% or 110% for 15 minutes instead. This is because cancelling a TBR causes an alert on the pump which causes a lot of vibrations.
