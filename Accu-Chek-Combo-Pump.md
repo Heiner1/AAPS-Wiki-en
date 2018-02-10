@@ -65,7 +65,7 @@ Setup
     - Set TBR _Maximum Adjustment_ to 500%
     - Disable _Signal End of Temporary Basal Rate_
     - Set TBR duration step-size to 15 min
-  - Recommended (some marked blue in screenshots)
+  - Recommended (marked blue in screenshots)
     - Set low cartridge alarm to your liking
     - Configure a max bolus suited for your therapy to protect against bugs in the software
     - Similarly, configure maximum TBR duration as a safeguard. Allow at least 3 hours, since
@@ -79,6 +79,8 @@ Setup
 ![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-menu-settings.png)
 ![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-pump-options-settings.png)
 ![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-tbr-settings.png)
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-bolus-settings.png)
+![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-insulin-settings.png)
 
 - Install AndroidAPS as described in the wiki http://wiki.AndroidAPS.org and use the `combo` branch.
 - Make sure to read the wiki to understand how to setup AndroidAPS.
