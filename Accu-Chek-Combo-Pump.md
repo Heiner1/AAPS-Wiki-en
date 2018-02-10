@@ -80,7 +80,6 @@ Setup
   plugin from interfering with ruffy during the pairing process.
 - Follow the link http://ruffy.AndroidAPS.org and clone ruffy via git. Use the same branch as you use for
   AndroidAPS, currently there is only the `combo` branch.
-  if you you want to help test the in-development version.
 - Pair the pump using ruffy. If it doesn't work after multiple attempts, switch to the `pairing` branch,
   pair the pump and then switch back the original branch.
   If the pump is already paired and can be controlled via ruffy, installing the `master` branch is sufficient.
