@@ -1,9 +1,9 @@
 # **WORK IN PROGRESS**
 
 **This software is part of a DIY solution and is not a product, but
-requires YOU to read, learn and understand the system and how to use it.
+requires YOU to read, learn and understand the system including how to use it.
 It is not something that does all your diabetes management for you, but
-allows you to improve your diabetes and quality of life significantly
+allows you to improve your diabetes and your quality of life 
 if you're willing to put in the time required. Don't rush into it,
 but allow yourself time to learn. You alone are responsible for what
 you do with it.**
@@ -15,7 +15,8 @@ you do with it.**
   Software to configure the pump.
   Roche sends out Smartpix devices and the configuration software
   free of charge to their customers upon request.
-- A compatible phone: An Android phone with a phone running LineageOS 14.1 (formerly CyanogenMod) or Android 8.1 (Oreo). A list of phones can be found here https://docs.google.com/spreadsheets/d/1-Im_rTkWPbk-Pl_hlnh-GhfZbAlXbh4PiLNnBJqGFyk/edit#gid=0. Please be aware that this is not complete list and reflects personal user experience. You are encouraged to also enter your experience and thereby help others (these projects are all about paying it foward).
+- A compatible phone: An Android phone with a phone running LineageOS 14.1 (formerly CyanogenMod) or Android 8.1 (Oreo). A list of phones can be found here https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435
+. Please be aware that this is not complete list and reflects personal user experience. You are encouraged to also enter your experience and thereby help others (these projects are all about paying it forward).
 
   Be aware that while Android 8.1 allows communicating with the Combo, there are still issues with AAPS on 8.1.
   For advanced users, it is possible to perform the pairing on a rooted phone and transfer it to another rooted
@@ -28,19 +29,19 @@ you do with it.**
 - Only one basal profile is supported.
 - Setting a basal profile other than 1 on the pump, or delivering extended boluses or multiwave
   boluses from the pump interferes with TBRs and forces the loop into low-suspend only mode for 6 hours
-  as the the loop can't run safely under those conditions.
+  as the the loop can't run safely under these conditions.
 - It's currently not possible to set the time and date on the pump, so daylight saving times
-  changes have to be performed manually (disable automatic phone clock update in the evening and
-  update change back in the morning while also updating the pump's clock to avoid an alarm during the night).
-- Currently only basal rates in the range of 0.05 to 10 U/h are supported (this also applies when modifying
+  changes have to be performed manually (you may disable the phone's automatic clock update in the evening and
+  change it back in the morning together with the pump clock to avoid an alarm during the night).
+- Currently only basal rates in the range of 0.05 to 10 U/h are supported. This also applies when modifying
   a profile, e.g. when increasing to 200%, the highest basal rate must not exceed 5 U/h since it will be
-  doubled. Similarly, when reducing to 50%, the lowest basal rate must be at least 0.10 U/h).
+  doubled. Similarly, when reducing to 50%, the lowest basal rate must be at least 0.10 U/h.
 - If the loop requests a running TBR to be cancelled the Combo will set a TBR of 90% or 110%
   for 15 minutes instead. This is because cancelling a TBR causes an alert on the pump which
   causes a lot of vibrations.
 - Occasionally (every couple of days or so) AAPS might fail to automatically cancel
-  a TBR CANCELLED alert the user then needs to deal with (press the refresh button in AAPS
-  to transfer the warning to AAPS or confirm the alert on the pump).
+  a TBR CANCELLED alert, which the user then needs to deal with (by pressing the refresh button in AAPS
+  to transfer the warning to AAPS or confirming the alert on the pump).
 - Bluetooth connection stability varies with different phones, causing "pump unrechable" alerts, 
   where no connection to the pump is established anymore. If that error occurs, make sure Bluetooth 
   is enabled, press the Refresh button in the Combo tab to see if this was caused by an intermitted 
@@ -49,7 +50,7 @@ you do with it.**
   resets the pump's Bluetooth), before the pump accepts connections from the phone again. There is very 
   little that can be done to remedy either of those issues at this point. So if you see those errors 
   frequently your only option at this time is to get another phone that's known to work well with 
-  AndroidAPS and the Combo, see the [Tested phones](https://github.com/MilosKozak/AndroidAPS/wiki/Accu-Chek-Combo-Pump#tested-phones) section at the end.
+  AndroidAPS and the Combo (see above).
 - Issuing a bolus from the pump will be not always be detected in time (checked for whenever AAPS connects to the pump), and might take up to 20 minutes in the worst case. Boluses on the pump are always checked before a high TBR or a bolus issued by AAPS but due to the limitations AAPS will then refuse to issue the TBR/Bolus as it was calculated under false premises. (-> Don't bolus from the Pump! See chapter *Usage*)
 - Setting a TBR on the pump is to be avoided since the loop assumes control of TBRs. Detecting a new TBR on the pump might take up to 20 minutes and the TBR's effect will only be accounted from the moment it is detected, so in the worst case there might be 20 minutes of a TBR that is not reflected in IOB. 
 
