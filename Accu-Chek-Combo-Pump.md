@@ -15,10 +15,10 @@ you do with it.**
   Software to configure the pump.
   Roche sends out Smartpix devices and the configuration software
   free of charge to their customers upon request.
-- A compatible phone: An Android phone with a phone running LineageOS 14.1 (formerly CyanogenMod) or Android 8.1 (Oreo). A list of phones can be found here https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435
-. Please be aware that this is not complete list and reflects personal user experience. You are encouraged to also enter your experience and thereby help others (these projects are all about paying it forward).
+- A compatible phone: An Android phone with a phone running LineageOS 14.1 (formerly CyanogenMod) or Android 8.1 (Oreo). A list of phones can be found in the [AAPS Phones](https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435) document.
+Please be aware that this is not complete list and reflects personal user experience. You are encouraged to also enter your experience and thereby help others (these projects are all about paying it forward).
 
-  Be aware that while Android 8.1 allows communicating with the Combo, there are still issues with AAPS on 8.1.
+- Be aware that while Android 8.1 allows communicating with the Combo, there are still issues with AAPS on 8.1.
   For advanced users, it is possible to perform the pairing on a rooted phone and transfer it to another rooted
   phone to use with ruffy/AAPS, which must also be rooted. This allows using phones with Android < 8.1 but
   has not been widely tested: https://github.com/gregorybel/combo-pairing/blob/master/README.md
