@@ -4,40 +4,32 @@
 
 Esta solución no gestionará su diabetes por usted, pero si pone el tiempo necesario en montarlo y aprender, va a permitirle una mejora considerable tanto en su diabetes como en su calidad de vida. No tenga prisa, permítase tiempo para aprender. Sólo usted es responsable de lo que haga con él. **
 
-## Hardware requirements
+## Requisitos de Hardware
 
-- A Roche Accu-Chek Combo (any firmware, they all work)
-- A Smartpix or Realtyme device together with the 360 Configuration
-  Software to configure the pump.
-  Roche sends out Smartpix devices and the configuration software
-  free of charge to their customers upon request.
-- A compatible phone: An Android phone with a phone running LineageOS 14.1 (formerly CyanogenMod) or Android 8.1 (Oreo). A list of phones can be found in the [AAPS Phones](https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435) document.
-Please be aware that this is not complete list and reflects personal user experience. You are encouraged to also enter your experience and thereby help others (these projects are all about paying it forward).
+- Una bomba de insulina Roche Accu-Chek Combo (con cualquier firmware, todas funcionan)
+- Un Smartpix o dispositivo Realtyme junto con un Software Configuración 360 que configure la bomba.
+  Roche envía dispositivos Smartpix a los clientes que lo sociliten de forma gratuita.
+-  Un teléfono compatible: Teléfono Android con  LineageOS 14.1 (antes conocido como CyanogenMod) o Android 8.1 (Oreo). La lista de teléfonos compatibles puede encontrarse en el siguiente documento [AAPS Phones](https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435).
+* Por favor, tenga en cuenta que esta no es una lista completa y es un reflejo de las experiencias personales de los ususarios. Le animamos a que comparta aquí también sus experiencias para ayudar a otros (todos estos proyectos se basan en la idea de "pagar o devolver la ayuda a la comunidad"). 
+- Tenga presente que aunque Android 8.1 permite la comunicación con la Combo, todavía hay algunos problemas con AAPS en 8.1. 
+  Para aquellos usuarios avanzados, es posible realizar el conectar con un teléfono desbloqueado , y transferirlo a otro 
+ teléfono desbloqueado. para usar lo con ruffy/AAPS, que tambiéne stá debloqueado. Esto permitiría usar teléfonos con  Android < 8.1 pero no se ha testado demasiado: https://github.com/gregorybel/combo-pairing/blob/master/README.md
 
-- Be aware that while Android 8.1 allows communicating with the Combo, there are still issues with AAPS on 8.1.
-  For advanced users, it is possible to perform the pairing on a rooted phone and transfer it to another rooted
-  phone to use with ruffy/AAPS, which must also be rooted. This allows using phones with Android < 8.1 but
-  has not been widely tested: https://github.com/gregorybel/combo-pairing/blob/master/README.md
+## Limitatciones
 
-## Limitations
+- No pueden utilizarse los bolos duales y cuadrados (extended bolus y multiwave).
+- Solo puede utilizarse un perfil de basal.
+- Si se programa un perfil basal diferente de 1, o se utilizan bolos duales o cuadrados  se estará interfiriendo con TBRs
+  y se forzará al lazo cerrado a suspenderse durante 6 horas, puesto que no puede funcionar de forma segura bajo estas condiciones. 
+ 
+- A día de hoy no se puede establecer la hora y la fecha desde la bomba, de modo que los cambios de horarios deben hacerse de forma manual (conviene deshabilitar el ajuste automático del reloj en la tarde y cambiarlo por la mañana junto al reloj de la bomba para evitar la alarma nocturna).
+- En este momento solo pueden usarse basales en rango de 0.05 a 10 unidades/hora. Esto también ocurre cuando se modifica un perfil, por ejemplo, cuando se aumenta un 200% la basal más alta no puede sobrepasar las 5 U/h ya que esto la duplicaría. De igual modo, si se reduce un 50%, la basal más baja debe ser de al menos un 0.10 U/h.
+- Si el lazo cerrado requiere que una basal temporal en proceso sea cancelada, la Combo, en lugar de eso, pondrá en marcha una basal temporal del 90% o del 110% durante 15 minutos. Esto ocurre porque cuando se cancela una basal temporal se pone en marcha una alerta en la bomba que da lugar a muchas vobraciones. 
+- En ocasiones (más o menos cada par de días) AAPS puede fallar hasta cancelar automáticamente una alerta de CANCELACIÓN de BASAL TEMPORAL.El usuario tendrá que ahcerle frente a este problema (apretando el botón de "refresh" en AAPS para transferir el aviso a AAPS o confirmando la alerta en la bomba).
 
-- Extended bolus and multiwave bolus are not supported.
-- Only one basal profile is supported.
-- Setting a basal profile other than 1 on the pump, or delivering extended boluses or multiwave
-  boluses from the pump interferes with TBRs and forces the loop into low-suspend only mode for 6 hours
-  as the the loop can't run safely under these conditions.
-- It's currently not possible to set the time and date on the pump, so daylight saving times
-  changes have to be performed manually (you may disable the phone's automatic clock update in the evening and
-  change it back in the morning together with the pump clock to avoid an alarm during the night).
-- Currently only basal rates in the range of 0.05 to 10 U/h are supported. This also applies when modifying
-  a profile, e.g. when increasing to 200%, the highest basal rate must not exceed 5 U/h since it will be
-  doubled. Similarly, when reducing to 50%, the lowest basal rate must be at least 0.10 U/h.
-- If the loop requests a running TBR to be cancelled the Combo will set a TBR of 90% or 110%
-  for 15 minutes instead. This is because cancelling a TBR causes an alert on the pump which
-  causes a lot of vibrations.
-- Occasionally (every couple of days or so) AAPS might fail to automatically cancel
-  a TBR CANCELLED alert, which the user then needs to deal with (by pressing the refresh button in AAPS
-  to transfer the warning to AAPS or confirming the alert on the pump).
+
+
+
 - Bluetooth connection stability varies with different phones, causing "pump unrechable" alerts, 
   where no connection to the pump is established anymore. If that error occurs, make sure Bluetooth 
   is enabled, press the Refresh button in the Combo tab to see if this was caused by an intermitted 
