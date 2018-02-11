@@ -1,12 +1,8 @@
-# **WORK IN PROGRESS**
+# **TRABAJO EN PROCESO**
 
-**This software is part of a DIY solution and is not a product, but
-requires YOU to read, learn and understand the system including how to use it.
-It is not something that does all your diabetes management for you, but
-allows you to improve your diabetes and your quality of life 
-if you're willing to put in the time required. Don't rush into it,
-but allow yourself time to learn. You alone are responsible for what
-you do with it.**
+**Este software es parte de una solución "hágalo usted mismo" y no es un producto, pero es indispensable que lea, aprenda y entienda el sistema incluyendo el modo de usuarlo.
+
+Esta solución no gestionará su diabetes por usted, pero si pone el tiempo necesario en montarlo y aprender, va a permitirle una mejora considerable tanto en su diabetes como en su calidad de vida. No tenga prisa, permítase tiempo para aprender. Sólo usted es responsable de lo que haga con él. **
 
 ## Hardware requirements
 
