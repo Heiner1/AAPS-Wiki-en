@@ -84,21 +84,20 @@ Please be aware that this is not complete list and reflects personal user experi
 ![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-bolus-settings.png)
 ![](https://github.com/jotomo/AndroidAPS/blob/combo/documentation/images/combo-insulin-settings.png)
 
-- Install AndroidAPS as described in the wiki http://wiki.AndroidAPS.org and use the `combo` branch.
+- Install AndroidAPS as described in the [AndroidAPS wiki](http://wiki.AndroidAPS.org) and use the `combo` branch.
 - Make sure to read the wiki to understand how to setup AndroidAPS.
 - Select the MDI plugin in AndroidAPS, not the Combo plugin at this point to avoid the Combo
   plugin from interfering with ruffy during the pairing process.
 - Follow the link http://ruffy.AndroidAPS.org and clone ruffy via git. Use the same branch as you use for
-  AndroidAPS, right now that's the `combo` branch, later on there will be the normal `master` and `dev` branches.
-- Pair the pump using ruffy. If it doesn't work after multiple attempts, switch to the `pairing` branch,
-  pair the pump and then switch back the original branch.
+  AndroidAPS, right now that's the `combo` branch, later on there will be the regular `master` and `dev` branches.
+- Install ruffy and use it to pair the pump. If it doesn't work after multiple attempts, switch to the `pairing` branch, pair the pump and then switch back the original branch.
   If the pump is already paired and can be controlled via ruffy, installing the `combo` branch is sufficient.
   Note that the pairing processing is somewhat fragile (but only has to be done once)
   and may need a few attempts; quickly acknowledge prompts and when starting over, remove the pump device
-  from the Bluetooth settings beforehand. Another option to try is to go to the bluetooth menu after
-  initiating the pairing process (this keeps the phone's bluetooth discoverable as long as the menu is displayed)
+  from the Bluetooth settings beforehand. Another option to try is to go to the Bluetooth menu after
+  initiating the pairing process (this keeps the phone's Bluetooth discoverable as long as the menu is displayed)
   and switch back to ruffy after confirming the pairing on the pump, when the pump displays the authorization code.
-  When AAPS is using ruffy, the ruffy app can't be used. The easiest way is to just
+- When AAPS is using ruffy, the ruffy app can't be used. The easiest way is to just
   reboot the phone after the pairing process and let AAPS start ruffy in the background.
 - Before enabling the Combo plugin in AAPS make sure your profile is set up
   correctly and your basal profile is up to date as AAPS will sync the basal profile
