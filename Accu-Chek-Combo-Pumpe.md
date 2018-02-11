@@ -35,14 +35,14 @@ Derzeit ist nicht absehbar, dass dieses Verhalten verhindert werden kann. Wenn d
 
 ## Setup
 - Konfiguriere die Pumpe mit der 360° Konfigurations-Software.
-  - Benötigt (grün markiert in den Screenshots):
+  - Zwingend erforderliche Einstellungen (grün markiert in den Screenshots):
     - Setze/Lasse das Benutzermenü auf "Standard". Dadurch werden nur die benötigten Menüs/Aktionen auf der pumpe angezeigt und solche versteckt, die nicht unterstützt werden (verzögerter Bolus, Multiwave Bolus, mehrere Basalprofile), die die Loop-Funktionalität einschränken würden, da der Loop nicht sicher laufen würde, wenn diese Aktionen Verwendung fänden.
     - Stelle sicher dass der _Quick Info Text_ auch wirklich "QUICK INFO" heißt (ohne Anführungszeichen, zu finden unter _Anzeige-/Kommunikationseinstellungen_).
     - Stelle die _Maximale Anpassung_ der Temporären Basalrate auf 500%
     - Deaktiviere _Ende der temporären Basalrate signalisieren_
     - Setze die Schrittweitendauer der Temporären Basalrate auf 15 min
     - Aktiviere Bluetooth
-  - Empfohlen (blau markiert in den Screenshots)
+  - Empfohlene Einstellungen (blau markiert in den Screenshots)
     - Stelle den Restmenge bei Alarm "Amp. fast leer" ein, wie es für dich passt
     - Konfiguriere eine maximale Bolusmenge passend zu deiner Therapie, um dich gegen Fehler in der Software zu schützen.
     - Lege gleichermaßen die maximale Dauer einer temporären Basalrate als Sicherheitsmaßnahme fest. Erlaube mindestens  3 Stunden, da die Option die Pumpe für 3 Stunden abzulegen, 0% über 3 Stunden setzt.
