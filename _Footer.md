@@ -10,4 +10,4 @@ Please note - this project has no association with and is not endorsed by:
 
 - [SOOIL](http://www.sooil.com/eng/)
 - [Dexcom](http://www.dexcom.com/)
-- [Accu Check, Roche Diabetes Care](http://www.accu-check.com/)
+- [Accu-Chek, Roche Diabetes Care](http://www.accu-chek.com/)
