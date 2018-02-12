@@ -7,7 +7,6 @@ _Mit xdrip…_<br>
 * Wähle in AndroidAPS > CONFIG BUILDER > xdrip.
 
 _Mit der Dexcom G5 App..._<Br>
-* Zur Zeit nur im dev Branch, und in mmol/l (mg/dl version in Kürze verfügbar).
 * Downloade die apk von [hier](https://github.com/dexcomapp/dexcomapp), es geht nur mit dieser.
 * Deinstalliere die originale Dexcom App, falls du sie noch hast.
 * Wähle im Config Builder Dexcom G5 App.
