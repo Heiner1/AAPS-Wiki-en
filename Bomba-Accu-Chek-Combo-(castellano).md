@@ -1,6 +1,6 @@
 # **TRABAJO EN PROCESO**
 
-**Este software es parte de una solución "hágalo usted mismo" y no es un producto, pero es indispensable que lea, aprenda y entienda el sistema incluyendo el modo de usuarlo.
+**Este software es parte de una solución "hágalo usted mismo" y no es un producto, pero es indispensable que usted lea, aprenda y entienda el sistema incluyendo el modo de uso.
 
 Esta solución no gestionará su diabetes por usted, pero si pone el tiempo necesario en montarlo y aprender, va a permitirle una mejora considerable tanto en su diabetes como en su calidad de vida. No tenga prisa, permítase tiempo para aprender. Sólo usted es responsable de lo que haga con él. **
 
@@ -12,35 +12,26 @@ Esta solución no gestionará su diabetes por usted, pero si pone el tiempo nece
 -  Un teléfono compatible: Teléfono Android con  LineageOS 14.1 (antes conocido como CyanogenMod) o Android 8.1 (Oreo). La lista de teléfonos compatibles puede encontrarse en el siguiente documento [AAPS Phones](https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435).
 * Por favor, tenga en cuenta que esta no es una lista completa y es un reflejo de las experiencias personales de los ususarios. Le animamos a que comparta aquí también sus experiencias para ayudar a otros (todos estos proyectos se basan en la idea de "pagar o devolver la ayuda a la comunidad"). 
 - Tenga presente que aunque Android 8.1 permite la comunicación con la Combo, todavía hay algunos problemas con AAPS en 8.1. 
-  Para aquellos usuarios avanzados, es posible realizar el conectar con un teléfono desbloqueado , y transferirlo a otro 
- teléfono desbloqueado. para usar lo con ruffy/AAPS, que tambiéne stá debloqueado. Esto permitiría usar teléfonos con  Android < 8.1 pero no se ha testado demasiado: https://github.com/gregorybel/combo-pairing/blob/master/README.md
+  Para aquellos usuarios avanzados, es posible conectar con un teléfono desbloqueado, y transferirlo a otro 
+ teléfono desbloqueado para usarlo con ruffy/AAPS, que también está debloqueado. Esto permitiría usar teléfonos con  Android < 8.1. Esto no se ha probado lo suficiente: https://github.com/gregorybel/combo-pairing/blob/master/README.md
 
 ## Limitatciones
 
-- No pueden utilizarse los bolos duales y cuadrados (extended bolus y multiwave).
+- No pueden utilizarse los bolos duales y cuadrados ("extended bolus" y "multiwave bolus").
 - Solo puede utilizarse un perfil de basal.
-- Si se programa un perfil basal diferente de 1, o se utilizan bolos duales o cuadrados  se estará interfiriendo con TBRs
-  y se forzará al lazo cerrado a suspenderse durante 6 horas, puesto que no puede funcionar de forma segura bajo estas condiciones. 
+- Si se programa un perfil basal diferente de 1, o se utilizan bolos duales o cuadrados, se estará interfiriendo con las basales temporales y se forzará al lazo cerrado a suspenderse durante 6 horas, puesto que no puede funcionar de forma segura bajo estas condiciones. 
  
-- A día de hoy no se puede establecer la hora y la fecha desde la bomba, de modo que los cambios de horarios deben hacerse de forma manual (conviene deshabilitar el ajuste automático del reloj en la tarde y cambiarlo por la mañana junto al reloj de la bomba para evitar la alarma nocturna).
+- A día de hoy no se puede establecer la hora y la fecha desde la bomba. Los cambios de horarios deben hacerse de forma manual (conviene deshabilitar el ajuste automático del reloj en la tarde y cambiarlo por la mañana junto al reloj de la bomba para evitar la alarma nocturna).
 - En este momento solo pueden usarse basales en rango de 0.05 a 10 unidades/hora. Esto también ocurre cuando se modifica un perfil, por ejemplo, cuando se aumenta un 200% la basal más alta no puede sobrepasar las 5 U/h ya que esto la duplicaría. De igual modo, si se reduce un 50%, la basal más baja debe ser de al menos un 0.10 U/h.
-- Si el lazo cerrado requiere que una basal temporal en proceso sea cancelada, la Combo, en lugar de eso, pondrá en marcha una basal temporal del 90% o del 110% durante 15 minutos. Esto ocurre porque cuando se cancela una basal temporal se pone en marcha una alerta en la bomba que da lugar a muchas vobraciones. 
-- En ocasiones (más o menos cada par de días) AAPS puede fallar hasta cancelar automáticamente una alerta de CANCELACIÓN de BASAL TEMPORAL.El usuario tendrá que ahcerle frente a este problema (apretando el botón de "refresh" en AAPS para transferir el aviso a AAPS o confirmando la alerta en la bomba).
+- Si el lazo cerrado requiere que una basal temporal en proceso sea cancelada, la Combo, en lugar de eso, pondrá en marcha una basal temporal del 90% o del 110% durante 15 minutos. Esto ocurre porque cuando se cancela una basal temporal se pone en marcha una alerta en la bomba que da lugar a muchas vibraciones. 
+- En ocasiones (más o menos cada par de días) AAPS puede fallar hasta cancelar automáticamente una alerta de CANCELACIÓN de BASAL TEMPORAL. El usuario tendrá que hacerle frente a este problema (apretando el botón de reinicio o "refresh" en AAPS para transferir el aviso a AAPS o confirmando la alerta en la bomba).
 
+- La estabilidad de la conexión de bluetooth variará con diferentes teléfonos, causando alarmas de "bomba fuera de cobertura" cuando no pueda establecerse conexión con la bomba. Si le ocurre este error, asegúrese de que el bluetooth está habilitado, presione el botón de reinicio ("refresh") en la Combo para ver si esto lo causó un problema ocasional y si todavía no se establece conexión, reinicie el teléfono. Generalmente esto último solucionará el problema.
+  Hay otra situación en la que un reinicio no resuelve el problema, pero donde ha de presionarse un botón de la bomba (el que resetea el bluetooth de la bomba), antes de que la bomba acepte las conexiones de otro teléfono. No hay mucho que hacer en este moemento para remediar estos problemas. Si ve estos errores con frecuencia, su única opción a día de hoy es probar otro teléfono que funcione bien con AndroidAPS y con la Combo (lea más arriba).
+ 
+- Mandar un bolo desde la bomba es una acción que no siempre va a detectarse a tiempo y quizás tarde hasta 20 minutos en el peor de los casos. Los bolos puestos desde la bomba se revisan siempre antes de poner una basal temporal mayor u otro bolo desde AAPS, pero debido a sus limitaciones, AAPS  rehusará poner dichas basales temporales o bolos calculados en base a cálculos entendidos como erróneos (por tanto, no mande bolos desde la bomba, lea la sección sobre "Uso").
 
-
-
-- Bluetooth connection stability varies with different phones, causing "pump unrechable" alerts, 
-  where no connection to the pump is established anymore. If that error occurs, make sure Bluetooth 
-  is enabled, press the Refresh button in the Combo tab to see if this was caused by an intermitted 
-  issue and if still no connection is established, reboot the phone which should usually fix this. 
-  There is another issue were a restart doesn't help but a button on the pump must be pressed (which 
-  resets the pump's Bluetooth), before the pump accepts connections from the phone again. There is very 
-  little that can be done to remedy either of those issues at this point. So if you see those errors 
-  frequently your only option at this time is to get another phone that's known to work well with 
-  AndroidAPS and the Combo (see above).
-- Issuing a bolus from the pump will be not always be detected in time (checked for whenever AAPS connects to the pump), and might take up to 20 minutes in the worst case. Boluses on the pump are always checked before a high TBR or a bolus issued by AAPS but due to the limitations AAPS will then refuse to issue the TBR/Bolus as it was calculated under false premises. (-> Don't bolus from the Pump! See chapter *Usage*)
-- Setting a TBR on the pump is to be avoided since the loop assumes control of TBRs. Detecting a new TBR on the pump might take up to 20 minutes and the TBR's effect will only be accounted from the moment it is detected, so in the worst case there might be 20 minutes of a TBR that is not reflected in IOB. 
+- Debe evitarse programar una basal temporal desde la bomba porque el lazo cerrado es quien pone en marcha todas las basales temporales. El sistema puede tardar hasta 20 minutos en detectar una basal temporal establecida en la bomba y su efecto se tendrá en cuenta sólo en el momento en el que se detecte la temporal, de forma que en el peor de los casos habrá 20 minutos de basal temporal que no se reflejen en la información de la "insulina a bordo".
 
 ## Setup
 
