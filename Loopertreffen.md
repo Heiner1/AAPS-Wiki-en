@@ -1,4 +1,7 @@
-# Treffen der LooperInnen im deutschsprachigen Raum
+# Treffen der Looper und Interessierten im deutschsprachigen Raum
+
+## Berlin
+März 2018, genauer Termin wird noch bekanntgegeben
 
 ## Bayern und Franken:
 
@@ -7,6 +10,12 @@
 ### München
 Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben
 
-## Berlin:
 
 ## Rhein-Ruhr:
+
+### Köln
+24. Februar 2018
+Lokalität?
+https://doodle.com/poll/cehm6ngpxn2gedc2
+
+
