@@ -1,8 +1,8 @@
 # Treffen der Looper und Loop-Interessierten im deutschsprachigen Raum
 
 ## Berlin
-März 2018 in Zehlendorf
-Schulungsraum von Dr. Häußler, Teltower Damm 23
+März 2018 in Zehlendorf  
+Schulungsraum von Dr. Häußler, Teltower Damm 23  
 genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt
 
 ## Bayern und Franken:
@@ -15,16 +15,16 @@ genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt
 Villa Leon, Philipp-Koerber-Weg 1, 90439 Nürnberg
 
 **Uhrzeit?**
-Ab 14 bis 18 Uhr. Danach ist noch offen (Restaurant, dort....)
+Ab 14 bis 18 Uhr. Danach ist noch offen (Restaurant, dort....)  
 Testzeile
 
 
 ### München
 **Wann?**   Immer am 2ten Donnerstag im Monat:
-08.03.2018
-12.04.2018
-10.05.2018
-14.06.2018
+08.03.2018  
+12.04.2018  
+10.05.2018  
+14.06.2018  
 
 **Wo?**
 Im Schulungsraum von Dr. med. Hans-Joachim Lüddeke, Cosimastraße 2 81927 München, Bayern
@@ -38,10 +38,10 @@ Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben
 ## Rhein-Ruhr:
 
 ### Köln
-24. Februar 2018
+24. Februar 2018  
 18 Uhr
 
-Lokalität?
+Lokalität?  
 https://doodle.com/poll/cehm6ngpxn2gedc2
 
 
