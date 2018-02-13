@@ -1,7 +1,9 @@
 # Treffen der Looper und Loop-Interessierten im deutschsprachigen Raum
 
 ## Berlin
-März 2018 in Zehlendorf, Schulungsraum von Dr. Häußler, Teltower Damm 23; genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt
+März 2018 in Zehlendorf
+Schulungsraum von Dr. Häußler, Teltower Damm 23
+genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt
 
 ## Bayern und Franken:
 
