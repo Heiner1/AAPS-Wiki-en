@@ -20,19 +20,20 @@ Kontakt auch über missdazzle@web.de
 12.04.2018  
 10.05.2018  
 14.06.2018  
-**Wo?** Im Schulungsraum von Dr. med. Hans-Joachim Lüddeke, Cosimastraße 2 81927 München, Bayern  
-**Uhrzeit?** Ab 19 Uhr 
+**Wo?** Im Schulungsraum von Dr. med. Hans-Joachim Lüddeke, Cosimastraße 2 81927 München  
+**Uhrzeit?** Ab 19 Uhr  
 Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben  
   
 
 ## Hamburg
-Letztes #LooperInHamburg Treffen war am 7. Januar 2018. Ein nächstes Treffen ist erst angedacht.  
+Letztes #LooperInHamburg Treffen war am 7. Januar 2018.  
+Ein nächstes Treffen ist erst angedacht.  
 Doodle link: folgt  
  
  
 ## Niedersachsen:  
   
-### Hannover
+### Hannover  
 Letztes #LooperInHannover Treffen war am 30. November 2017.  
 Ein weiteres Treffen ist zwar geplant, aber noch nicht organisiert.  
 Doodle link: folgt  
