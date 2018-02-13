@@ -1,7 +1,7 @@
 # Treffen der Looper und Loop-Interessierten im deutschsprachigen Raum
 
 ## Berlin
-LooperInBerlin Treffen im März 2018  
+#LooperInBerlin Treffen im März 2018  
 Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf  
 genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt
 
@@ -36,11 +36,11 @@ Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben
 
 
 ## Hamburg
-Letztes LooperInHamburg Treffen war am 7. Januar 2018. Ein nächstes Treffen ist erst angedacht.  
+Letztes #LooperInHamburg Treffen war am 7. Januar 2018. Ein nächstes Treffen ist erst angedacht.  
 Doodle link folgt  
 
 ## Hannover
-Letztes LooperInHannover Treffen war am 30. November 2017. Ein weiteres Treffen ist zwar geplant, aber noch nicht organisiert.  
+Letztes #LooperInHannover Treffen war am 30. November 2017. Ein weiteres Treffen ist zwar geplant, aber noch nicht organisiert.  
 Doodle link folgt
 
 ## Rhein-Ruhr:
