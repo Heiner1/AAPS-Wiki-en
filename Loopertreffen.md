@@ -6,7 +6,7 @@ Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf
 genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt  
 Kontakt auch über missdazzle@web.de
 
-## **Bayern und Franken**:
+## Bayern und Franken:
 
 ### Nürnberg
 **Wann?**
@@ -36,23 +36,23 @@ Ab 19 Uhr
 Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben
 
 
-## **Hamburg**
+## Hamburg
 Letztes #LooperInHamburg Treffen war am 7. Januar 2018. Ein nächstes Treffen ist erst angedacht.  
 Doodle link: folgt  
 
-## **Niedersachsen**  
+## Niedersachsen:  
   
 ### Hannover
 Letztes #LooperInHannover Treffen war am 30. November 2017. Ein weiteres Treffen ist zwar geplant, aber noch nicht organisiert.  
 Doodle link: folgt  
 
-## **Schleswig-Holstein**  
+## Schleswig-Holstein:  
   
 ### Flensburg  
 Nächstes #LooperInFlensburg Treffen ist im Frühjahr 2018 geplant.  
 Doodle link: folgt
 
-## **Rhein-Ruhr**:
+## Rhein-Ruhr:
 
 ### Köln
 24.Februar 2018  
@@ -60,16 +60,18 @@ Doodle link: folgt
 Restaurant Rosendorn, Lintgasse 12, Altstadt-Nord  
 
 https://doodle.com/poll/cehm6ngpxn2gedc2  
+  
+## Nordwürttemberg-Nordbaden:  
+  
+### Mannheim  
+Treffen gewünscht  
 
-## **Südbaden**  
+## Südbaden  
   
 ### Freiburg im Breisgau  
 Planungen laufen  
 Doodle link: folgt  
 
-## **Nordwürttemberg-Nordbaden**  
-  
-### Mannheim  
-Treffen gewünscht
+
 
 
