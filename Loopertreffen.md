@@ -47,7 +47,8 @@ Doodle link folgt
 
 ### Köln
 24. Februar 2018  
-18 Uhr
+18 Uhr  
+Restaurant Rosendorn, Lintgasse 12, Altstadt-Nord
 
 Lokalität?  
 https://doodle.com/poll/cehm6ngpxn2gedc2
