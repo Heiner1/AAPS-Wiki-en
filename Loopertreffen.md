@@ -3,7 +3,8 @@
 ## Berlin
 #LooperInBerlin Treffen im März 2018  
 Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf  
-genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt
+genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt  
+Kontakt auch über missdazzle@web.de
 
 ## Bayern und Franken:
 
@@ -37,11 +38,15 @@ Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben
 
 ## Hamburg
 Letztes #LooperInHamburg Treffen war am 7. Januar 2018. Ein nächstes Treffen ist erst angedacht.  
-Doodle link folgt  
+Doodle link: folgt  
 
 ## Hannover
 Letztes #LooperInHannover Treffen war am 30. November 2017. Ein weiteres Treffen ist zwar geplant, aber noch nicht organisiert.  
-Doodle link folgt
+Doodle link: folgt  
+
+## Flensburg  
+Nächstes #LooperInFlensburg Treffen ist im Frühjahr 2018 geplant.  
+Doodle link: folgt
 
 ## Rhein-Ruhr:
 
@@ -50,6 +55,10 @@ Doodle link folgt
 18 Uhr  
 Restaurant Rosendorn, Lintgasse 12, Altstadt-Nord  
 
-https://doodle.com/poll/cehm6ngpxn2gedc2
+https://doodle.com/poll/cehm6ngpxn2gedc2  
+
+## Freiburg im Breisgau  
+Planungen laufen  
+Doodle link: folgt
 
 
