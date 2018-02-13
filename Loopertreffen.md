@@ -1,4 +1,4 @@
-# Treffen der Looper im deutschsprachigen Raum
+# Treffen der LooperInnen im deutschsprachigen Raum
 
 ## Bayern und Franken:
 
