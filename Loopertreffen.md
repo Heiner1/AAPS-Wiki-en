@@ -38,6 +38,8 @@ Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben
 
 ### Köln
 24. Februar 2018
+18 Uhr
+
 Lokalität?
 https://doodle.com/poll/cehm6ngpxn2gedc2
 
