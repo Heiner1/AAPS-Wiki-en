@@ -59,6 +59,11 @@ https://doodle.com/poll/cehm6ngpxn2gedc2
 
 ## Freiburg im Breisgau  
 Planungen laufen  
-Doodle link: folgt
+Doodle link: folgt  
+
+## Nordwürttemberg-Nordbaden  
+  
+### Mannheim  
+Treffen gewünscht
 
 
