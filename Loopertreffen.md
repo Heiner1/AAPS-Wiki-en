@@ -1,7 +1,7 @@
 # Treffen der Looper und Loop-Interessierten im deutschsprachigen Raum
 
 ## Berlin
-#LooperInBerlin Treffen im März 2018  
+LooperInBerlin Treffen im März 2018  
 Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf  
 genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt
 
@@ -21,13 +21,14 @@ Testzeile
 
 ### München
 **Wann?**   Immer am 2ten Donnerstag im Monat:
+
 08.03.2018  
 12.04.2018  
 10.05.2018  
 14.06.2018  
 
 **Wo?**
-Im Schulungsraum von Dr. med. Hans-Joachim Lüddeke, Cosimastraße 2 81927 München, Bayern
+Im Schulungsraum von Dr. med. Hans-Joachim Lüddeke, Cosimastraße 2, 81927 München, Bayern
 
 **Uhrzeit?**
 Ab 19 Uhr
@@ -36,11 +37,11 @@ Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben
 
 
 ## Hamburg
-Letztes #LooperInHamburg Treffen war am 7. Januar 2018. Ein nächstes Treffen ist erst angedacht.  
+Letztes LooperInHamburg Treffen war am 7. Januar 2018. Ein nächstes Treffen ist erst angedacht.  
 Doodle link folgt  
 
 ## Hannover
-Letztes #LooperInHannover Treffen war am 30. November 2017. Ein weiteres Treffen ist zwar geplant, aber noch nicht organisiert.  
+Letztes LooperInHannover Treffen war am 30. November 2017. Ein weiteres Treffen ist zwar geplant, aber noch nicht organisiert.  
 Doodle link folgt
 
 ## Rhein-Ruhr:
