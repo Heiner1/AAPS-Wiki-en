@@ -35,6 +35,14 @@ Ab 19 Uhr
 Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben
 
 
+## Hamburg
+Letztes LooperInHamburg Treffen war am 7. Januar 2018. Ein nächstes Treffen ist erst angedacht.  
+Doodle link folgt
+
+##Hannover
+Letztes LooperInHannover Treffen war am 30. November 2017. Ein weiteres Treffen ist zwar geplant, aber noch nicht organisiert.  
+Doodle link folgt
+
 ## Rhein-Ruhr:
 
 ### Köln
