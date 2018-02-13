@@ -140,16 +140,20 @@ Esta solución no gestionará su diabetes por usted, pero si pone el tiempo nece
 - Don't press any buttons on the pump while AAPS communicates with the pump (Bluetooth logo is
   shown on the pump).
 
-## Tested phones
+## Teléfonos probados
 
-**This section will be removed in favour of https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435**
-**Please add your experiences there**
+⚠️ **Esta sección será eliminada y remplazada por https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435**
 
-Testing phones: use the phone with the Combo at least one week (better two weeks). Notice how often _pump unreachable_ alerts occur, which require either rebooting the phone or pressing a button on the pump. Only if you encounter none of these issues add the phone here with the comment "no issues". Otherwise add the rough frequency these errors occur.
-- Xiaomi Redmi 4x running unofficial LineageOS 14.1: no issues
-- Samsung Galaxy S4 Mini, LineageOS 14.1: no issues
-- Sony Z3 Compact with G5 running unofficial LineageOS 14.1: frequent connection problems
-- Sony Xperia Z5 Compact with Libre+Nightrider; unofficial LineageOS 14.1: no issues
-- Moto G 1st Gen running official LineageOS 14.1: no issues
-- Moto G 2nd Gen LTE running official LineageOS 14.1: no issues
-- Huawei P8 Lite running unofficial LineageOS 14.1: rare connection problems (approx. 1 per week) that can be resolved by pressing a button on the pump.
+**Por favor, añada sus experiencias allí.**
+
+Para probar teléfonos: use el teléfono con el Combo por al menos uno semana (aunque sería mejor dos). Tome nota de la frecuencia a la cual suceden alertas del tipo _bomba fuera de rango_, que requieren bien un reinicio del teléfono o presionar un botón en la bomba. Sólo si no encuentra ninguna incidencia de este tipo añada el modelo de teléfono aquí con el comentario "sin incidencias". En cualquier otro caso agregue una estimación de la frecuencia a la cual estos errores ocurren.
+
+| Modelo (monitor de glucosa) | Sistema operativo | Resultado |
+|------|-----------------|---------|
+| Xiaomi Redmi 4x | LineageOS 14.1 no oficial | Sin incidencias |
+| Samsung Galaxy S4 Mini | LineageOS 14.1 | Sin incidencias |
+| Sony Z3 Compact (G5) | LineageOS 14.1 no oficial | Problemas frecuentes de conexión|
+| Sony Xperia Z5 Compact (Libre+Nightrider) | LineageOS 14.1 no oficial | Sin incidencias |
+| Moto G 1st Gen | LineageOS 14.1 oficial | Sin incidencias |
+| Moto G 2nd Gen LTE | LineageOS 14.1 oficial | Sin incidencias |
+| Huawei P8 Lite | LineageOS 14.1 no oficial| Problemas de conexión infrecuentes (aproximadamente 1 por semana) que se resuelven pulsando un botón de la bomba |
