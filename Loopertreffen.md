@@ -11,13 +11,10 @@ Kontakt auch über missdazzle@web.de
 ### Nürnberg
 **Wann?**
 17.03.2018
-
 **Wo?**
 Villa Leon, Philipp-Koerber-Weg 1, 90439 Nürnberg
-
 **Uhrzeit?**
 Ab 14 bis 18 Uhr. Danach ist noch offen (Restaurant, dort....)  
-Testzeile
 
 
 ### München
@@ -26,13 +23,10 @@ Testzeile
 12.04.2018  
 10.05.2018  
 14.06.2018  
-
 **Wo?**
 Im Schulungsraum von Dr. med. Hans-Joachim Lüddeke, Cosimastraße 2 81927 München, Bayern
-
 **Uhrzeit?**
 Ab 19 Uhr
-
 Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben
 
 
