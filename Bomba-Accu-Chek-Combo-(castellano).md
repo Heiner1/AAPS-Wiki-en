@@ -15,7 +15,7 @@ Esta solución no gestionará su diabetes por usted, pero si pone el tiempo nece
   Para aquellos usuarios avanzados, es posible conectar con un teléfono desbloqueado, y transferirlo a otro 
  teléfono desbloqueado para usarlo con ruffy/AAPS, que también está debloqueado. Esto permitiría usar teléfonos con  Android < 8.1. Esto no se ha probado lo suficiente: https://github.com/gregorybel/combo-pairing/blob/master/README.md
 
-## Limitatciones
+## Limitaciones
 
 - No pueden utilizarse los bolos duales y cuadrados ("extended bolus" y "multiwave bolus").
 - Solo puede utilizarse un perfil de basal.
