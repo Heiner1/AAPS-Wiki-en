@@ -1,10 +1,11 @@
 # Treffen der Looper und Loop-Interessierten im deutschsprachigen Raum
 
+## _Bitte mir Bescheid geben, wenn ihr von neuen Terminen erfahrt oder z.B. doodle Listen für Treffen erstellt habt, damit ich die Seite aktuell halten kann! -> PM bei gitter oder messenger bei facebook oder missdazzle@web.de_
+
 ## Berlin
 #LooperInBerlin Treffen im März 2018  
 Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf  
 genauer Termin wird noch bekanntgegeben bzw. Doodle hier verlinkt  
-Kontakt auch über missdazzle@web.de
 
 
 ## Bayern und Franken:
