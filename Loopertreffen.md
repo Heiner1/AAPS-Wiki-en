@@ -66,7 +66,7 @@ Treffen gewünscht
 ## Südbaden:  
   
 ### Freiburg im Breisgau  
-Bitte eintragen!!!  
+Bitte eintragen für März!!!  
 Doodle link: https://doodle.com/poll/rphtcaxx28ygn5dn  
 
 
