@@ -66,8 +66,8 @@ Treffen gewünscht
 ## Südbaden:  
   
 ### Freiburg im Breisgau  
-Planungen laufen  
-Doodle link: folgt  
+Bitte eintragen!!!  
+Doodle link: https://doodle.com/poll/rphtcaxx28ygn5dn  
 
 
 
