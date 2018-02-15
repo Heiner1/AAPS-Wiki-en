@@ -14,6 +14,7 @@ Configuration:
 * [[BG Source]]
 * [[Nightscout]]
 * [[DanaR Insulin Pump]]
+* [[DanaRS Insulin Pump]]
 * [[Preferences]]
 * [[Watchfaces]]
 
