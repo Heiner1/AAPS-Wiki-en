@@ -4,7 +4,7 @@ _These instructions are for configuring the app and your pump if you have a Dana
 
 *  Select Menu by tapping the 3 dots in the top right. Select Preferences.
 
-*  Select DanaRS Pair New Pumo, and click your DanaRS serial number.
+*  Select DanaRS Pair New Pump, and click your DanaRS serial number.
 
 *  Select Pump password, and input your password. (Default password is either 1234 or 0000)
 
