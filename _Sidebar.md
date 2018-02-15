@@ -21,8 +21,7 @@ Configuration:
 Usage:
 * [[Objectives]]
 * [[Open APS features]]
-* [[Circadian Percentage Profile]]
-* [[Working with profiles in 1.5]]
+* [[Profiles]]
 * [[SMS Commands]]
 * [[Tips and tricks]]
 * [[Accessing logfiles]]
