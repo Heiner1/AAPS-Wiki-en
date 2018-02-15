@@ -12,18 +12,13 @@ or use git clone in Android Studio
 
 [[https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/fullwearcontrolrelease.png]] 
 
-* Select the build type you want to build. There are different modular options, the different parts of the name are described below to help you choose, we recommend **bold** for default AndroidAPS app (**fullWearcontrolRelease**) or _italic_ for parents monitoring looping (_nsclientWearRelease_).
-    * **full - full app**
-    * _nsclient - downloads treatments from NS and uploads care portal entries (no looping, just monitors looping from elsewhere)_
-    * openloop - just the OpenAPS part of the app (no pump driver)
-    * pumpcontrol - just the DanaR remote control part of the app (no looping function, just for bolusing)<br><br>
-
-    * Nowear - just phone app, doesn't include watch app
-    * _Wear - includes android wear watch app for viewing_
-    * **Wearcontrol - includes android wear watch app for controlling pump (e.g. temp targets and bolusing)**<br><br>
-
-    * _**Release - should be the default choice**_
-    * Debug - just for people coding
+* Select the build type you want to build. 
+    * full (i.e. recommendations automatically enacted in closed looping)
+    * openloop (i.e. recommendations given to user to manually enact)
+    * pumpcontrol (i.e. remote control for pump, no looping)
+    * nsclient (i.e. looping data of another user is displayed and careportal entries can be added)
+<br>
+'Release' should be your default choice, 'Debug' is just for people coding.
 
 * Go to Build Menu and click on Generate Signed APK
 
@@ -41,4 +36,4 @@ or use git clone in Android Studio
 
 * Click on 'Show in Explorer'. You'll find the APK is generated, sometimes it may take time to display.
 
-* Copy the APK with the same finename as the buildtype you chose to your android phone, and install it.  If the apk does not install and you have an older version of AndroidAPS on your phone that was signed with a different key then you will need to uninstall this first, remember to export your settings if so.
+* Copy the APK with the same filename as the buildtype you chose to your android phone, and install it.  If the apk does not install and you have an older version of AndroidAPS on your phone that was signed with a different key then you will need to uninstall this first, remember to export your settings if so.
