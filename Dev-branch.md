@@ -1,6 +1,8 @@
 The most stable version of AndroidAPS to use is that in the [Master branch](https://github.com/MilosKozak/AndroidAPS/tree/master).  It is advised to stay on the Master branch while you complete the Objectives and get practiced at looping.
 
-However, the [Dev branch](https://github.com/MilosKozak/AndroidAPS/tree/dev) is a good place to see what features are being tested and to help iron out the bugs and give feedback on how the new features work in practice.  Often people will test the Dev branch on an old phone and pump until they are confident it is stable - any use of it is at your own risk.  A short summary of some of the changes to old features or development of new features currently in the Dev branch is listed below, and links to any key issues known will be shared (if applicable).
+However, the [Dev branch](https://github.com/MilosKozak/AndroidAPS/tree/dev) is a good place to see what features are being tested and to help iron out the bugs and give feedback on how the new features work in practice.  Often people will test the Dev branch on an old phone and pump until they are confident it is stable - any use of it is at your own risk.  
+
+A short summary of some of the changes to old features or development of new features currently in the Dev branch is listed below, and links to any key issues known will be shared (if applicable).
 
 **Super Micro Bolus (SMB)**<br>
 More can be read on [Super Micro Boluses (SMB) on OpenAPS docs](https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-smb).<br>
