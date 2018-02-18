@@ -15,6 +15,7 @@ Configuration:
 * [[Nightscout]]
 * [[DanaR Insulin Pump]]
 * [[DanaRS Insulin Pump]]
+* [[Accu Chek Combo Pump]]
 * [[Preferences]]
 * [[Watchfaces]]
 
@@ -49,6 +50,7 @@ DE:
     * [Update auf neue Version_de](https://github.com/MilosKozak/AndroidAPS/wiki/Update-auf-neue-Version_de)
 * Einstellungen
     * [DanaR Insulinpumpe_de](https://github.com/MilosKozak/AndroidAPS/wiki/DanaR-Insulinpumpe_de)
+    * [Accu-Chek Combo Pumpe](https://github.com/MilosKozak/AndroidAPS/wiki/Accu-Chek-Combo-Pumpe)
     * [Nightscout_de](https://github.com/MilosKozak/AndroidAPS/wiki/Nightscout_de)
     * [Blutzucker Quelle_de](https://github.com/MilosKozak/AndroidAPS/wiki/Blutzucker-Quelle_de)
     * [AndroidAPS_de](https://github.com/MilosKozak/AndroidAPS/wiki/AndroidAPS_de)
