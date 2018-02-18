@@ -161,17 +161,3 @@ Please be aware that this is not complete list and reflects personal user experi
   an app.
 - Don't press any buttons on the pump while AAPS communicates with the pump (Bluetooth logo is
   shown on the pump).
-
-## Tested phones
-
-**This section will be removed in favour of https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435**
-**Please add your experiences there**
-
-Testing phones: use the phone with the Combo at least one week (better two weeks). Notice how often _pump unreachable_ alerts occur, which require either rebooting the phone or pressing a button on the pump. Only if you encounter none of these issues add the phone here with the comment "no issues". Otherwise add the rough frequency these errors occur.
-- Xiaomi Redmi 4x running unofficial LineageOS 14.1: no issues
-- Samsung Galaxy S4 Mini, LineageOS 14.1: no issues
-- Sony Z3 Compact with G5 running unofficial LineageOS 14.1: frequent connection problems
-- Sony Xperia Z5 Compact with Libre+Nightrider; unofficial LineageOS 14.1: no issues
-- Moto G 1st Gen running official LineageOS 14.1: no issues
-- Moto G 2nd Gen LTE running official LineageOS 14.1: no issues
-- Huawei P8 Lite running unofficial LineageOS 14.1: rare connection problems (approx. 1 per week) that can be resolved by pressing a button on the pump.
