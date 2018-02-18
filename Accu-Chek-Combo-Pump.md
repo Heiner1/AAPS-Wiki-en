@@ -101,7 +101,8 @@ Please be aware that this is not complete list and reflects personal user experi
   reboot the phone after the pairing process and let AAPS start ruffy in the background.
 - Before enabling the Combo plugin in AAPS make sure your profile is set up
   correctly and activated(!) and your basal profile is up to date as AAPS will sync the basal profile
-  to the pump. Then activate the Combo plugin.
+  to the pump. Then activate the Combo plugin. Press the _Refresh_ button on the Combo tab to initialize the 
+  pump.
 
 ## Usage
 
