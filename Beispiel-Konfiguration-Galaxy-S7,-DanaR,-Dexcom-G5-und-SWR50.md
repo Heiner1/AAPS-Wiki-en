@@ -22,7 +22,7 @@ Alternativen: siehe Android-Smartphones in der [Dexcom Kompatibilitätsliste](ht
 
 Bezugsquelle: In Deutschland auf Rezept oder privat über die Firma [IME-DC GmbH](http://www.ime-dc.de) 
 
-Alternativen: [DanaRS](http://www.sooil.com/eng/product/) (in Deutschland noch nicht erhältlich), demnächst wahrscheinlich auch die [Roche Combo](http://www.accu-chek.de/produkte/de/insulinpumpentherapie/combo/index.jsp)
+Alternativen:  [Accu-Chek Combo](https://github.com/MilosKozak/AndroidAPS/wiki/Accu-Chek-Combo-Pumpe), [DanaRS](http://www.sooil.com/eng/product/) (bereits unterstützt, Pumpe in Deutschland noch nicht erhältlich)
 
 3. [Dexcom G5](https://www.nintamed.eu/p/products/dexcomg5)
 
