@@ -7,7 +7,7 @@ A short summary of some of the changes to old features or development of new fea
 **Super Micro Bolus (SMB)**<br>
 More can be read on [Super Micro Boluses (SMB) on OpenAPS docs](https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-smb).<br><br>
 Remember that you are choosing to test a still-in-development feature. Do so at your own risk & with due diligence to keep yourself safe.<br><br>
-You should have run basic closed looping for more than two weeks, and be very aware of all the types of situations in which your APS might fail.<br><br>
+You should have run basic closed looping for more than four weeks (having completed Objective 7), and be very aware of all the types of situations in which your APS might fail.<br><br>
 You may need to adjust your settings to allow SMB to work effectively.  A good place to start is increasing your max IOB to normal meal bolus + 3x max daily basal.  But remain vigilant and adjust settings with care.
 
 <br><br><br>
