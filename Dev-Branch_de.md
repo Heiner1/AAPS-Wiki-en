@@ -7,7 +7,7 @@ Eine kurze Zusammenfassung der aktuellen Änderungen findest du hier.
 **Super Micro Bolus (SMB)**<br>
 Genauere Infos gibt es hier [Super Micro Boluses (SMB) on OpenAPS docs](https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-smb).<br><br>
 Beachte, dass du dich dazu entscheidest eine Funktion zu testen, welche noch in der Entwicklung ist.<br><br>
-Du solltest schon seit mehr als einem Monat den Closed Loop betreiben, und darauf achten, dass dein APS ausfallen könnte.<br><br>
+Um SMB verwenden zu können musst du zuerst 28 Tage den Closed Loop verwendet haben, und darauf achten, dass dein APS ausfallen könnte.<br><br>
 Um SMB effektiv arbeiten zu lasssen, musst du deine Einstellungen anpassen. Da mit SMB der maxIOB nicht mehr durch die vom APS gegebenen Dosen berechnet wird, sondern alles IOB (auch deinen selbst gegebenen Essensbolus), ist der Wert für maxIOB höher, als das was du von MA und AMA gewohnt bist. Ein guter Wert für den Anfang ist: 1 normaler Essensbolus + 3x höchste tägl. Basalrate. Jedoch sei dabei vorsichtig und adjustiere deine Einstellungen in kleinen Schritten.
 
 <br><br><br>
