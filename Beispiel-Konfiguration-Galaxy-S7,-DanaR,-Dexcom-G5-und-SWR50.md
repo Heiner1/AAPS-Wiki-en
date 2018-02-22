@@ -51,7 +51,7 @@ Hierzu nach folgender Anleitung vorgehen: [http://www.nightscout.info/wiki/welco
 * App-Namen auswählen
 * Settings > Schaltfläche "Reveal Config Vars" anklicken
 * Variablen hinzufügen oder wie folgt ändern:<br>
-   ENABLE = `careportal boluscalc food bwp cage sage iage iob cob basal ar2 rawbg pushover bgi pump openapsbasal loop`<br>
+   ENABLE = `careportal food cage sage iage iob cob basal rawbg pushover bgi pump openaps openapsbasal loop`<br>
    DEVICESTATUS_ADVANCED = `true`<br>
    PUMP_FIELDS = `reservoir battery clock`
 <br><br>
