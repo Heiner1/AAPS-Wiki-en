@@ -25,6 +25,7 @@ Usage:
 * [[Profiles]]
 * [[SMS Commands]]
 * [[Tips and tricks]]
+* [Combo Tipps and Tricks](Accu-Chek-Combo-Tipps-and-Tricks)
 * [[Accessing logfiles]]
 * [[Dev branch]]
 
@@ -63,6 +64,7 @@ DE:
     * [Profil "Free-Peak 0ref"](https://github.com/MilosKozak/AndroidAPS/wiki/Profil-%22Free-Peak-0ref%22.)
     * [[SMS Commands_de]]
     * [Tipps und Tricks_de](https://github.com/MilosKozak/AndroidAPS/wiki/Tipps-und-Tricks_de)
+    * [Tipps und Tricks zur Combo](Tipps-und-Tricks-zur-Accu-Chek-Combo)
     * [Logfiles erhalten_de](https://github.com/MilosKozak/AndroidAPS/wiki/Logfiles-erhalten_de)
     * [[Dev branch_de]]
 * Beispiel-Setups und Erfahrungsberichte:
