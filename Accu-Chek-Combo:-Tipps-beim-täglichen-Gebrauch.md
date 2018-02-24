@@ -5,6 +5,7 @@
 * Wenn Du die App ruffy während des Looping-Betriebs doch versehentlich öffnest, mach am besten direkt einen Neustart des Smartphones.
 * Bediene die Pumpe soweit möglich nur noch über die App AndroidAPS. Um dies zu erleichtern, aktiviere am besten die Tastensperre auf der Pumpe unter **PUMPEN-EINSTELLUNGEN / TASTENSPERRE / EIN**. Einzig zum Wechseln der Batterie oder der Ampulle ist dann noch die Bedienung direkt an der Pumpe nötig. ![Keylock](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/keylock.png?raw=true)
 
+# Pumpe nicht erreichbar - was kann ich tun?
 ## Erreichbarkeit der Pumpe wieder herstellen
 * Wenn AndroidAPS einen “**Pumpe ist nicht erreichbar**” Alarm meldet, hebe zunächst die Tastensperre auf und **drücke irgendeine Taste auf der Pumpe** (z.B. "Nach unten" Knopf). Sobald dann das Display der Pumpe wieder leer ist, drücke **AKTUALISIEREN** auf dem Combo Tab in AndroidAPS. Meistens klappt dann die Kommunikation wieder.
 * Wenn das nichts hilft, starte Dein Smartphone neu. Nach dem Neustart wird AndroidAPS und ruffy wieder aktiviert und eine neue Verbindung mit der Pumpe aufgebaut.
