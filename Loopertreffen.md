@@ -50,11 +50,10 @@ Doodle link: folgt
 ## Rhein-Ruhr:  
    
 ### Köln
-24.Februar 2018  
-18 Uhr  
-Restaurant Rosendorn, Lintgasse 12, Altstadt-Nord  
+Das letzte Treffen war am 24.Februar 2018 und ein voller Erfolg, so wie ich gehört habe.  
 
-https://doodle.com/poll/cehm6ngpxn2gedc2  
+Nächstes Treffen:
+Doodle link folgt.  
  
  
 ## Nordwürttemberg-Nordbaden:  
