@@ -49,10 +49,12 @@ Doodle link: folgt
   
 ## Rhein-Ruhr:  
    
-### Köln
-Das letzte Treffen war am 24.Februar 2018 und ein voller Erfolg, so wie ich gehört habe.  
-
-Nächstes Treffen:
+### Köln  
+Das letzte Treffen war am 24.Februar 2018 und ein voller Erfolg, so wie ich gehört habe. 
+ 
+Link zur WhatsApp Gruppe (funktioniert nur über das Smartphone): https://chat.whatsapp.com/LYFYeEv2KhNDMbwSuGfBBT 
+  
+Nächstes Treffen:  
 Doodle link folgt.  
  
  
