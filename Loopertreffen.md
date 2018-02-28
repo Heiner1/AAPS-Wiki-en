@@ -17,7 +17,7 @@ Doodle: https://doodle.com/poll/qxye2bdsg7n2rypx
 
 ### München
 **Wann?** Immer am 2ten Donnerstag im Monat:   
-08.03.2018  (siehe unten!)
+08.03.2018 (siehe unten!)  
 12.04.2018  
 10.05.2018  
 14.06.2018  
