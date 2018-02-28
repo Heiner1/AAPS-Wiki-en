@@ -17,13 +17,16 @@ Doodle: https://doodle.com/poll/qxye2bdsg7n2rypx
 
 ### München
 **Wann?** Immer am 2ten Donnerstag im Monat:   
-08.03.2018  
+08.03.2018  (siehe unten!)
 12.04.2018  
 10.05.2018  
 14.06.2018  
 **Wo?** Im Schulungsraum von Dr. med. Hans-Joachim Lüddeke, Cosimastraße 2 81927 München  
 **Uhrzeit?** Ab 19 Uhr  
-Kleiderordnung: Mit großer Tasche, wo alle Loop-Utensilien Platz haben  
+
+Dritter Münchner Looper Treff am Donnerstag den 8.3., kommet zu Hauf, aber tragt euch vorher hier ein:  
+https://xoyondo.com/dp/87bfgyUprjPZT7f  
+Unter Umständen wird die Location noch geändert!
   
 
 ## Hamburg
