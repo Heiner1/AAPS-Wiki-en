@@ -14,4 +14,4 @@
 2. Wähle Pumpen Passwort, und gebe das Passwort ein (Standard ist entweder 1234, oder 0000).
 3. Falls du willst, dass AAPS Basalraten über 200% einstellen kann, musst du "Benutze extended Bolus für hohe temp. Basal" aktivieren. Falls du diese Option nicht aktivierst, kann AAPS die BR nicht auf über 200% erhöhen.
 
-* Gehe in der Pumpe zum **Arztmenü** (+, - und > gleichzeitig drücken, PIN 3022 eingeben) und setze folgende Einstellungen: Bolus Block = 0 (sonst funktioniert SMB später nicht richtig), Bolus = 0.1, Basal = 0.01, Max Basal = ca. dreifache Menge der höchsten einzelnen Basalrate/h, Max Bolus / Max Tag = individuell, aber nicht zu gering.
+* Gehe in der Pumpe zum **Arztmenü** (+, - und > gleichzeitig drücken, PIN 3022 eingeben) und setze folgende Einstellungen: Bolus Block = 0 (sonst funktioniert SMB später nicht richtig), Bolus = 0.1, Basal = 0.01, Max Basal = ca. dreifache Menge der höchsten einzelnen Basalrate/h, Max Bolus / Max Tag = individuell, aber nicht zu gering. Hier solltest du mind. die doppelte tägliche Insulingesamtmenge angeben (oder das 2,5fache).
