@@ -25,7 +25,7 @@ The options here will vary depending on which pump driver you have selected in '
 * Set your 'nightscout URL' here (https://yourwebsitename.herokuapp.com or https://yourwebsitename.azurewebsites.net), and the 'API secret' (a 12 character password recorded in your heroku or azure variables).  This enables data to be read and written between both the nightscout website and AndroidAPS.  Double check for typos here if you are stuck in Objective 1.
 * 'Log app start to nightscout' will record a note in your careportal entries every time the app is started.  The app should not be needing to start more than once a day, more frequently than this suggests a problem.  
 * 'Enable local broadcasts' will share your careportal data to other apps on the phone such as xdrip.  
-* 'Alarm options' allows you to select which default nightscout alarms to use through the app, to set the alarm values amend your [heroku or azure variables](http://www.nightscout.info/wiki/welcome/website-features#customalarms).
+* 'Alarm options' allows you to select which default nightscout alarms to use through the app.  For the alarms to sound you need to set the Urgent High, High, Low and Urgent Low alarm values in your [heroku or azure variables](http://www.nightscout.info/wiki/welcome/website-features#customalarms).
 ## SMS Communicator
 This setting allows remote control of the app by texting instructions to the patients phone which the app will follow such as suspending loop, or bolusing.  Further information is described in [[SMS Commands]] but it will only display in Preferences if you have selected this option in the Config Builder.
 ## Other
@@ -33,7 +33,7 @@ This setting allows remote control of the app by texting instructions to the pat
 * You can set default prime amounts - this will prime the pump the value specified and this insulin is counted as used from the reservoir but not counted in IOB calculations. See the instruction booklet in your cannula box for how many units should be primed depending on needle length and tubing length.
 * You can change the display on the homescreen and watch for the values that are in range.  Note that this is just how the graphs look and doesn't impact on your target or calculations.
 * 'Shorten tab titles' allows you to see more tab titles on screen, for example the 'Open APS' tab becomes 'OAPS', 'Objectives' becomes 'Obj' etc.
-*  'Local Alerts' lets you decide if you receive a warning and after how long for not receiving blood glucose values or the pump being unreachable.  If you frequently get pump unreachable alerts then enable BT Watchdog in the Advanced Settings.
+*  'Local Alerts' lets you decide if you receive a warning and after how long for not receiving blood glucose values (stale data) or the pump being unreachable.  If you frequently get pump unreachable alerts then enable BT Watchdog in the Advanced Settings.
 ## Advanced Settings ``requires more work
 * OpenAPS MA
   * Always use short average delta instead of...
