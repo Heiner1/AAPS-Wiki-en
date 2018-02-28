@@ -3,7 +3,7 @@
 ## _Bitte mir Bescheid geben, wenn ihr von neuen Terminen erfahrt oder z.B. doodle Listen für Treffen erstellt habt, damit ich die Seite aktuell halten kann! -> PM bei gitter oder über messenger bei facebook (Saskia Wolf) oder missdazzle@web.de_
 
 ## Berlin
-#LooperInBerlin Treffen im März 2018  
+#LooperInBerlin Treffen am 9. März 2018  
 Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf  
 Doodle: https://doodle.com/poll/qxye2bdsg7n2rypx  
 
