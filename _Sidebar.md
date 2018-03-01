@@ -10,6 +10,7 @@ How to install AndroidAPS:
 * [[Update to new version]]
 
 Configuration:
+* [[Config Builder]]
 * [[BG Source]]
 * [[Nightscout]]
 * [[DanaR Insulin Pump]]
