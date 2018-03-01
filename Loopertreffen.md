@@ -35,7 +35,8 @@ Ein nächstes Treffen ist erst angedacht.
 Doodle link: folgt 
   
 Vorschau für den Herbst:  
-Am 5. September 2018 lädt die IDAA (Vereinigung diabetischer Sportler - Vorstandsvorsitzende ist Ulrike Thurm) zu einer Veranstaltung im Bethesda Krankenhaus in Hamburg-Bergedorf ein - Thema Diabetes und Technik (und auch DIY Closed Loop).  
+Am 5. September 2018 lädt die IDAA (Vereinigung diabetischer Sportler - Vorstandsvorsitzende ist Ulrike Thurm) zu einer Veranstaltung im Bethesda Krankenhaus in Hamburg-Bergedorf ein - Thema Diabetes und Technik (Schwerpunkt DIY).  
+ 
 Dies könnte zur Gründung eines festen Stammtisches für LooperInHamburg führen.... 
  
  
