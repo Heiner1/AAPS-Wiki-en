@@ -1,11 +1,13 @@
-* Download the [AndroidAPS repository](https://github.com/MilosKozak/AndroidAPS) and extract the files 
-or use git clone in Android Studio
+* Install Android Studio.  
+* Click "Clone or Download" button on the [AndroidAPS repository](https://github.com/MilosKozak/AndroidAPS) and either download zip and extract the files, or use git clone in Android Studio as shown in screenshot below.
 
 ![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot%201.png)
 ![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot2.png)
 
 
 * Run Android Studio and select 'Open an existing Android Studio project', selecting the location of the extracted files.
+
+* You might get an error message about not finding build tools - click on the links Android Studio provides to download all the software updates suggested.
 
 * Click on BuildVariants button on the bottom left of the Android Studio, and notice that you have several kinds of build types.
 
