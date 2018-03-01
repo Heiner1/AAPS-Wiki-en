@@ -25,7 +25,7 @@ Usage:
 * [[Profiles]]
 * [[SMS Commands]]
 * [[Tips and tricks]]
-* [Combo Tipps and Tricks](Accu-Chek-Combo-Tipps-and-Tricks)
+  * [Combo specific Tips and Tricks](Accu-Chek-Combo-Tipps-and-Tricks)
 * [[Accessing logfiles]]
 * [[Dev branch]]
 
