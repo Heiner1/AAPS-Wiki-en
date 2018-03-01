@@ -8,16 +8,16 @@ Getting Started:
 How to install AndroidAPS:
 * [[Building APK]]
 * [[Update to new version]]
+* [[Nightscout]]
 
 Configuration:
 * [[Config Builder]]
-* [[BG Source]]
-* [[Nightscout]]
-* [[DanaR Insulin Pump]]
-* [[DanaRS Insulin Pump]]
-* [[Accu Chek Combo Pump]]
+  * [[BG Source]]
+  * [[DanaR Insulin Pump]]
+  * [[DanaRS Insulin Pump]]
+  * [[Accu Chek Combo Pump]]
+  * [[Watchfaces]]
 * [[Preferences]]
-* [[Watchfaces]]
 
 Usage:
 * [[Objectives]]
