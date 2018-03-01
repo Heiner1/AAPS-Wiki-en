@@ -32,7 +32,9 @@ Unter Umständen wird die Location noch geändert!
 ## Hamburg
 Letztes #LooperInHamburg Treffen war am 7. Januar 2018.  
 Ein nächstes Treffen ist erst angedacht.  
-Doodle link: folgt  
+Doodle link: folgt 
+  
+Vorschau für den Herbst: Am 5. September 2018 lädt die IDAA (Vereinigung diabetischer Sportler - Vorstandsvorsitzende ist Ulrike Thurm) zu einer Veranstaltung im Bethesda Krankenhaus in Hamburg-Bergedorf ein - Thema Diabetes und Technik (und auch DIY Closed Loop). Dies könnte zur Gründung eines festen Stammtisches für LooperInHamburg führen.... 
  
  
 ## Niedersachsen:  
