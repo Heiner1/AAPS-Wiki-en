@@ -13,7 +13,8 @@ Doodle: https://doodle.com/poll/qxye2bdsg7n2rypx
 ### Nürnberg
 **Wann?** 17.03.2018  
 **Wo?** Villa Leon, Philipp-Koerber-Weg 1, 90439 Nürnberg  
-**Uhrzeit?** Ab 14 bis 18 Uhr. Danach ist noch offen (Restaurant, dort....)  
+**Uhrzeit?** Ab 14 bis 18 Uhr. Danach ist noch offen (Restaurant, Biergarten... etc...)  
+**Event-Details: https://www.facebook.com/events/1620410464691771/**
 
 ### München
 **Wann?** Immer am 2ten Donnerstag im Monat:   
