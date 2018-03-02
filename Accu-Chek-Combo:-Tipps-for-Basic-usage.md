@@ -54,8 +54,7 @@ Ranges for typical life time of the different battery types are as follows:
 
 If your battery life is signifcantly shorter than the ranges given above, please check the following possible causes:
 * There are some variants of the screw-on battery cap of the Combo pump, which partially short circuits the batteries and drain them quickly. The caps without this problem can be recognized by the golden metal contacts.
-* If the pump clock does not "survive" a short battery change, it is likely that the capacitor is broken which keeps the clock running during a brief power outage. In this case, only replacement of the pump by Roche will help, which is not a problem during the warranty period.
-* On some smartphones, the AndroidAPS app is often closed to save energy or free RAM. Then AndroidAPS is reinitialized at each startup. It then establishes a Bluetooth connection to the pump, and re-reads the current basal rate and bolus history. This consumes a lot of battery and leads to a short battery life. To investigate if you are impacted by this error, go to **Settings** and enable **Log app start in NS**. This will ennsure Nightscout receives an event at every restart of AndroidAPS, which makes it easy to track the issue. 
+* If the pump clock does not "survive" a short battery change, it is likely that the capacitor is broken which keeps the clock running during a brief power outage. In this case, only replacement of the pump by Roche will help, which is not a problem during the warranty period. 
 
 # Daylight saving time changes
 * Currently the combo driver does not support automatic adjustment of the pump's time.
@@ -86,22 +85,3 @@ The OpenAPS algorithm does not support a parallel extended bolus or multiwave bo
 * This mechanism is also responsible for a second cause of the error: If during the use of the bolus calculator another bolus is delivered via the pump and thereby the bolus history changes, the basis of the bolus calculation is wrong and the bolus is aborted. 
 
 ![Canceled bolus](https://raw.githubusercontent.com/T-o-b-i-a-s/ComboLooping/f9c56c930dc564c1649cd8e3764e077ffc02c5ef/resources/History_changed.png)
-
-
-# Changing the cannula
-* As opposed to the usual procedure, AndroidAAPS / Combo does not use the "prime infusion set" function of the pump, but fills the infusion set and cannula using a normal bolus, which does not appear in the bolus history. This has the advantage that it does not interrupt a currently running temporary basal rate.
-* Thus, to change the cannula, first remove the old cannula and connect the new one, but do not insert it yet.
-* On the **Actions tab** in the AndoidAPS, use the **PRIME/FILL** button to set the amount of insulin needed to fill the infusion set and start the priming. If the amount is not enough, repeat filling.
-* Then insert the new cannula. 
-
-# Changing the insulin cartridge
-* The change of cartridge can not be done via AndroidAAPS, but must be carried out as before directly via the pump.
-* Long press on Closed Loop on the Home screen of AndroidAAPS and select **Suspend Loop for 1h**
-* Now disconnect the pump, deactivate the key lock, set the pump to stop and change the cartridge.
-* Exchange the cartridge as you used to do and set a new cannula if necessary.
-* Then press continue the loop by long pressing on **Suspended**. 
-
-# Take off the pump
-* By long pressing on **Closed Loop** on the home screen of AndroidAAPS, disconnect pump for the desired duration.
-* Now the pump can be removed, the basal rate is set to 0%.
-* After re-applying the pump, long-press **suspended** and select **Continue**. 
