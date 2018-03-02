@@ -11,6 +11,3 @@ This collection of pages provides tipps and tricks when using AndroidAPS with th
 * [Daylight saving time changeover](./Accu-Chek-Combo:-Tipps-for-Basic-usage#daylight-saving-time-changes)
 * [Extended bolus & multiwave bolus](./Accu-Chek-Combo:-Tipps-for-Basic-usage#extended-bolus-multiwave-bolus)
 * [Alarms at bolus delivery](./Accu-Chek-Combo:-Tipps-for-Basic-usage#alarms-at-bolus-delivery)
-* [Changing the cannula](./Accu-Chek-Combo:-Tipps-for-Basic-usage#changing-the-cannula)
-* [Changing the insulin cartridge](./Accu-Chek-Combo:-Tipps-for-Basic-usage#changing-the-insulin-cartridge)
-* [Take off the pump](./Accu-Chek-Combo:-Tipps-for-Basic-usage#take-off-the-pump)
