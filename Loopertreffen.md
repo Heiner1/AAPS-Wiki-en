@@ -46,9 +46,8 @@ Dies könnte zur Gründung eines festen Stammtisches für LooperInHamburg führe
 ## Niedersachsen:  
   
 ### Hannover  
-Letztes #LooperInHannover Treffen war am 30. November 2017.  
-Ein weiteres Treffen ist zwar geplant, aber noch nicht organisiert.  
-Doodle link: folgt  
+#LooperInHannover Treffen im März 2018 als lockeres Beisammensein.  
+Doodle link: https://doodle.com/poll/68ab3a56hxy5ss85  
  
  
 ## Schleswig-Holstein:  
