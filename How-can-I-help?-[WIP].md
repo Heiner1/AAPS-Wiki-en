@@ -6,6 +6,12 @@ _To fully test a new rig developers need to have a spare phone and a spare pump 
 Pick a small task at first and do your first pull request! :)
 
 **I've got cash I'd like to donate, how do I do that?**  PayPal: donations@androidaps.org
+**What is the money used for?** The money is NOT payed to anyone for their work! It is used to keep the costs for the developers low when organizing meetings. We try to be very transparent. This is what is currently planned:
+  * European Dev Meetup in Prague end of May 2018:
+    * renting a room plus internet
+    * equipment
+    * food / coffee
+    * in the unlikely case the former will be fully covered and some money remains: travel expenses for those who have to travel a longer distance. (Some devs from other continents will attend but are in Europe already at that time, so travel costs will be kept low.)
 
 **I've got spare equipment, where do I send it?** We are currently collecting <any particular pumps/phones?> to begin distributing them for testing. At the end of the process, any leftover equipment will be donated to one of the Pay-it-Forward facebook groups that exist to support the T1 community. If you want to donate spare equipment, e-mail developers@androidaps.org and we'll send you an address.
 
