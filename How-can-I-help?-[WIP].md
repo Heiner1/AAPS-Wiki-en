@@ -5,7 +5,7 @@ _To fully test a new rig developers need to have a spare phone and a spare pump 
 **I can write code! How do I participate?**  Yay! Look at the issues, ask in the gitter channel, there is always a lot to do! 
 Pick a small task at first and do your first pull request! :)
 
-**I've got cash I'd like to donate, how do I do that?**  PayPal: donations@androidaps.org
+**I've got cash I'd like to donate, how do I do that?**  PayPal: donations@androidaps.org  
 **What is the money used for?** The money is NOT paid to anyone for their work! It is used to keep the costs for the developers low when organizing meetings. We try to be very transparent. This is what is currently planned:
   * European Dev Meetup in Prague end of May 2018:
     * hiring a room plus internet
