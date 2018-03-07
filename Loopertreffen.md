@@ -60,13 +60,12 @@ Doodle link: folgt
 ## Rhein-Ruhr:  
    
 ### Köln  
-Das letzte Treffen war am 24. Februar 2018 und ein voller Erfolg, so wie ich gehört habe. 
  
 Link zur Kölner WhatsApp Gruppe (funktioniert nur über das Smartphone):  
 https://chat.whatsapp.com/LYFYeEv2KhNDMbwSuGfBBT 
   
-Nächstes Treffen:  
-Doodle link folgt.  
+Terminauswahl für das nächste Treffen:  
+https://doodle.com/poll/cfmxvbne8c87xirq  
  
  
 ## Nordwürttemberg-Nordbaden:  
