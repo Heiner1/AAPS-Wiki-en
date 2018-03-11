@@ -6,6 +6,7 @@ Getting Started:
 * [[Glossary]]
 
 How to install AndroidAPS:
+* [[Phones]]
 * [[Building APK]]
 * [[Update to new version]]
 * [[Nightscout]]
