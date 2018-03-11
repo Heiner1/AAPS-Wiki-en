@@ -71,7 +71,8 @@ https://doodle.com/poll/cfmxvbne8c87xirq
 ## Nordwürttemberg-Nordbaden:  
   
 ### Mannheim  
-Treffen gewünscht  
+Hey, auch hier tut sich was! Bitte fleißig eintragen:
+https://doodle.com/poll/n3pbi8shub65m9im
  
  
 ## Südbaden:  
