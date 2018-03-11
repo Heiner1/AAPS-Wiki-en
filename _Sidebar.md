@@ -3,10 +3,10 @@ Getting Started:
 * [[Safety first]]
 * [[Screenshots]]
 * [[Architecture, security implementation]]
+* [[Phones]]
 * [[Glossary]]
 
 How to install AndroidAPS:
-* [[Phones]]
 * [[Building APK]]
 * [[Update to new version]]
 * [[Nightscout]]
