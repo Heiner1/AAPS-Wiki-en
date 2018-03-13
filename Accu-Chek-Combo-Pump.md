@@ -97,6 +97,7 @@ Please be aware that this is not complete list and reflects personal user experi
   and switch back to ruffy after confirming the pairing on the pump, when the pump displays the authorization code.
 - When AAPS is using ruffy, the ruffy app can't be used. The easiest way is to just
   reboot the phone after the pairing process and let AAPS start ruffy in the background.
+- If the pump is completely new, you need to do one bolus on the pump, so the pump creates a first history entry.
 - Before enabling the Combo plugin in AAPS make sure your profile is set up
   correctly and activated(!) and your basal profile is up to date as AAPS will sync the basal profile
   to the pump. Then activate the Combo plugin. Press the _Refresh_ button on the Combo tab to initialize the 
