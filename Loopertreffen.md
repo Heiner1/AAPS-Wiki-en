@@ -5,9 +5,9 @@
 ## Die Liste der potentiellen Orte für Loopertreffen ist zusätzlich als Anregung für euch gedacht, Treffen zu organisieren. Ihr findet sie hier: https://doodle.com/poll/cpui3ifzrzyu3id8  
 
 ## Berlin
-#LooperInBerlin Treffen am 9. März 2018  
+#LooperInBerlin Treffen im April 2018  
 Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf  
-Doodle: https://doodle.com/poll/qxye2bdsg7n2rypx  
+Doodle link folgt  
 
 
 ## Bayern und Franken:
