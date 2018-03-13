@@ -40,7 +40,7 @@ Dies könnte zur Gründung eines festen Stammtisches für LooperInHamburg führe
 ## Niedersachsen:  
   
 ### Hannover  
-#LooperInHannover Treffen im März 2018 als lockeres Beisammensein.  
+#LooperInHannover Treffen Ende März 2018 als lockeres Beisammensein.  
 Doodle link: https://doodle.com/poll/68ab3a56hxy5ss85  
  
  
