@@ -83,7 +83,7 @@
   correctly and activated(!) and your basal profile is up to date as AAPS will sync the basal profile
   to the pump. Then activate the Combo plugin. Press the _Refresh_ button on the Combo tab to initialize the 
   pump.
-- To verify your setup, with the pump **disconnected**, set a TBR of 500% for 15 min and issue a bolus. The pump should now have a TBR running and the bolus in the history. AAPS should also show the active TBR and delivered bolus.
+- To verify your setup, with the pump **disconnected**, use AAPS to set a TBR of 500% for 15 min and issue a bolus. The pump should now have a TBR running and the bolus in the history. AAPS should also show the active TBR and delivered bolus.
 
 ## Usage
 
