@@ -15,7 +15,7 @@
 
 ###  What you need to get started
 
-* An Android Smartphone with Android 5.0 or later. See [this spreadsheet](https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit?usp=sharing) for reports on how well a phone works with AAPS.
+* An Android Smartphone with Android 5.0 or later. See [this spreadsheet](https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit?usp=sharing) for reports on how well a phone works with AndroidAPS.
 * An app to receive CGM data: [xDrip](http://stephenblackwasalreadytaken.github.io/xDrip/)/[xDrip+](https://github.com/jamorham/xDrip-plus), [Glimp](http://www.nightscout.info/wiki/welcome/nightscout-for-libre) or [600SeriesAndroidUploader](https://github.com/pazaan/600SeriesAndroidUploader)
 * [AndroidAPS](https://github.com/MilosKozak/AndroidAPS) itself
 * [Nightscout](https://github.com/nightscout/cgm-remote-monitor) 0.10.2 or later
