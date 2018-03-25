@@ -20,7 +20,7 @@ OpenAPS Advanced Meal Assist (AMA) allows the system to high-temp more quickly a
 ## Absorption Settings
 If you have selected to use AMA Autosens then you will be able to enter your maximum meal absorption time and how frequently you want autosense to refresh.  If you often eat high fat or protein meals you will need to increase your meal absorption time.
 ## Pump settings
-The options here will vary depending on which pump driver you have selected in 'Config Builder'.  Pair and set your pump up according to the [[DanaR Insulin Pump]] or [[DanaRS Insulin Pump]] or [[Accu Chek Combo Insulin Pump]] instructions where relevant. If using AndroidAPS to open loop then make sure you have selected Virtual Pump in config builder.
+The options here will vary depending on which pump driver you have selected in 'Config Builder'.  Pair and set your pump up according to the [[DanaR Insulin Pump]] or [[DanaRS Insulin Pump]] or [[Accu Chek Combo Pump]] instructions where relevant. If using AndroidAPS to open loop then make sure you have selected Virtual Pump in config builder.
 ## NS Client
 * Set your 'nightscout URL' here (https://yourwebsitename.herokuapp.com or https://yourwebsitename.azurewebsites.net), and the 'API secret' (a 12 character password recorded in your heroku or azure variables).  This enables data to be read and written between both the nightscout website and AndroidAPS.  Double check for typos here if you are stuck in Objective 1.
 * 'Log app start to nightscout' will record a note in your careportal entries every time the app is started.  The app should not be needing to start more than once a day, more frequently than this suggests a problem.  
