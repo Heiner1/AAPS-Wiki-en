@@ -20,12 +20,12 @@ OpenAPS Advanced Meal Assist (AMA) allows the system to high-temp more quickly a
 ## Absorption Settings
 If you have selected to use AMA Autosens then you will be able to enter your maximum meal absorption time and how frequently you want autosense to refresh.  If you often eat high fat or protein meals you will need to increase your meal absorption time.
 ## Pump settings
-The options here will vary depending on which pump driver you have selected in 'Config Builder'.  Pair and set your pump up according to the [[DanaR Insulin Pump]] or [[DanaRS Insulin Pump]] or [[Roche Combo Insulin Pump]] instructions where relevant. If using AndroidAPS to open loop then make sure you have selected Virtual Pump in config builder.
+The options here will vary depending on which pump driver you have selected in 'Config Builder'.  Pair and set your pump up according to the [[DanaR Insulin Pump]] or [[DanaRS Insulin Pump]] or [[Accurate Chek Combo Insulin Pump]] instructions where relevant. If using AndroidAPS to open loop then make sure you have selected Virtual Pump in config builder.
 ## NS Client
 * Set your 'nightscout URL' here (https://yourwebsitename.herokuapp.com or https://yourwebsitename.azurewebsites.net), and the 'API secret' (a 12 character password recorded in your heroku or azure variables).  This enables data to be read and written between both the nightscout website and AndroidAPS.  Double check for typos here if you are stuck in Objective 1.
 * 'Log app start to nightscout' will record a note in your careportal entries every time the app is started.  The app should not be needing to start more than once a day, more frequently than this suggests a problem.  
 * 'Enable local broadcasts' will share your careportal data to other apps on the phone such as xdrip.  
-* 'Alarm options' allows you to select which default nightscout alarms to use through the app.  For the alarms to sound you need to set the Urgent High, High, Low and Urgent Low alarm values in your [heroku or azure variables](http://www.nightscout.info/wiki/welcome/website-features#customalarms).
+* 'Alarm options' allows you to select which default nightscout alarms to use through the app.  For the alarms to sound you need to set the Urgent High, High, Low and Urgent Low alarm values in your [heroku or azure variables](http://www.nightscout.info/wiki/welcome/website-features#customalarms). They will only work whilst you have a connection to nightscout and are intended for parent/carers, if you have the CGM source on your phone then use those alarms instead (e.g. xdrip+)
 ## SMS Communicator
 This setting allows remote control of the app by texting instructions to the patients phone which the app will follow such as suspending loop, or bolusing.  Further information is described in [[SMS Commands]] but it will only display in Preferences if you have selected this option in the Config Builder.
 ## Other
