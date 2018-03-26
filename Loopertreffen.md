@@ -16,7 +16,7 @@ Doodle link folgt
 **Wann?** Das letzte Treffen war am 17.03.2018  
 **Wo?**   Das nächste Treffen steht noch nicht fest.  
 **Uhrzeit?**  
-**Event-Details: (vom 17.3.:) https://www.facebook.com/events/1620410464691771/**  
+**Event-Details: (vom 17.3.) https://www.facebook.com/events/1620410464691771/**  
 
 ### München
 **Wann?** Immer am 2ten Donnerstag im Monat:   
@@ -65,9 +65,10 @@ https://doodle.com/poll/cfmxvbne8c87xirq
 ## Nordwürttemberg-Nordbaden:  
   
 ### Mannheim  
-Treffen am 8. April 2018
+Treffen am 8. April 2018  
 Bitte fleißig eintragen:  
-https://doodle.com/poll/n3pbi8shub65m9im (zur Zeit nur noch in den Kommentaren möglich, das wird noch geändert)  
+https://doodle.com/poll/n3pbi8shub65m9im  
+(zur Zeit nur noch in den Kommentaren möglich, das wird noch geändert)  
 Weiteres unter https://www.facebook.com/events/211311499620677/  
  
  
