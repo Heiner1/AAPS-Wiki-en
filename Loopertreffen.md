@@ -13,10 +13,10 @@ Doodle link folgt
 ## Bayern und Franken:
 
 ### Nürnberg
-**Wann?** 17.03.2018  
-**Wo?** Villa Leon, Philipp-Koerber-Weg 1, 90439 Nürnberg  
-**Uhrzeit?** Ab 14 bis 18 Uhr. Danach ist noch offen (Restaurant, Biergarten... etc...)  
-**Event-Details: https://www.facebook.com/events/1620410464691771/**
+**Wann?** Das letzte Treffen war am 17.03.2018  
+**Wo?**   Das nächste Treffen steht noch nicht fest.
+**Uhrzeit?**  
+**Event-Details: (vom 17.3.:) https://www.facebook.com/events/1620410464691771/**
 
 ### München
 **Wann?** Immer am 2ten Donnerstag im Monat:   
@@ -40,8 +40,8 @@ Dies könnte zur Gründung eines festen Stammtisches für LooperInHamburg führe
 ## Niedersachsen:  
   
 ### Hannover  
-#LooperInHannover Treffen Ende März 2018 als lockeres Beisammensein.  
-Doodle link: https://doodle.com/poll/68ab3a56hxy5ss85  
+#LooperInHannover Treffen war am 25. März 2018 in kleiner Runde, nächstes folgt.  
+Doodle link:   
  
  
 ## Schleswig-Holstein:  
@@ -65,15 +65,17 @@ https://doodle.com/poll/cfmxvbne8c87xirq
 ## Nordwürttemberg-Nordbaden:  
   
 ### Mannheim  
-Hey, auch hier tut sich was! Bitte fleißig eintragen:
-https://doodle.com/poll/n3pbi8shub65m9im
+Treffen am 8. April 2018
+Bitte fleißig eintragen:
+https://doodle.com/poll/n3pbi8shub65m9im (zur Zeit nur noch in den Kommentaren möglich, das wird noch geändert)
+Weiteres unter https://www.facebook.com/events/211311499620677/
  
  
 ## Südbaden:  
   
 ### Freiburg im Breisgau  
-Bitte eintragen für März!!!  
-Doodle link: https://doodle.com/poll/rphtcaxx28ygn5dn  
+Das letzte Treffen war am 18. März 2018, weitere sind in Planung.  
+Doodle link:   
 
 
 
