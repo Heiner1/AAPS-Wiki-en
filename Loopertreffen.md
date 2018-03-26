@@ -66,9 +66,9 @@ https://doodle.com/poll/cfmxvbne8c87xirq
   
 ### Mannheim  
 Treffen am 8. April 2018
-Bitte fleißig eintragen:
-https://doodle.com/poll/n3pbi8shub65m9im (zur Zeit nur noch in den Kommentaren möglich, das wird noch geändert)
-Weiteres unter https://www.facebook.com/events/211311499620677/
+Bitte fleißig eintragen:  
+https://doodle.com/poll/n3pbi8shub65m9im (zur Zeit nur noch in den Kommentaren möglich, das wird noch geändert)  
+Weiteres unter https://www.facebook.com/events/211311499620677/  
  
  
 ## Südbaden:  
