@@ -14,9 +14,9 @@ Doodle link folgt
 
 ### Nürnberg
 **Wann?** Das letzte Treffen war am 17.03.2018  
-**Wo?**   Das nächste Treffen steht noch nicht fest.
+**Wo?**   Das nächste Treffen steht noch nicht fest.  
 **Uhrzeit?**  
-**Event-Details: (vom 17.3.:) https://www.facebook.com/events/1620410464691771/**
+**Event-Details: (vom 17.3.:) https://www.facebook.com/events/1620410464691771/**  
 
 ### München
 **Wann?** Immer am 2ten Donnerstag im Monat:   
