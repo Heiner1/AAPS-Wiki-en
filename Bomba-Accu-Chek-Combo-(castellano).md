@@ -39,21 +39,18 @@
   - Imprescindible (marcado en verde en las fotos):
     - Ajuste/deje la configuración de menú como "Standard", de esta manera sólo se mostrarán los menús y acciones que    admite el sistema y ocultará aquellos que no son compatibles (bolo extendido/ bolo múltiple,
       múltiples perfiles de basal ), los cuales estan restringidos porque no se pueden usar de manera segura con el lazo cerrado.
-    - Verify the _Quick Info Text_ is set to "QUICK INFO" (without the quotes, found under _Insulin Pump Options_).
-    - Set TBR _Maximum Adjustment_ to 500%
-    - Disable _Signal End of Temporary Basal Rate_
-    - Set TBR _Duration increment_ to 15 min
-    - Enable Bluetooth
-  - Recommended (marked blue in screenshots)
-    - Set low cartridge alarm to your liking
-    - Configure a max bolus suited for your therapy to protect against bugs in the software
-    - Similarly, configure maximum TBR duration as a safeguard. Allow at least 3 hours, since
-      the option to disconnect the pump for 3 hours sets a 0% for 3 hours.
-    - Enable key lock on the pump to prevent bolusing from the pump, esp. when the
-      pump was used before and quick bolusing was a habit.
-    - Set display timeout and menu timeout to the minimum of 5.5 and 5 respectively. This allows the AAPS to
-      recover more quickly from error situations and reduces the amount of vibrations that can occur during
-      such errors
+    - Verifique que la opción Quick Info Text está a  "QUICK INFO" (sin las comillas, lo encontrará debajo de  _Insulin Pump Options_).
+    - Ajuste  TBR _Maximum Adjustment_ to 500% (es la basal máxima temporal)
+    - Deshabilitar (poner a of)_Signal End of Temporary Basal Rate_ (es señal de final de basal temporal)
+    - Ajustar  TBR _Duration increment_  a 15 minutos (es la duración de la basal temporal)  
+    - Activar Bluetooth
+  - Recomendado (marcado en azul en las fotos)
+    - ajuste la alarma de unidades mínimas en el reservorio según su gusto.
+    - Configure el bolo máximo de manera que sea conservador y seguro de acuerdo con su terapia protegiéndose de un posible fallo de software.
+    - de la misma forma, configure  máxima duración de la basal temporal"maximum TBR duration"  como seguridad. Permita al , de manera que la bomba pueda ser puesta a 0% de basal durante 3 horas.
+    - Habilite el bloqueo de las teclas para prevenir introducir bolos desde la bomba, especialmente si ya era usuario de la bomba y tiene la costumbre de hacerlo así.
+    - Ajuste "display timeout" (tiempo de espera de pantalla) y "menu timeout" ( tiempo de espera menú) a un  mínimo de 5.5 y 5 respectivamente. Esto permite a AAPS a recuperarse mas rápidamente de las situaciones de error y evitar las vibraciones que pudieran ocurrir por este error
+      
 
 ![](https://github.com/MilosKozak/AndroidAPS/blob/combo/documentation/images/combo-menu-settings.png)
 ![](https://github.com/MilosKozak/AndroidAPS/blob/combo/documentation/images/combo-pump-options-settings.png)
