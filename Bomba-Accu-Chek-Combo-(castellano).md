@@ -58,19 +58,15 @@
 ![](https://github.com/MilosKozak/AndroidAPS/blob/combo/documentation/images/combo-bolus-settings.png)
 ![](https://github.com/MilosKozak/AndroidAPS/blob/combo/documentation/images/combo-insulin-settings.png)
 
-- Install AndroidAPS as described in the [AndroidAPS wiki](http://wiki.AndroidAPS.org) and use the `combo` branch.
-- Make sure to read the wiki to understand how to setup AndroidAPS.
-- Select the MDI plugin in AndroidAPS, not the Combo plugin at this point to avoid the Combo
-  plugin from interfering with ruffy during the pairing process.
-- Follow the link http://ruffy.AndroidAPS.org and clone ruffy via git. Use the same branch as you use for
-  AndroidAPS, right now that's the `combo` branch, later on there will be the regular `master` and `dev` branches.
-- Install ruffy and use it to pair the pump. If it doesn't work after multiple attempts, switch to the `pairing` branch, pair the pump and then switch back the original branch.
-  If the pump is already paired and can be controlled via ruffy, installing the `combo` branch is sufficient.
-  Note that the pairing processing is somewhat fragile (but only has to be done once)
-  and may need a few attempts; quickly acknowledge prompts and when starting over, remove the pump device
-  from the Bluetooth settings beforehand. Another option to try is to go to the Bluetooth menu after
-  initiating the pairing process (this keeps the phone's Bluetooth discoverable as long as the menu is displayed)
-  and switch back to ruffy after confirming the pairing on the pump, when the pump displays the authorization code.
+- Instale AndroidAPS conforme está descrito en [AndroidAPS wiki](http://wiki.AndroidAPS.org) utilizando la rama `combo` .
+- Asegúrese de leer la wiki para entender como ajustar AndroidAPS.
+- Seleccione en primer lugar el plugin MDI en AndroidAPS, not el plugin Combo inicialmente para evitar que el plugin Combo
+  pueda interferir con ruffy durante el proceso de emparejamiento.
+- Siga el enlace http://ruffy.AndroidAPS.org y clone ruffy via git. Use la misma rama que uso para 
+  AndroidAPS, a día de hoy es la `combo`, pero en breve será la `master` y `dev`.
+- Instale ruffy y utilícelo para emparejar la bomba. Si no funciona tras muchos intentos, cambie a la rama `pairing`, empareje con la bomba y vuelva de nuevo a la rama original.
+  Si la bomba ya esta emparejada y puede ya ser controlada con ruffy, es suficiente con instalar la rama `combo`.
+  Notese que el proceso de emparejamiento es algo delicado (aunque solamente deberá hacerse una vez) y puede requerir varios intentos; confirme rápidamente las indicaciones y, cuando comience de nuevo, salga previamente del menú bluetooth de la bomba. Otra opción para probar es ir al menú de Bluetooth del teléfono después de iniciar el proceso de emparejamiento (ya que esto provoca que el Bluetooth del teléfono sea visible mientras se muestra dicho menú) y volver a cambiar a ruffy después de confirmar el emparejamiento en la bomba, cuando la bomba muestre el código de autorización.
 - When AAPS is using ruffy, the ruffy app can't be used. The easiest way is to just
   reboot the phone after the pairing process and let AAPS start ruffy in the background.
 - If the pump is completely new, you need to do one bolus on the pump, so the pump creates a first history entry.
