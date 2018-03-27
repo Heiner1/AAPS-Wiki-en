@@ -36,7 +36,7 @@
 ## Configuración 
 
 - Configure la bomba usando el software de configuración 360.
-  - Necesario (marcado en verde en las fotos):
+  - Imprescindible (marcado en verde en las fotos):
     - Ajuste/deje la configuración de menú como "Standard", de esta manera sólo se mostrarán los menús y acciones que    admite el sistema y ocultará aquellos que no son compatibles (bolo extendido/ bolo múltiple,
       múltiples perfiles de basal ), los cuales estan restringidos porque no se pueden usar de manera segura con el lazo cerrado.
     - Verify the _Quick Info Text_ is set to "QUICK INFO" (without the quotes, found under _Insulin Pump Options_).
