@@ -35,12 +35,10 @@
 
 ## Configuración 
 
-- Configure l abomba usando el software de configuración 360.
+- Configure la bomba usando el software de configuración 360.
   - Necesario (marcado en verde en las fotos):
-    - Set/leave the menu configuration as "Standard", this will show only the supported
-      menus/actions on the pump and hide those which are unsupported (extended/multiwave bolus,
-      multiple basal rates), which cause the loop functionality to be restricted when used because
-      it's not possible to run the loop in a safe manner when used.
+    - Ajuste/deje la configuración de menú como "Standard", de esta manera sólo se mostrarán los menús y acciones que    admite el sistema y ocultará aquellos que no son compatibles (bolo extendido/ bolo múltiple,
+      múltiples perfiles de basal ), los cuales estan restringidos porque no se pueden usar de manera segura con el lazo cerrado.
     - Verify the _Quick Info Text_ is set to "QUICK INFO" (without the quotes, found under _Insulin Pump Options_).
     - Set TBR _Maximum Adjustment_ to 500%
     - Disable _Signal End of Temporary Basal Rate_
