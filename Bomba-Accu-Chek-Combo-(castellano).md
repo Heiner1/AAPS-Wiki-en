@@ -33,10 +33,10 @@
 
 - Debe evitarse programar una basal temporal desde la bomba porque el lazo cerrado es quien pone en marcha todas las basales temporales. El sistema puede tardar hasta 20 minutos en detectar una basal temporal establecida en la bomba y su efecto se tendrá en cuenta sólo en el momento en el que se detecte la temporal, de forma que en el peor de los casos habrá 20 minutos de basal temporal que no se reflejen en la información de la "insulina a bordo".
 
-## Setup
+## Configuración 
 
-- Configure the pump using 360 config software.
-  - Required (marked green in screenshots):
+- Configure l abomba usando el software de configuración 360.
+  - Necesario (marcado en verde en las fotos):
     - Set/leave the menu configuration as "Standard", this will show only the supported
       menus/actions on the pump and hide those which are unsupported (extended/multiwave bolus,
       multiple basal rates), which cause the loop functionality to be restricted when used because
