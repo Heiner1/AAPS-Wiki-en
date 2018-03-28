@@ -7,7 +7,8 @@
 ## Berlin
 #LooperInBerlin Treffen 20. April 2018  
 Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf  
-xoyondo.com/dp/4ReIvDs2KDbGzcO  
+https://xoyondo.com/dp/4ReIvDs2KDbGzcO  
+ 
 
 
 ## Bayern und Franken:
