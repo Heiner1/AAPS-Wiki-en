@@ -67,14 +67,10 @@
 - Instale ruffy y utilícelo para emparejar la bomba. Si no funciona tras muchos intentos, cambie a la rama `pairing`, empareje con la bomba y vuelva de nuevo a la rama original.
   Si la bomba ya esta emparejada y puede ya ser controlada con ruffy, es suficiente con instalar la rama `combo`.
   Notese que el proceso de emparejamiento es algo delicado (aunque solamente deberá hacerse una vez) y puede requerir varios intentos; confirme rápidamente las indicaciones y, cuando comience de nuevo, salga previamente del menú bluetooth de la bomba. Otra opción para probar es ir al menú de Bluetooth del teléfono después de iniciar el proceso de emparejamiento (ya que esto provoca que el Bluetooth del teléfono sea visible mientras se muestra dicho menú) y volver a cambiar a ruffy después de confirmar el emparejamiento en la bomba, cuando la bomba muestre el código de autorización.
-- When AAPS is using ruffy, the ruffy app can't be used. The easiest way is to just
-  reboot the phone after the pairing process and let AAPS start ruffy in the background.
-- If the pump is completely new, you need to do one bolus on the pump, so the pump creates a first history entry.
-- Before enabling the Combo plugin in AAPS make sure your profile is set up
-  correctly and activated(!) and your basal profile is up to date as AAPS will sync the basal profile
-  to the pump. Then activate the Combo plugin. Press the _Refresh_ button on the Combo tab to initialize the 
-  pump.
-- To verify your setup, with the pump **disconnected**, use AAPS to set a TBR of 500% for 15 min and issue a bolus. The pump should now have a TBR running and the bolus in the history. AAPS should also show the active TBR and delivered bolus.
+- Una vez que AAPS está utilizando ruffy, esta aplicación no deberá ser utilizada. La forma más sencilla de conseguir esto es reiniciar el telefono una vez finalizado el proceso de emparejamiento y dejar que AAPS inicie ruffy en segundo plano.
+- Si la bomba es totalmente nueva, sera necesario suministrar un bolo para que la bomba cree la primera entrada del histórico.
+- Antes de habilitar el plugin Combo en AAPS asegurese de que el perfil está correcto y activo (!) y que su perfil basal esta actualizado puesto que AAPS sincronizará su perfil basal con la bomba. Sólo entonces active el plugin Combo. Pulse el boton de actualización en la pestaña Combo para inicializar la bomba.
+- Con el fin de verificar el funcionamiento correcto, con la bomba **desconectada**, utilice AAPS para fijar una Basal Temporal del 500% durante 15 minutos y para lanzar un bolo. La bomba mostrará la basal incrementada y tendrá un bolo en el histórico. AAPS mostrará igualmente la Basal ejecutándose y el bolo entregado.
 
 ## Usage
 
