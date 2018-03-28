@@ -22,7 +22,7 @@ Send a SMS to the phone with AndroidAPS running from your approved phone number(
 - TERATMENTS REFRESH 1 receivers
 ## NSCLIENT RESTART
 - NSCLIENT RESTART 1 receivers
-## DANAR
+## DANAR / PUMP (since 1.60)
 - Last conn: 1 minago Temp: 0.00U/h @11:38 5/30min IOB: 0.5U Reserv: 34U Batt: 100
 ## BASAL STOP/CANCEL
 - To stop temp basal reply with code EmF
