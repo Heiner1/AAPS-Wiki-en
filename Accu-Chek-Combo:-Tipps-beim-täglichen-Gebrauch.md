@@ -1,6 +1,7 @@
 # Faktoren zur Sicherstellung eines reibungslosen Betriebs
-* Trage das **Smartphone am besten immer bei Dir**, lass es in der Nacht neben dir liegen.
-* Stelle sicher, dass die Batterie in der Pumpe möglichst voll ist. Zu Tipps rund um die Batterie siehe auch das Kapitel-Batterie.
+* Trage das Smartphone immer bei Dir und lass es in der Nacht neben dir liegen.
+* Stelle sicher, dass die Batterie in der Pumpe möglichst voll ist. 
+Zu Tipps rund um die Batterie siehe auch das Kapitel-Batterie.
 * **Benutze die ruffy nicht mehr, während das System läuft.** Wird ruffy trotzdem aufgerufen, kann hierdurch die Verbindung zur Pumpe unterbrochen werden. Wenn die Pumpe einmal mit ruffy verbunden ist, muss kein erneutes Pairing mehr stattfinden. Selbst nach einem Neustart des Telefons wird die Verbindung automatisch wieder aufgebaut. Verschiebe die App ruffy daher am besten auf einen ungenutzten Screen oder in einen Ordner auf Deinem Smartphone, damit Du sie nicht versehentlich öffnest.
 * Wenn Du ruffy, während des Looping-Betriebs versehentlich öffnest, schliesse ruffy und starte dein Smartphone neu.
 * Bediene die Pumpe soweit möglich nur noch über AndroidAPS. Um dies zu erleichtern, aktiviere am besten die Tastensperre auf der Pumpe unter **PUMPEN-EINSTELLUNGEN / TASTENSPERRE / EIN**. Einzig zum Wechseln der Batterie oder der Ampulle ist dann noch die Bedienung direkt an der Pumpe nötig. ![Keylock](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/keylock.png?raw=true)
