@@ -18,6 +18,8 @@ You can toggle between open and closed looping here.  Open looping means TBR sug
 ## OpenAPS AMA
 OpenAPS Advanced Meal Assist (AMA) allows the system to high-temp more quickly after a meal bolus IF you enter carbs reliably. Turn it on in the Config tab to view the safety settings here, you will need to have completed Objective 7 to use this feature. You can read more about the settings and [Autosens in the OpenAPS docs](http://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/autosens.html).
 ### Max U/hr a Temp Basal can be set to
+This setting exists as a safety limit to prevent AAPS
+
 ### Maximum basal IOB OpenAPS can deliver [U]
 Amount of additional basal insulin (in units) allowed to accumulate in your body, on top of your normal basal profile. Once this value is reached, AAPS will stop giving additional basal insulin until your basal Insulin on Board (IOB) has decayed to within this range again. 
 * This value does not consider bolus IOB, only basal.
