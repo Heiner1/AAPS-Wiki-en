@@ -44,9 +44,9 @@ Gelegentlich kann AndroidAPS eine TBR CANCELED-Warnung nicht automatisch abbrech
 ![OnePower](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/PowerOne.png?raw=true)
 
 Typische Lebensdauer verschiedener Batterietypen:
-* **Energizer Ultimate Lithium**: 4 - 5 Wochen
-* **Power One** Alkaline (Varta): 2 - 4 Wochen
-* **Eneloop Akkus** (BK-3MCCE): 2 - 5 Tage
+* **Energizer ULTIMATE LITHIUM**: 4 - 5 Wochen
+* **power one alkaline** (Varta): 2 - 4 Wochen
+* **Eneloop Akku** (BK-3MCCE): 2 - 5 Tage
 
 Sollte die Lebenszeit der Batterie deutlich kürzer, als die oben angegebenen Zeiten sein, prüfe bitte folgende mögliche Fehlerursachen:
 * Es gibt zwei Varianten bei den Batteriekappen der Accu-Chek Combo, die den Stromkreislauf teilweise kurzschließen und sich damit die Batterie schneller entleeren kann. Die Kappen ohne dieses Problem kann man an den goldenen Metall-Kontakten erkennen. 
@@ -58,7 +58,7 @@ Sollte die Lebenszeit der Batterie deutlich kürzer, als die oben angegebenen Ze
 * Während der Sommer-/Winterzeit-Umstellung wird die Uhrzeit im Smartphone aktualisiert, die Uhrzeit der Pumpe bleibt jedoch unverändert! Dadurch kommt es zur Umstellungszeit um 03:00 Uhr zu einem Alarm in AndroidAPS, wegen abweichenden Uhrzeiten zwischen Smartphone und Accu-Chek Combo.
 * Möchtest Du in der Nacht nicht geweckt werden, deaktiviere am Abend zuvor die automatische Sommer-/Winterzeit-Umstellung auf dem Smartphone und gleiche diese dann am nächsten Morgen manuell ab.
 
-# Verzögerter Bolus, Multiwave-Bolus – wie mache ich das?
+# Verzögerter Bolus, MultiwaveBolus – wie mache ich das?
 Der OpenAPS-Algorithmus unterstützt keinen parallel laufenden verzögerten Bolus oder Multiwave-Bolus. Über folgende Varianten kannst Du aber Dein Ziel erreichen:
 * Stelle auf dem **Aktionen-Tab** in AndroidAPS vor dem Essen als **temporäres Ziel** “Bald essen” mit **Ziel 80** für mehrere Stunden ein. Die Dauer sollte sich an der Dauer orientieren, die auch ein verzögerter Bolus haben würde. 
 Dann die **vollständigen Kohlenhydrate der Mahlzeit eingeben**, allerdings nicht die vom Bolusrechner vorgeschlagenen Werte direkt übernehmen. Sofern ein Multiwave-ähnlicher Bolus abgegeben werden soll, mit der Kohlenhydrat-Eingabe den sofort wirkenden Anteil als Bolus abgeben. Je nach Mahlzeit muss der Algorithmus nun eine **sehr hohe temporäre Basalrate** abgeben, um dem Blutzucker-Anstieg entgegen zu wirken. Hier sollte sehr vorsichtig mit den Sicherheits-Beschränkung der Basalrate (Max IE/h, Maximale Basal-IOB) experimentiert und diese ggf. temporär verändert werden.
@@ -66,7 +66,7 @@ Dann die **vollständigen Kohlenhydrate der Mahlzeit eingeben**, allerdings nich
 ![Temporäres Ziel](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/Temporaeres_ziel.png?raw=true)
 
 * Alternativ kann auf dem **Aktionen-Tab** im AndoidAPS ein **Profilwechsel** mit der Dauer des verzögerten Bolus und einem entsprechend **erhöhten Prozentsatz** erfolgen. Dazu muss kein weiteres Profil (z.B. in Nightscout) vorhanden sein. 
-Den richtigen Prozentsatz kann man über die durchschnittliche Basalrate im gewählten Zeitraum und die benötigte Insulinmenge berechnen. Ein gewünschter verzögerter Bolus von 4 IE über 4 Stunden bei einer Basalrate von 0,5 IE/h würde also eine temporäre Basalrate von **300%** erfordern.
+Den richtigen Prozentsatz kann man über die durchschnittliche Basalrate im gewählten Zeitraum und die benötigte Insulinmenge berechnen. Ein gewünschter verzögerter Bolus von 4 IE über 4 Stunden bei einer Basalrate von 0,5 IE/h würde also eine temporäre Basalrate von **TBR 300 %** erfordern.
 
 ![Temporäre Basalrate](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/300_prozent_Basalrate.png?raw=true)
 
