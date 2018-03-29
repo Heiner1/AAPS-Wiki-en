@@ -22,19 +22,20 @@ This setting exists as a safety limit to prevent AAPS from ever being capable of
 ### Maximum basal IOB OpenAPS can deliver [U]
 Amount of additional basal insulin (in units) allowed to accumulate in your body, on top of your normal basal profile. Once this value is reached, AAPS will stop giving additional basal insulin until your basal Insulin on Board (IOB) has decayed to within this range again. 
 * This value does not consider bolus IOB, only basal.
-* This value is calculated and monitored indepentandlty of your normal lbasal rate. It is only the additional basal insulin on top of that normal rate that is considered.
+* This value is calculated and monitored indepentandlty of your normal basal rate. It is only the additional basal insulin on top of that normal rate that is considered.
 * This value is measured in insulin units (u).
 
-When you begin looping, **it is advised to set Max Basal IOB to 0** for a period of time, while you are getting used to the system. This prevents AAPS from giving any additional basal insulin at all. During this time AAPS will still be able to limit or turn off your basal insulin to help prevent hypoglycemia.
-This is an important step in order to
-* Have a period of time to safely get used to the AAPS system and monitor how it works 
-* Take the opportunity to perfect your basal profile and Insulin Sensitivity Factor(s)
-* see how AAPS limits your basal insulin to prevent hypoglycemia
+When you begin looping, **it is advised to set Max Basal IOB to 0** for a period of time, while you are getting used to the system. This prevents AAPS from giving any additional basal insulin at all. During this time AAPS will still be able to limit or turn off your basal insulin to help prevent hypoglycaemia.
+
+This is an important step in order to:
+* Have a period of time to safely get used to the AAPS system and monitor how it works.
+* Take the opportunity to perfect your basal profile and Insulin Sensitivity Factor (ISF).
+* See how AAPS limits your basal insulin to prevent hypoglycaemia
 
 When you feel comfortable, you can allow the system to start giving you additional basal insulin, by raising the Max Basal IOB value. The recommended guideline for this is to take the **highest basal rate** in your profile and **multiply it by 3**. For example, if the highest basal rate in your profile was 0.5u/hr you could multiply that by 3 to get a value of 1.5u.
 > You can start conservatively with this value and increase it slowly over time. 
-
-These are guidelines only; everyone's bodies are different. You may find you need more or less than what is recommended here, but always start conservatively and adjust slowly.
+>
+>These are guidelines only; everyone's body different. You may find you need more or less than what is recommended here, but always start conservatively and adjust slowly.
 
 _Note: As a safety feature, Max Basal IOB is hard-limited to 7u._
 
