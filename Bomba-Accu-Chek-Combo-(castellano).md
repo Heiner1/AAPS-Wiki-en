@@ -74,12 +74,9 @@
 
 ## Usage
 
-- Keep in mind that this is not a product, esp. in the beginning the user needs to monitor and understand the system,
-  its limitations and how it can fail. It is strongly advised NOT to use this system when the person
-  using it is not able to fully understand the system.
-- Read the OpenAPS documentation https://openaps.org to understand the loop algorithm AndroidAPS
-  is based upon.
-- Read the wiki to learn about and understand AndroidAPS http://wiki.AndroidAPS.org
+- Tenga en cuenta que esto no es un producto, especialmente al principio, el usuario necesita monitorear y comprender el sistema, sus limitaciones y cómo puede fallar. Se recomienda NO utilizar este sistema cuando la persona que lo utiliza no pueda comprender completamente el sistema.
+- Lea la documentación de OpenAPS https://openaps.org para entender el algoritmo de loop en el que se basa AndroidAPS.
+- Lea la wiki para aprender y entender el funcionamiento de AndroidAPS http://wiki.AndroidAPS.org
 - This integration uses the same functionality which the meter provides that comes with the Combo.
   The meter allows to mirror the pump screen and forwards button presses to the pump. The connection
   to the pump and this forwarding is what the ruffy app does. A `scripter` components reads the screen
