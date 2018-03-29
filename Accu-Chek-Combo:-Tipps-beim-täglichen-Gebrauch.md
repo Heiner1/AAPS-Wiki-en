@@ -1,5 +1,5 @@
 # Faktoren zur Sicherstellung eines reibungslosen Betriebs
-* Trage das **Smartphone am besten immer bei Dir**, lass es nachts neben dem Bett liegen.
+* Trage das **Smartphone am besten immer bei Dir**, lass es in der Nacht neben dem Bett liegen.
 * Stelle immer sicher, dass die Batterie in der Pumpe möglichst voll ist. Zu Tipps rund um die Batterie siehe auch das Batterie-Kapitel.
 * Lass die App **ruffy** am besten **komplett in Ruhe**, während das System läuft. Wird die App nochmal aufgerufen, kann die Verbindung zur Pumpe abbrechen. Wenn die Pumpe einmal mit ruffy verbunden ist, muss kein erneutes Pairing mehr stattfinden. Selbst nach einem Neustart des Telefons wird die Verbindung wieder automatisch aufgebaut. Verschiebe die App daher am besten auf einen ungenutzten Screen oder in einen Ordner auf Deinem Smartphone, damit Du sie nicht versehentlich öffnest.
 * Wenn Du die App ruffy während des Looping-Betriebs doch versehentlich öffnest, mach am besten direkt einen Neustart des Smartphones.
