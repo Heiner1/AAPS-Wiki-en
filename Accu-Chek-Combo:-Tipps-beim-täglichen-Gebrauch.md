@@ -1,6 +1,6 @@
 # Faktoren zur Sicherstellung eines reibungslosen Betriebs
 * Trage das **Smartphone am besten immer bei Dir**, lass es in der Nacht neben dem Bett liegen.
-* Stelle immer sicher, dass die Batterie in der Pumpe möglichst voll ist. Zu Tipps rund um die Batterie siehe auch das Batterie-Kapitel.
+* Stelle immer sicher, dass die Batterie in der Pumpe möglichst voll ist. Zu Tipps rund um die Batterie siehe auch das Kapitel-Batterie.
 * Lass die App **ruffy** am besten **komplett in Ruhe**, während das System läuft. Wird die App nochmal aufgerufen, kann die Verbindung zur Pumpe abbrechen. Wenn die Pumpe einmal mit ruffy verbunden ist, muss kein erneutes Pairing mehr stattfinden. Selbst nach einem Neustart des Telefons wird die Verbindung wieder automatisch aufgebaut. Verschiebe die App daher am besten auf einen ungenutzten Screen oder in einen Ordner auf Deinem Smartphone, damit Du sie nicht versehentlich öffnest.
 * Wenn Du die App ruffy während des Looping-Betriebs doch versehentlich öffnest, mach am besten direkt einen Neustart des Smartphones.
 * Bediene die Pumpe soweit möglich nur noch über die App AndroidAPS. Um dies zu erleichtern, aktiviere am besten die Tastensperre auf der Pumpe unter **PUMPEN-EINSTELLUNGEN / TASTENSPERRE / EIN**. Einzig zum Wechseln der Batterie oder der Ampulle ist dann noch die Bedienung direkt an der Pumpe nötig. ![Keylock](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/keylock.png?raw=true)
@@ -8,7 +8,7 @@
 # Pumpe nicht erreichbar - was kann ich tun?
 ## Erreichbarkeit der Pumpe wieder herstellen
 * Wenn AndroidAPS einen “**Pumpe ist nicht erreichbar**” Alarm meldet, hebe zunächst die Tastensperre auf und **drücke irgendeine Taste auf der Pumpe** (z.B. "Nach unten" Knopf). Sobald dann das Display der Pumpe wieder leer ist, drücke **AKTUALISIEREN** auf dem Combo Tab in AndroidAPS. Meistens klappt dann die Kommunikation wieder.
-* Wenn das nichts hilft, starte Dein Smartphone neu. Nach dem Neustart wird AndroidAPS und ruffy wieder aktiviert und eine neue Verbindung mit der Pumpe aufgebaut.
+* Wenn das nichts hilft, starte Dein Smartphone neu. Nach dem Neustart wird AndroidAPS erneut eine Verbindung, über ruffy mit der Pumpe aufbauen.
 * Die Tests mit unterschiedlichen Smartphones lassen vermuten, dass bestimmte Smartphones öfter den “Pumpe nicht erreichbar” Fehler auslösen als andere. Unter [AAPS Phones](https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435) sind erfolgreich getestete Smartphones aufgeführt. 
 
 ## Ursachen und Folgen häufiger Kommunikationsfehler 
@@ -20,42 +20,42 @@
 * Außerdem kann durch diesen Fehler die **Batterie der Pumpe schneller entleert werden**, da das Basalprofil beim Neustart der App von der Pumpe ausgelesen wird. 
 * Zudem erhöht es die Wahrscheinlichkeit, den Fehler hervorzurufen, der dazu führt, dass die Pumpe alle eingehenden Verbindungen zurückweist, bis eine Taste an der Pumpe gedrückt wird.
 
-# Abbruch einer temporären Basalrate scheitert
+# Abbruch einer temporären Basalrate (TBR) scheitert
 Gelegentlich kann AndroidAPS eine TBR CANCELED-Warnung nicht automatisch abbrechen. Dann muss entweder im AndroidAPS-Combo-Reiter auf Aktualisieren gedrückt werden oder der Alarm auf der Pumpe bestätigt werden.
 
 # Rund um die Pumpen-Batterie
 ## Batterie wechseln
 * Nach einem “**Batterie fast leer**” Alarm sollte möglichst schnell die **Batterie gewechselt** werden, um immer genügend Energie für eine zuverlässige Bluetooth-Kommunikation mit dem Smartphone zu haben.
 * Auch nach dem **Batterie fast leer** Alarm kann die Pumpe -insbesondere mit hochwertigen Batterien- meist eine ganze Zeit weiter betrieben werden. Dabei sollte man allerdings immer schon eine volle Ersatzbatterie parat haben.
-* AUf der **Startseite von AndroidAAPS** lange auf **Closed Loop** drücken und dann **Loop unterbrechen für 1h" auswählen.
+* Auf der **Startseite von AndroidAAPS** lange auf **Closed Loop** drücken und dann **Loop unterbrechen für 1h" auswählen.
 * Kurz abwarten, bis AndroidAPS den Befehl an die Pumpe weiter gegeben hat und das Bluetooth-Sysmbol auf der Pumpe wieder verschwunden ist.
 
 ![Bluetooth aktiv](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/Compo.png?raw=true)
 
 * Nun kann die Tastensperre an der Pumpe aufgehoben, die Pumpe in den Stop-Modus versetzt, eine eventuell abgebrochene temporäre Basalrate bestätigt und die Batterie gewechselt werden.
 * Anschließend die Pumpe wieder in den Run-Modus stellen.
-* Nun auf der Startseite von AndroidAPS Wieder lange auf **Unterbrochen** drücken und **Fortsetzen** wählen. Mit dem Eintreffen des nächsten Blutzucker-Werts stellt AndroidAPSdann eine ggf. erforderliche temporäre Basalrate wieder ein.
+* Nun auf der Startseite von AndroidAPS wieder lange auf **Unterbrochen** drücken und **Fortsetzen** wählen. Mit dem Eintreffen des nächsten Blutzucker-Werts stellt AndroidAPS dann eine ggf. erforderliche temporäre Basalrate wieder ein.
 
 ## Batterietyp und Ursachen kurzer Batterielebensdauer
-* Da die intensive Bluetooth-Kommunikation viel Energie verbraucht, nutze nur hochwertige Batterien wie Energizer Ultimate Lithium, die “power one” aus dem “großen” Accu-Chek Service Pack oder Eneloop-Batterien, falls es aufladbare Akkus sein sollen.
+* Da die intensive Bluetooth-Kommunikation viel Energie verbraucht, nutze nur hochwertige Batterien wie **Energizer Ultimate Lithium**, die **power one** aus dem “großen” Accu-Chek Service Pack oder **Eneloop-Akkus**, falls es aufladbare Akkus sein sollen.
 
 ![Energizer](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/energizer-l91aa---image.jpg?raw=true)
 ![OnePower](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/PowerOne.png?raw=true)
 
-Typische Lebensdauer verschiedener Batteritypen:
-* Energizer Ultimate Lithium: 4 bis 5 Wochen
-* Power One Alkaline (Varta) from the servcie pack: 2 bis 3 Wochen
-* Eneloop Akkus (BK-3MCCE): 2 bis 5 Tage
+Typische Lebensdauer verschiedener Batterietypen:
+* **Energizer Ultimate Lithium**: 4 - 5 Wochen
+* **Power One** Alkaline (Varta): 2 - 4 Wochen
+* **Eneloop Akkus** (BK-3MCCE): 2 - 5 Tage
 
-Sollte die Lebenszeit der Batterie deutlich kürzer als die oben angegebenen Zeiten sein, prüfe bitte folgende mögliche Fehlerursachen:
-* Es gibt einige Varianten der verschraubbaren Batteriekappe der Combo Pumpe, die den Stromkreislauf teilweise kurzschließen und sich damit die Batteriern sehr schell entleeren. Die Kappen ohne dieses Problem kann man an den goldenen Metall-Kontakten erkennen. 
-* Wenn die Uhrzeit einen kurzen Batteriewechsel nicht “überlebt”, ist vermutlich der Kondensator defekt, der während einer kurzen Stromunterbrechung die Uhrzeit weiterlaufen lässt. In diesem Fall hilft nur ein Austausch der Pumpe durch Roche, was während der Garantiezeit kein Problem ist.
-* Auf manchen Smartphones wird die AndroidAPS App häufig geschlossen, um Erergie oder RAM zu sparen. Dann wird AndroidAPS bei jedem Aufuf neu initialisiert, baut eine BluetoothVerbindung zur Pumpe auf und liest die aktuelle Basalrate und die Bolus-Historie ein. Das verbraucht sehr viel Batterie und sorgt für eine kurze Batterie-Lebensdauer. Um diesem Fehler auf die Sur zu kommen, aktiviere unter **Einstellungen** die Option **Logge App-Start in NS**. Dann wird im angeschlossenen Nightscout jeder Neustart von AndroidAPS angezeigt.
+Sollte die Lebenszeit der Batterie deutlich kürzer, als die oben angegebenen Zeiten sein, prüfe bitte folgende mögliche Fehlerursachen:
+* Es gibt zwei Varianten bei den Batteriekappen der Accu-Chek Combo, die den Stromkreislauf teilweise kurzschließen und sich damit die Batterie schneller entleeren kann. Die Kappen ohne dieses Problem kann man an den goldenen Metall-Kontakten erkennen. 
+* Wenn die Uhrzeit einen kurzen Batteriewechsel nicht “überlebt”, ist vermutlich der Kondensator defekt, der während einer kurzen Stromunterbrechung die Uhrzeit weiterlaufen lässt. In diesem Fall hilft nur ein Austausch der Pumpe durch Roche, was während der Garantiezeit kein Problem darstellt.
+* Auf manchen Smartphones wird die AndroidAPS App häufig geschlossen, um Energie oder RAM zu sparen. Dann wird AndroidAPS bei jedem Aufruf neu initialisiert, baut eine Bluetooth-Verbindung zur Pumpe auf und liest die aktuelle Basalrate und die Bolus-Historie aus. Dies verbraucht sehr viel Strom und sorgt für eine kürzere Batterie-Lebensdauer. Um diesem Fehler auf die Sur zu kommen, aktiviere unter **Einstellungen** die Option **Logge App-Start in NS**. Dann wird in der Nightscout-Webseite jeder Neustart von AndroidAPS protokoliert.
 
 # Zeitumstellung Sommer-/Winterzeit
-* Aktuell unterstützt der Combo-Treiber noch keine automatische Anpassung der Uhrzeit der Pumpe.
-* Ohne Anpassungen wird Wwhrend der Nacht einer Sommer-/Winterzeit-Umstellung die Uhrzeit des Smartphones aktualisiert, die Uhrzeit der Pumpe bleibt jedoch unverändert. Dadurch kommt es zur Umstellungszeit nachts um 3 Uhr zu einem Alarm wegen abweichenden Uhrzeiten zwischen den Systemen.
-* Möchtest Du in der Nacht nicht geweckt werden, deaktiviere am Abend vor der Zeitumstellung die automatische Sommer-/Winterzeit-Umstellung auf dem Handy und gleiche am nächsten Morgen die Zeiten manuell an.
+* Aktuell unterstützt der Accu-Chek Combo-Treiber noch keine automatische Anpassung der Uhrzeit in der Pumpe.
+* Während der Sommer-/Winterzeit-Umstellung wird die Uhrzeit im Smartphone aktualisiert, die Uhrzeit der Pumpe bleibt jedoch unverändert! Dadurch kommt es zur Umstellungszeit um 03:00 Uhr zu einem Alarm in AndroidAPS, wegen abweichenden Uhrzeiten zwischen Smartphone und Accu-Chek Combo.
+* Möchtest Du in der Nacht nicht geweckt werden, deaktiviere am Abend zuvor die automatische Sommer-/Winterzeit-Umstellung auf dem Smartphone und gleiche diese dann am nächsten Morgen manuell ab.
 
 # Verzögerter Bolus, Multiwave-Bolus – wie mache ich das?
 Der OpenAPS-Algorithmus unterstützt keinen parallel laufenden verzögerten Bolus oder Multiwave-Bolus. Über folgende Varianten kannst Du aber Dein Ziel erreichen:
@@ -70,7 +70,7 @@ Den richtigen Prozentsatz kann man über die durchschnittliche Basalrate im gew�
 ![Temporäre Basalrate](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/300_prozent_Basalrate.png?raw=true)
 
 # Alarme bei der Bolus-Abgabe
-* Stellt AndroidAPS fest, dass in derselben Minute ein identisch hoher Bolus bereits gegeben wurde, wird die **Bolusabgabe mit identischen Werten verhindert**. Daher einfach kurz warten und die Bolusabgabe **nach zwei Minuten nochmal versuchen**.
+* Stellt AndroidAPS fest, dass in derselben Minute ein gleich hoher Bolus, bereits abgegeben wurde, wird die **Bolusabgabe mit identischen Werten verhindert**. Daher einfach kurz warten und die Bolusabgabe **nach zwei Minuten nochmals ausführen**.
 * Hintergrund ist ein **Sicherheitsmechanismus**, der kontinuierlich die Bolushistorie der Pumpe ausliest, um das Insulin on Board (IOB) korrekt berechnen zu können, selbst wenn ein Bolus direkt über die Pumpe abgegeben wurde. Hier müssen nicht unterscheidbare Einträge verhindert werden.
 
 ![Doppelbolus](https://raw.githubusercontent.com/T-o-b-i-a-s/ComboLooping/f9c56c930dc564c1649cd8e3764e077ffc02c5ef/resources/Doppelbolus.png)
@@ -80,19 +80,19 @@ Den richtigen Prozentsatz kann man über die durchschnittliche Basalrate im gew�
 ![Abgebrochener Bolus](https://raw.githubusercontent.com/T-o-b-i-a-s/ComboLooping/f9c56c930dc564c1649cd8e3764e077ffc02c5ef/resources/History_changed.png)
 
 # Katheter wechseln
-* Im Gegensatz zum üblichen Vorgehen nutzt AndroidAAPS/Combo nicht die "Katheter füllen" Funktion der Pumpe, sondern befüllt den Katheter mit Hilfe eines normalen Bolus, der nicht in der Historie auftaucht. Das hat den Vorteil, dass dadurch keine aktuell laufende temporäre Basalrate unterbrochen wird.
+* Im Gegensatz zum üblichen Vorgehen nutzt AndroidAAPS/Combo nicht die "Katheter füllen" Funktion der Pumpe, sondern befüllt den Katheter mit Hilfe eines normalen **Bolus, der nicht in der Historie auftaucht**. Das hat den Vorteil, dass dadurch keine aktuell laufende temporäre Basalrate unterbrochen wird.
 * Somit zum Wechseln des Katheters zunächst den alten Katheter entfernen und den neuen anschließen, aber noch nicht setzen.
-* Auf dem **Aktionen-Tab** im AndoidAPS über den Knopf "**Vorfüllen/Füllen**" die Menge an Insulin einstellen, die zum Befüllen nötig ist und den Füllvorgang starten. Sollte die Menge nicht reichen, den Vogang ggf. wiederholen. 
+* Auf dem Tab **AKTIONEN** in AndoidAPS über den Knopf **Vorfüllen/Füllen** die Menge an Insulin einstellen, die zum Befüllen nötig ist und den Füllvorgang starten. Sollte die Menge nicht reicht, den Vorgang ggf. wiederholen. 
 * Anschließend den neuen Katheter setzen.
 
 # Ampulle wechseln
 * Der Wechsel der Ampulle kann nicht über AndroidAAPS erfolgen, sondern muss wie bisher **direkt über die Pumpe** durchgefürht werden.
 * Dazu durch langes Drucken auf **Closed Loop** auf dem Home-Bildschirm von AndroidAAPS **Pausiere Loop für 1h** auswählen
 * Nun Pumpe vom Körper trennen, Tastensperre deaktivieren, Pumpe in **Stop** setzen und **Ampulle wechseln** auswählen.
-* Ampulle wie bisher asutauschen und wenn nötig Katheter neu setzen.
+* Ampulle wie bisher austauschen und wenn nötig Katheter neu setzen.
 * Anschließend durch langes Drücken auf **Pausiert** wieder **Forsetzen** wählen.
 
 # Pumpe ablegen
-* Durch langes Drucken auf **Closed Loop** auf dem Home-Bildschirm von AndroidAAPS **Trenne Pumpe** für die gewünschte Dauer auswählen.
+* Durch langes Drücken auf **Closed Loop** auf dem Home-Bildschirm von AndroidAAPS **Trenne Pumpe** für die gewünschte Dauer auswählen.
 * Nun kann die Pumpe abgelegt werden, die Basalrate ist auf 0% gesetzt.
 * Nach dem erneuten Anlegen der Pumpe durch langes Drücken auf **Pausiert** wieder **Forsetzen** wählen. 
