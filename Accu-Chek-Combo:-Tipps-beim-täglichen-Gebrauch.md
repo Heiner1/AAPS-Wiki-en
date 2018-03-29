@@ -1,4 +1,4 @@
-# Faktoren zur Sicherstellung eines reibungslosen Betriebs
+# Sicherstellung eines reibungslosen Betriebs
 * Trage das Smartphone immer bei Dir und lass es in der Nacht neben dir liegen.
 * Stelle sicher, dass die Batterie in der Pumpe möglichst voll ist. 
 Zu Tipps rund um die Batterie siehe auch das Kapitel-Batterie.
