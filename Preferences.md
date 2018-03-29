@@ -9,14 +9,25 @@ Algorithms are different based on patient age so select Child, Teenage or Adult 
 ## Careportal
 'Entered by' is the text displayed in your nightscout careportal 'entered by' field.  Set this to something meaningful to you, whether it is the app name, the persons name or the phone name (for example if you are using AndroidAPS as NS Client on a phone that is not the patients phone you may wish to distinguish between phone owners here).
 ## Treatments safety
-* Max allowed bolus [U]
+### Max allowed bolus [U]
 This is the maximum amount of bolus insulin that AAPS is allowed to deliver. This setting exists as a safety limit to prevent the delivery of a massive bolus due to accidental input or user error. It is recommended to set this to a sensible amount that corresponds roughly to the maximum amount of bolus insulin that you are ever likely to need for a meal or correction dose. This restriction is also applied to the results of the Bolus Calculator.
-* Max allowed carbs [g]
+### Max allowed carbs [g]
 This is the maximum amount of carbs that AAPS bolus calculator is allowed to dose for.  This setting exists as a safety limit to prevent the delivery of a massive bolus due to accidental input or user error. It is recommended to set this to a sensible amount that corresponds roughly to the maximum amount of carbs that you are ever likely to need for a meal.
 ## Loop
 You can toggle between open and closed looping here.  Open looping means TBR suggestions are made based on your data and appear as a notification but you must manually choose to accept them and manually enter them into your pump.  Closed looping means TBR suggestions are automatically sent to your pump without confirmation or input from you.  The homescreen will display in the top left corner whether you are open or closed looping, and pressing and holding this homescreen button will also allow you to toggle between the two.
 ## OpenAPS AMA
 OpenAPS Advanced Meal Assist (AMA) allows the system to high-temp more quickly after a meal bolus IF you enter carbs reliably. Turn it on in the Config tab to view the safety settings here, you will need to have completed Objective 7 to use this feature. You can read more about the settings and [Autosens in the OpenAPS docs](http://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/autosens.html).
+### Max U/hr a Temp Basal can be set to
+### Maximum basal IOB OpenAPS can deliver [U]
+Amount of additional basal insulin (in units) allowed to accumulate in your body, on top of your normal basal profile. Once this value is reached, AAPS will stop giving additional basal insulin until your basal Insulin on Board (IOB) has decayed to within this range again. 
+* This value does not consider bolus IOB, only basal.
+* This value is calculated and monitored indepentandlty of your normal lbasal rate. It is only the additional basal insulin on top of that normal rate that is considered.
+* This value is measured in insulin unts (U).
+
+When you begin looping, **it is advised to set Max Basal IOB to 0** for a period of time, while you are getting used to the system. This prevents AAPS from giving any additional basal insulin at all. During this time AAPS will still be able to limit or turn off your basal insulin to help prevent hypoglycemia.
+This is an important step in order to
+* 
+
 ## Absorption Settings
 If you have selected to use AMA Autosens then you will be able to enter your maximum meal absorption time and how frequently you want autosense to refresh.  If you often eat high fat or protein meals you will need to increase your meal absorption time.
 ## Pump settings
