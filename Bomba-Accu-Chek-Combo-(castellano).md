@@ -72,57 +72,24 @@
 - Antes de habilitar el plugin Combo en AAPS asegurese de que el perfil está correcto y activo (!) y que su perfil basal esta actualizado puesto que AAPS sincronizará su perfil basal con la bomba. Sólo entonces active el plugin Combo. Pulse el boton de actualización en la pestaña Combo para inicializar la bomba.
 - Con el fin de verificar el funcionamiento correcto, con la bomba **desconectada**, utilice AAPS para fijar una Basal Temporal del 500% durante 15 minutos y para lanzar un bolo. La bomba mostrará la basal incrementada y tendrá un bolo en el histórico. AAPS mostrará igualmente la Basal ejecutándose y el bolo entregado.
 
-## Usage
+## Uso
 
 - Tenga en cuenta que esto no es un producto, especialmente al principio, el usuario necesita monitorear y comprender el sistema, sus limitaciones y cómo puede fallar. Se recomienda NO utilizar este sistema cuando la persona que lo utiliza no pueda comprender completamente el sistema.
 - Lea la documentación de OpenAPS https://openaps.org para entender el algoritmo de loop en el que se basa AndroidAPS.
 - Lea la wiki para aprender y entender el funcionamiento de AndroidAPS http://wiki.AndroidAPS.org
-- This integration uses the same functionality which the meter provides that comes with the Combo.
-  The meter allows to mirror the pump screen and forwards button presses to the pump. The connection
-  to the pump and this forwarding is what the ruffy app does. A `scripter` components reads the screen
-  and automates entering boluses, TBRs etc and making sure inputs are processed correctly.
-  AAPS then interacts with the scripter to apply loop commands and to administer boluses.
-  This mode has some restrictions: it's comparatively slow (but well fast enough for what it is used for),
-  and setting a TBR or giving a bolus causes the pump to vibrate.
-- The integration of the Combo with AndroidAPS is designed with the assumption that all inputs are
-  made via AndroidAPS. Boluses entered on the pump directly will be detected by AAPS, but it can take
-  up to 20 min before AndroidAPS becomes aware of such a bolus. Reading boluses delivered directly on
-  the pump is a safety feature and not meant to be regularly used (the loop requires knowledge of carbs
-  consumed, which can't be entered on the pump, which is another reason why all inputs should be done
-  in AndroidAPS). 
-- Don't set or cancel a TBR on the pump. The loop assumes control of TBR and cannot work reliably otherwise, since it's not possible to determine the start time of a TBR that was set by the user on the pump.
-- The pump's first basal rate profile is read on application start and is updated by AAPS.
-  The basal rate should not be manually changed on the pump, but will be detected and corrected as a safety
-  measure (don't rely on safety measures by default, this is meant to detect an unintended change on the pump).
-- It's recommended to enable key lock on the pump to prevent bolusing from the pump, esp. when the
-  pump was used before and using the "quick bolus" feature was a habit.
-  Also, with keylock enabled, accidentally pressing a key will NOT interrupt active communication
-  between AAPS and pump.
-- When a BOLUS/TBR CANCELLED alert starts on the pump during bolusing or setting a TBR, this is
-  caused by a disconnect between pump and phone, which happens from time to time. AAPS will try to reconnect and confirm the alert
-  and then retry the last action (boluses are NOT retried for safety reasons). Therefore,
-  such an alarm can be ignored as AAPS will confirm it automatically, usually within 30s (cancelling it is not problem, but will lead to the currently
-  active action to have to wait till the pump's display turns off before it can reconnect to the
-  pump). If the pump's alarm continues, automatic corfirmation failed, in which case the user
-  needs to confirm the alarm manually.
-- When a low cartridge or low battery alarm is raised during a bolus, they are confirmed and shown
-  as a notification in AAPS. If they occur while no connection is open to the pump, going to the
-  Combo tab and hitting the Refresh button will take over those alerts by confirming them and
-  show a notification in AAPS.
-- When AAPS fails to confirm a TBR CANCELLED alert, or one is raised for a different reason,
-  hitting Refresh in the Combo tab establishes a connection, confirms the alert and shows
-  a notification for it in AAPS. This can safely be done, since those alerts are benign - an
-  appropriate TBR will be set again during the next loop iteration.
-- For all other alerts raised by the pump: connecting to the pump will show the alert message in
-  the Combo tab, e.g. "State: E4: Occlusion" as well as showing a notification on the main screen.
-  An error will raise an urgent notification. AAPS never confirms serious errors on the pump,
-  but let's the pump vibrate and ring to make sure the user is informed of a critical situation
-  that needs action.
-- After pairing, ruffy should not be used directly (AAPS will start in the background as needed),
-  since using ruffy at AAPS at the same time is not supported.
-- If AAPS crashes (or is stopped from the debugger) while AAPS and the pump were communicating (using
-  ruffy), it might be necessary to force close ruffy. Restarting AAPS will start ruffy again.
-  Restarting the phone is also an easy way to resolve this if you don't know how to force kill
-  an app.
-- Don't press any buttons on the pump while AAPS communicates with the pump (Bluetooth logo is
-  shown on the pump).
+- Esta integración utiliza la misma funcionalidad que proporciona el medidor que viene con el Combo. El medidor permite reflejar la pantalla de la bomba y envía las pulsaciones de los botones hacia la bomba. La conexión a la bomba y este reenvío es lo que hace la aplicación Ruffy. Un componente `scripter` lee la pantalla y automatiza el ingreso de bolos, TBRs, etc. y asegura que las entradas se procesen correctamente. AAPS interactúa luego con el scripter para aplicar comandos de loop y administrar bolos. Este modo tiene algunas restricciones: es comparativamente lento (pero lo suficientemente rápido para lo que se usa), y establecer un TBR o administrar un bolo hace que la bomba vibre.
+- La integración del Combo con AndroidAPS esta diseñada con la suposición de que todas las entradas son realizadas utilizando AndroidAPS. Los bolos introducidos directamente en la bomba serán detectados por AAPS, pero puede tardarse hasta 20 minutos en que AAPS reconozca dicho bolo. La lectura de los bolos entregados directamente por la bomba es una característica de seguridad y no debe usarse con regularidad (el loop requiere el conocimiento de los carbohidratos consumidos, que no pueden ser introducidos en la bomba, lo que es otra razón para que todas las entradas deban realizarse mediante AndroidAPS). 
+- No fije o cancele dosis basales temporales directamente en la bomba. El loop supone tener el control de los TBR y no puede trabajar con seguridad en otro caso, ya que no es posible conocer el inicio del TBR si este se ha realizado directamente a través de la bomba.
+- El primer perfil basal de la bomba es leído al iniciarse la aplicación y es actualizado por AAPS.
+  La dosis basal no debe ser modificada manualmente en la bomba, pero será detectada y corregida como una medida de seguridad (no debe confiar en las medidas de seguridad por defecto, esto esta previsto para detectar cambios no intencionados en la bomba).
+- Es recomendable habilitar el bloqueo de teclas en la bomba para evitar aplicar bolos desde la bomba, especialmente si la bomba se ha usado previamente para administras "bolos rápidos" y se ha adquirido este hábito.
+  Adicionalmente, con el bloqueo de teclas activado, no se interrumpirá la comunicación que pudiera haber activa entre AAPS y la bomba si se presiona accidentalmente una tecla.
+- Cuando una alerta de BOLO/TBR CANCELADA se inicia en la bomba mientras se suministra un bolo o se fija una TBR, se produce una desconexión entre bomba y telefono, lo que sucede de vez en cuando. AAPS reintentará la reconexión y confirmará la alerta y luego reintentará la última acción (los bolos NO se reintentan por motivos de seguridad). Sin embargo, esta alarma puede ignorarse puesto que AAPS la confirmará automáticamente, normalmente en unos 30s (cancelarla no es un problema, pero obligará a la acción actual a esperar hasta que se apague la pantalla de la bomba antes de que pueda reconectar con la bomba). Si la alarma de la bomba continua, la confirmación automática fallará, en cuyo caso deberá confirmarse por el usuario manualmente.
+- Cuando se produzca una alarma de cartucho bajo o batería baja durante la suministración de un bolo, se mostrará el defecto como una notificación en AAPS. Si ocurre mientras no haya conexión con la bomba, yendo a la pestaña Combo y pulsando el botón de refrescar, podrán reconocerse estas alertas desde la notificación que aparecerá en AAPS.
+- Cuando AAPS falla en la confirmación de una alerta de TBR cancelada, o alguna es iniciada por alguna otra razón, pulsando el botón de actualizar en la pestaña Combo se establece la conexión con la bomba, se confirman las alertas y se muestra una notificación parar ella en AAPS. Esto puede realizarse de forma segura, ya que estas alertas son benignas - un TBR apropiado será fijado nuevamente durante la próxima iteración del loop. 
+- Para el resto de alertas de la bomba: Conectando con la bomba se mostrará el mensaje de alerta en la pestaña Combo, por ejemplo "Estado: E4: Oclusión" y se mostrará una notificicación en la pantalla principal. 
+  Un error mostrará una notificación urgente. AAPS nunca confirmará errores graves en la bomba de manera que esta vibrará y sonará para estar seguros que el usuario sea informado de una acción critica que requiera una acción.
+- Una vez emparejado, ruffy no debe ser usado directamente (AAPS lo ejecutará en segundo plano en caso de ser necesario), ya que utilizar ruffy y AAPS al mismo tiempo no esta soportado.
+- Si AAPS se detiene (o si es parada por el depurador) mientras AAPS y la bomba estuvieran comunicando (usando ruffy), pudiera ser necesario forzar el cierre de ruffy. Reiniciando AAPS se reiniciaría ruffy de nuevo.
+  Reiniciar el teléfono es también un modo sencillo de resolver este problema si usted no sabe como forzar el cierre de una aplicación.
+- No pulse ningún botón de la bomba mientras AAPS comunica con la bomba (se muestra el logo bluetooth en la bomba).
