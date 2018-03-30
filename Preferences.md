@@ -35,7 +35,7 @@ This is an important step in order to:
 When you feel comfortable, you can allow the system to start giving you additional basal insulin, by raising the Max Basal IOB value. The recommended guideline for this is to take the **highest basal rate** in your profile and **multiply it by 3**. For example, if the highest basal rate in your profile was 0.5u/hr you could multiply that by 3 to get a value of 1.5u.
 > You can start conservatively with this value and increase it slowly over time. 
 >
->These are guidelines only; everyone's body different. You may find you need more or less than what is recommended here, but always start conservatively and adjust slowly.
+>These are guidelines only; everyone's body is different. You may find you need more or less than what is recommended here, but always start conservatively and adjust slowly.
 
 _Note: As a safety feature, Max Basal IOB is hard-limited to 7u._
 
