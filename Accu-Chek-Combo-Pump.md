@@ -95,6 +95,7 @@ Please be aware that this is not complete list and reflects personal user experi
   from the Bluetooth settings beforehand. Another option to try is to go to the Bluetooth menu after
   initiating the pairing process (this keeps the phone's Bluetooth discoverable as long as the menu is displayed)
   and switch back to ruffy after confirming the pairing on the pump, when the pump displays the authorization code.
+  If you're unsuccessful in pairing the pump (say after 10 attempts), try waiting up to 10s before confirming the pairing on the pump (when the name of the phone is displayed on the pump). If you have configured the menu timeout to be 5s above, you need to increase it again. Some users reported they needed to do this.
 - When AAPS is using ruffy, the ruffy app can't be used. The easiest way is to just
   reboot the phone after the pairing process and let AAPS start ruffy in the background.
 - If the pump is completely new, you need to do one bolus on the pump, so the pump creates a first history entry.
