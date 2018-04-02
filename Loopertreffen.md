@@ -66,7 +66,9 @@ https://doodle.com/poll/cfmxvbne8c87xirq
 ## Nordwürttemberg-Nordbaden:  
   
 ### Mannheim  
-Treffen am 8. April 2018  
+Treffen am 8. April 2018 (Sonntag) 
+17 Uhr  
+Kaffee Kult, Seckenheimerstraße 34, 68165 Mannheim  
 Bitte fleißig eintragen:  
 https://doodle.com/poll/n3pbi8shub65m9im  
 Weiteres unter https://www.facebook.com/events/211311499620677/  
