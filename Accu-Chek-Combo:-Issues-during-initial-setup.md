@@ -12,7 +12,9 @@ There are serveral possible reasons. Try the following steps:
 5.  Now start ruffy on the phone. You may press Reset! and remove old Bonding. Then hit Connect!.
 6.  In the Bluetooth menu of the pump, go to **ADD DEVICE / ADD CONNECTION**. Press *CONNECT!** 
     * Step 5 and 6 have to be in a short timing.
-7.  Now the Pump should show up the BT Name of phone to select for pairing.
+7.  Now the Pump should show up the BT Name of phone to select for pairing. Here it is importand to whait at least 5s 
+    bevore you hit the select button on Pump. Otherwise the Pumpe will not send the Paring request to the Phone proberly.
+ 
     * If Combo Pump is set to 5s Screentime out, you may test it with 40s (original setting). From experiance the time 
       between pump is showing up in phone until select phone is around 5-10s. In many other cases pairing just times out 
       without successfully Pair. Later you should set it back to 5s, to meet AAPS Combo settings.
