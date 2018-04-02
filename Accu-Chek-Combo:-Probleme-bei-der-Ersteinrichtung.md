@@ -7,7 +7,7 @@ Es gibt mehrere Möglich warum das Pairing schief gehen kann. Probiere folgende 
 
 2.  Lösche das alte BT Device in der Pumpe: **BLUETOOTH SETTINGS / CONNECTION / REMOVE**.
 3.  Lösche alte Combo pairings im Handy: Einstellung / Bluetooth, entferne bond "**SpiritCombo**"
-4.  Stelle vorher sicher, dass im AAPS der closed loop deaktiviert ist. Sonst stört AAPS ruffy beim Pairing durch 
+4.  Stelle sicher, dass im AAPS der closed loop deaktiviert ist. Sonst stört AAPS Ruffy beim Pairing durch 
     gescheiterte Verbindungsaufbauten.
 5.  Nun starte Ruffy. Reset! und Remove Bonding Yes. Danach Connect!
 6.  Im Bluetooth Menue der Combo, gehe auf **ADD DEVICE / ADD CONNECTION**. Und drücke **CONNECT!** 
