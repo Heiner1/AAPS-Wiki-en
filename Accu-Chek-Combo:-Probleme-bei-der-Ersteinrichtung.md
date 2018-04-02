@@ -18,10 +18,10 @@ Es gibt mehrere Möglich warum das Pairing schief gehen kann. Probiere folgende 
     * _Sollte schon der Screentimeout via Accu Check Combo Software auf 5s gesetzt worden sein führt das oft dazu, das 
       die Pumpe den 10 stelligen Sicherheitscode nicht anzeigt. Sowie Ruffy keine Eingabe des Codes anbietet._
     *  Empfehlung zum Pairen Screentimeout auf orginalwerte setzen (40s) und später wieder rauf 5s runter.
-    *  Sollte das Handy nie von der Pumpe gefunden werden, ist möglicherweise der BT Stack auf dem Handy 
-       fehlerhaft. Bitte überprüfe, ob du entweder ein gepatchtes Telefon mit LineageOS >= 14.1 oder ein aktuelles Telefon 
+    *  Sollte das Handy nicht von der Pumpe gefunden werden, ist möglicherweise der BT Stack auf dem Handy 
+       fehlerhaft. Bitte überprüfe, ob du entweder ein gepatchtes Handy mit LineageOS >= 14.1 oder ein aktuelles Handy 
        mit Android Oreo >= 8.1 benutzt. Empfehlenswert, ist es mit einem der getesteten Telefonen zu arbeiten siehe liste [AAPS Phones](https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435)
-       Viele andere Handy tun es auch, haben aber oft Verbindungsprobleme. Nicht nur beim Pairen.
+       Viele andere Handys tun es auch, haben aber oft Verbindungsprobleme. Nicht nur beim Pairen.
 8.  Eingabe des 10 Sicherheitscodes von der Pumpe im Handy. Mit Ok bestätigen.
 9.  Bei Erfolg -> Handy Neustart. 
 10. AAPS kann nun wieder gestartet werden.
