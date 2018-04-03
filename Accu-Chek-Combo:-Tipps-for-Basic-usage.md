@@ -50,11 +50,12 @@
 Ranges for typical life time of the different battery types are as follows:
 * **Energizer Ultimate Lithium**: 4 to 5 weeks
 * **Power One Alkaline** (Varta) from the servcie pack: 2 to 3 weeks
-* **Eneloop rechargable** batteries (BK-3MCCE): 2 to 5 days
+* **Eneloop rechargable** batteries (BK-3MCCE): 2 to 14 days
 
 If your battery life is signifcantly shorter than the ranges given above, please check the following possible causes:
 * There are some variants of the screw-on battery cap of the Combo pump, which partially short circuits the batteries and drain them quickly. The caps without this problem can be recognized by the golden metal contacts.
 * If the pump clock does not "survive" a short battery change, it is likely that the capacitor is broken which keeps the clock running during a brief power outage. In this case, only replacement of the pump by Roche will help, which is not a problem during the warranty period. 
+* The smart phone hardware and software (Android operating system and bluetooth stack) also impact the battery lifetime of the pump, even though the exact factors are not completely known yet. If you have the opportunity, try another smartphone and compare battery lifetimes.
 
 # Daylight saving time changes
 * Currently the combo driver does not support automatic adjustment of the pump's time.
