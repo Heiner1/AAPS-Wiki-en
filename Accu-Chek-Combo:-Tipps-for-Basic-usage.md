@@ -53,6 +53,7 @@ Ranges for typical life time of the different battery types are as follows:
 * **Eneloop rechargable** batteries (BK-3MCCE): 2 to 14 days
 
 If your battery life is signifcantly shorter than the ranges given above, please check the following possible causes:
+* Die latest version (March 2018) of the [ruffy App](https://github.com/MilosKozak/ruffy) significantly improved pump battery lifetime. Make sure you are on that version if you have issues with a short battery lifetime.
 * There are some variants of the screw-on battery cap of the Combo pump, which partially short circuits the batteries and drain them quickly. The caps without this problem can be recognized by the golden metal contacts.
 * If the pump clock does not "survive" a short battery change, it is likely that the capacitor is broken which keeps the clock running during a brief power outage. In this case, only replacement of the pump by Roche will help, which is not a problem during the warranty period. 
 * The smart phone hardware and software (Android operating system and bluetooth stack) also impact the battery lifetime of the pump, even though the exact factors are not completely known yet. If you have the opportunity, try another smartphone and compare battery lifetimes.
