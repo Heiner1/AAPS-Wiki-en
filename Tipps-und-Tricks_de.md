@@ -17,7 +17,7 @@
   * [Spitzen nach dem essen verringern](https://diyps.org/2016/07/11/picture-this-how-to-do-eating-soon-mode/)
   * [Hormone und Autosens](http://seemycgm.com/2017/06/06/hormones-2/)
 
-Batterie
+## Batterie
 * Das Loopen kann die Batterie der Pumpe schneller aufbrauchen. Am besten sollte man die Batterie bei 25% wechseln, weil sich die Pumpe mit schwacher Batterie bei der Kommunikation schwer tut, und es nicht mehr lange dauert bis sie ganz leer ist. Du kannst in Nightscout eine Warnung einrichten, falls du mal vergessen solltest nach dem Stand zu sehen. Tricks um Energie zu sparen:
   * senke die Dauer der Bildschirmbeleuchtung (im Pumpen-Menü einzustellen)
   * senke die Dauer der Bildschirmzeit (im Pumpen-Menü einzustellen)
@@ -39,5 +39,6 @@ Im Gegensatz zum "klassischen" Vorgehen nutzt AndroidAAPS nicht die "Katheter f�
 * Auf dem Tab **AKTIONEN** in AndoidAPS über den Knopf **Vorfüllen/Füllen** die Menge an Insulin einstellen, die zum Befüllen nötig ist und den Füllvorgang starten. Sollte die Menge nicht reichen, den Vorgang ggf. wiederholen. 
 * Anschließend den neuen Katheter setzen.
 
+***
 
 Andere Tipps und Tricks kann man in der [Facebook Gruppe](https://www.facebook.com/groups/1900195340201874/) finden.
