@@ -49,7 +49,7 @@ Typische Lebensdauer verschiedener Batterietypen:
 * **Eneloop Akku** (BK-3MCCE): 2 - 14 Tage
 
 Sollte die Lebenszeit der Batterie deutlich kürzer, als die oben angegebenen Zeiten sein, prüfe bitte folgende mögliche Fehlerursachen:
-* Die neueste Version (ca. März 2018) der [ruffy App](https://github.com/MilosKozak/ruffy) hat die Batterie-Laufzeit Pumpe deutlich verlängert. Stelel daher sicher, dass Du die neueste ruffy-Version einsetzt.
+* Die neueste Version (ca. März 2018) der [ruffy App](https://github.com/MilosKozak/ruffy) hat die Batterie-Laufzeit Pumpe deutlich verlängert. Stelle daher sicher, dass Du die neueste ruffy-Version einsetzt.
 * Es gibt zwei Varianten bei den Batteriekappen der Accu-Chek Combo, die den Stromkreislauf teilweise kurzschließen und sich damit die Batterie schneller entleeren kann. Die Kappen ohne dieses Problem kann man an den goldenen Metall-Kontakten erkennen. 
 * Wenn die Uhrzeit einen kurzen Batteriewechsel nicht “überlebt”, ist vermutlich der Kondensator defekt, der während einer kurzen Stromunterbrechung die Uhrzeit weiterlaufen lässt. In diesem Fall hilft nur ein Austausch der Pumpe durch Roche, was während der Garantiezeit kein Problem darstellt.
 * Auf manchen Smartphones wird die AndroidAPS App häufig geschlossen, um Energie oder RAM zu sparen. Dann wird AndroidAPS bei jedem Aufruf neu initialisiert, baut eine Bluetooth-Verbindung zur Pumpe auf und liest die aktuelle Basalrate und die Bolus-Historie aus. Dies verbraucht sehr viel Strom und sorgt für eine kürzere Batterie-Lebensdauer. Um diesem Fehler auf die Sur zu kommen, aktiviere unter **Einstellungen** die Option **Logge App-Start in NS**. Dann wird in der Nightscout-Webseite jeder Neustart von AndroidAPS protokoliert.
