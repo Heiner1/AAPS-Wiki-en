@@ -4,15 +4,17 @@ There are serveral possible reasons. Try the following steps:
 
 ![Combo should be next to phone](https://raw.githubusercontent.com/T-o-b-i-a-s/ComboLooping/master/resources/Combo_next_to_Phone.png)
 
-2.  Delete already connected devices in the Bluetooth menu of the pump: **BLUETOOTH SETTINGS / CONNECTION / REMOVE** until 
+2. Turn off or remove any other bluetooth devices so they will not be able to establish a connection to the phone while pairing is in progress. Any parallel bluetooth communication or prompt to establish connections might disturb the pairing process.
+
+3.  Delete already connected devices in the Bluetooth menu of the pump: **BLUETOOTH SETTINGS / CONNECTION / REMOVE** until 
     **NO DEVICE** is shown.
-3.  Delete a pump already connected to the phone via Bluetooth: Under Settings / Bluetooth, remove the paired device 
+4.  Delete a pump already connected to the phone via Bluetooth: Under Settings / Bluetooth, remove the paired device 
     "**SpiritCombo**"
-4.  Make sure, that AAPS not running in background the loop. Deaktivate Loop in AAPS.
-5.  Now start ruffy on the phone. You may press Reset! and remove old Bonding. Then hit Connect!.
-6.  In the Bluetooth menu of the pump, go to **ADD DEVICE / ADD CONNECTION**. Press *CONNECT!** 
+5.  Make sure, that AAPS not running in background the loop. Deaktivate Loop in AAPS.
+6.  Now start ruffy on the phone. You may press Reset! and remove old Bonding. Then hit Connect!.
+7.  In the Bluetooth menu of the pump, go to **ADD DEVICE / ADD CONNECTION**. Press *CONNECT!** 
     * Step 5 and 6 have to be in a short timing.
-7.  Now the Pump should show up the BT Name of phone to select for pairing. Here it is importand to whait at least 5s 
+8.  Now the Pump should show up the BT Name of phone to select for pairing. Here it is importand to whait at least 5s 
     bevore you hit the select button on Pump. Otherwise the Pumpe will not send the Paring request to the Phone proberly.
  
     * If Combo Pump is set to 5s Screentime out, you may test it with 40s (original setting). From experiance the time 
@@ -23,7 +25,7 @@ There are serveral possible reasons. Try the following steps:
       possible, try another smartphone. You can find a list of already successfully used smartphones under [AAPS Phones] 
       (https://docs.google.com/spreadsheets/d/1gZAsN6f0gv6tkgy9EBsYl0BQNhna0RDqA9QGycAqCQc/edit#gid=698881435). 
 
-8.  At next Pump should show up a 10 digit security code. And Ruffy a screen to enter it. So enter it in Ruffy and you 
+9.  At next Pump should show up a 10 digit security code. And Ruffy a screen to enter it. So enter it in Ruffy and you 
     should be ready to go.
-9.  Reboot the phone.
-10. Now you can restart AAPS loop.
+10.  Reboot the phone.
+11. Now you can restart AAPS loop.
