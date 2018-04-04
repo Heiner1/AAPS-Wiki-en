@@ -11,7 +11,8 @@
  
 * Go to Build Menu and click on Generate Signed APK
 
-* Select "app" as Module
+* Select 'app' as Module
+![Select 'app' as Module](https://user-images.githubusercontent.com/9692866/38299495-8885e446-37fa-11e8-9d19-cb05fd1bb506.png)
 
 * Set a keystore and password, if this is your first time then Create new, or fill in the details of your existing one.  For more information about using the keystore see [https://developer.android.com/studio/publish/app-signing.html#generate-key](https://developer.android.com/studio/publish/app-signing.html#generate-key)
 
