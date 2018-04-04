@@ -8,27 +8,23 @@
 * Run Android Studio and select 'Open an existing Android Studio project', selecting the location of the extracted files.
 
 * You might get an error message about not finding build tools - click on the links Android Studio provides to download all the software updates suggested.
-
-* Click on BuildVariants button on the bottom left of the Android Studio, and notice that you have several kinds of build types.
-
-
-[[https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/fullwearcontrolrelease.png]] 
-
-* Select the build type you want to build. 
-    * full (i.e. recommendations automatically enacted in closed looping)
-    * openloop (i.e. recommendations given to user to manually enact)
-    * pumpcontrol (i.e. remote control for pump, no looping)
-    * nsclient (i.e. looping data of another user is displayed and careportal entries can be added)
-<br>
-'Release' should be your default choice, 'Debug' is just for people coding.
-
+ 
 * Go to Build Menu and click on Generate Signed APK
+
+* Select "app" as Module
 
 * Set a keystore and password, if this is your first time then Create new, or fill in the details of your existing one.  For more information about using the keystore see [https://developer.android.com/studio/publish/app-signing.html#generate-key](https://developer.android.com/studio/publish/app-signing.html#generate-key)
 
 [[https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/generate%20signed%20APK.png]]
 
-*   Select the same build type as previous, select V1 (Jar Signature) and click Finish. 
+* Select 'Release' should be your default choice for "Build Type", 'Debug' is just for people coding.
+* Select the build type you want to build. 
+    * full (i.e. recommendations automatically enacted in closed looping)
+    * openloop (i.e. recommendations given to user to manually enact)
+    * pumpcontrol (i.e. remote control for pump, no looping)
+    * nsclient (i.e. looping data of another user is displayed and careportal entries can be added)
+
+*   Select V1 (Jar Signature) and click Finish. 
 
 [[https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/generate%20signed%20APK%20select%20buildtype%20v1.png]]
 
