@@ -17,7 +17,7 @@
 
 [[https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/generate%20signed%20APK.png]]
 
-* Select 'Release' should be your default choice for "Build Type", 'Debug' is just for people coding.
+* 'Release' should be your default choice for "Build Type", 'Debug' is just for people coding.
 * Select the build type you want to build. 
     * full (i.e. recommendations automatically enacted in closed looping)
     * openloop (i.e. recommendations given to user to manually enact)
