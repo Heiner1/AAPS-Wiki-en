@@ -25,9 +25,9 @@
     * pumpcontrol (i.e. remote control for pump, no looping)
     * nsclient (i.e. looping data of another user is displayed and careportal entries can be added)
 
-*   Select V1 (Jar Signature) and click Finish. 
+*   Select V1 "Jar Signature" (V2 is optional) and click Finish. 
 
-[[https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/generate%20signed%20APK%20select%20buildtype%20v1.png]]
+![release full signatuer](https://user-images.githubusercontent.com/9692866/38299493-8838e38a-37fa-11e8-8c28-3fa6071e7a76.png)
 
 * Please wait for some time until the APK is created. You will get the pop-up below when the process is done.
 
