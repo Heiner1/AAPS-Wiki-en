@@ -7,8 +7,8 @@ _If using xdrip…_<br>
 * Select xdrip in ConfigBuilder (setting in AndroidAPS).
 
 _If using Dexcom G5 App..._<Br>
-* Just dev, and in mmol/l (mg/dl version coming soon).
-* Download the apk from [here](https://github.com/dexcomapp/dexcomapp), just this version works.
+* Just dev.
+* Download the apk from [here](https://github.com/dexcomapp/dexcomapp), just this versions works whether mg/dl or mmol/l.
 * Deinstall original Dexcom app, if not allready done.
 * Select Dexcom G5 App in ConfigBuilder
 
