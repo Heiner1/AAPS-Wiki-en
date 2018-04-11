@@ -24,8 +24,9 @@ https://xoyondo.com/dp/4ReIvDs2KDbGzcO
 12.04.2018  
 10.05.2018  
 14.06.2018  
-**Wo?** Im Schulungsraum von Dr. med. Hans-Joachim Lüddeke, Cosimastraße 2 81927 München  
+**Wo?** Gaststätte Schlösselgarten, Cosimastraße 41, München; in der Kleingartenanlage
 **Uhrzeit?** Ab 19 Uhr  
+https://xoyondo.com/u/Loopertreffen-Muenchen 
 
 ## Hamburg
 Letztes #LooperInHamburg Treffen war am 7. Januar 2018.  
