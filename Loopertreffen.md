@@ -25,6 +25,7 @@ https://xoyondo.com/dp/4ReIvDs2KDbGzcO
 10.05.2018  
 14.06.2018  
 **Wo?** Gaststätte Schlösselgarten, Cosimastraße 41, München; in der Kleingartenanlage
+
 **Uhrzeit?** Ab 19 Uhr  
 https://xoyondo.com/u/Loopertreffen-Muenchen 
 
