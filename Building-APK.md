@@ -1,5 +1,5 @@
 * Install [Android Studio](https://developer.android.com/studio/install.html).  
-* Click "Clone or Download" button on the [AndroidAPS repository](https://github.com/MilosKozak/AndroidAPS) and either download zip and extract the files, or use git clone in Android Studio as shown in screenshot below.
+* Use git clone in Android Studio as shown in screenshot below.
 
 ![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot%201.png)
 ![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot2.png)
