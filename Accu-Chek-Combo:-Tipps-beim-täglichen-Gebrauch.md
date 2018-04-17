@@ -28,8 +28,7 @@ Gelegentlich kann AndroidAPS eine TBR CANCELED-Warnung nicht automatisch abbrech
 ## Batterie wechseln
 * Nach einem “**Batterie fast leer**” Alarm sollte möglichst schnell die **Batterie gewechselt** werden, um immer genügend Energie für eine zuverlässige Bluetooth-Kommunikation mit dem Smartphone zu haben.
 * Auch nach dem **Batterie fast leer** Alarm kann die Pumpe -insbesondere mit hochwertigen Batterien- meist eine ganze Zeit weiter betrieben werden. Dabei sollte man allerdings immer schon eine volle Ersatzbatterie parat haben.
-* Auf der **Startseite von AndroidAAPS** lange auf **Closed Loop** drücken und dann **Loop unterbrechen für 1h" auswählen.
-* Kurz abwarten, bis AndroidAPS den Befehl an die Pumpe weiter gegeben hat und das Bluetooth-Sysmbol auf der Pumpe wieder verschwunden ist.
+* Auf der **Startseite von AndroidAPS** länger auf **Closed Loop** drücken und dann **Loop unterbrechen für 1h** auswählen. Kurz abwarten, bis AndroidAPS den Befehl an die Pumpe weiter gegeben hat und das Bluetooth-Sysmbol auf der Pumpe wieder verschwunden ist.
 
 ![Bluetooth aktiv](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/Compo.png?raw=true)
 
@@ -51,7 +50,7 @@ Typische Lebensdauer verschiedener Batterietypen:
 Sollte die Lebenszeit der Batterie deutlich kürzer, als die oben angegebenen Zeiten sein, prüfe bitte folgende mögliche Fehlerursachen:
 * Die neueste Version (ca. März 2018) der [ruffy App](https://github.com/MilosKozak/ruffy) hat die Batterie-Laufzeit Pumpe deutlich verlängert. Stelle daher sicher, dass Du die neueste ruffy-Version einsetzt.
 * Es gibt zwei Varianten bei den Batteriekappen der Accu-Chek Combo, die den Stromkreislauf teilweise kurzschließen und sich damit die Batterie schneller entleeren kann. Die Kappen ohne dieses Problem kann man an den goldenen Metall-Kontakten erkennen. 
-* Wenn die Uhrzeit einen kurzen Batteriewechsel nicht “überlebt”, ist vermutlich der Kondensator defekt, der während einer kurzen Stromunterbrechung die Uhrzeit weiterlaufen lässt. In diesem Fall hilft nur ein Austausch der Pumpe durch Roche, was während der Garantiezeit kein Problem darstellt.
+* Wenn die Uhrzeit einen kurzen Batteriewechsel nicht “überlebt”, ist vermutlich der Kondensator defekt, der während einer kurzen Stromunterbrechung die Uhrzeit weiterlaufen lassen würde. In diesem Fall hilft nur ein Austausch der Pumpe durch Roche, was während der Garantiezeit kein Problem darstellt.
 * Auf manchen Smartphones wird die AndroidAPS App häufig geschlossen, um Energie oder RAM zu sparen. Dann wird AndroidAPS bei jedem Aufruf neu initialisiert, baut eine Bluetooth-Verbindung zur Pumpe auf und liest die aktuelle Basalrate und die Bolus-Historie aus. Dies verbraucht sehr viel Strom und sorgt für eine kürzere Batterie-Lebensdauer. Um diesem Fehler auf die Sur zu kommen, aktiviere unter **Einstellungen** die Option **Logge App-Start in NS**. Dann wird in der Nightscout-Webseite jeder Neustart von AndroidAPS protokoliert.
 * Die Hardware und das Betriebssystem oder der Bluetooth-Stack des Mobiltelefons scheinen auch großen Einfluss auf die Batterie-Lebenszeit der Pumpe zu haben. Falls Du die Möglichkeit hats, probiere eventuell ein anderes Mobiltelefon aus. 
 
