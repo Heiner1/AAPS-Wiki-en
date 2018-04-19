@@ -21,8 +21,7 @@ https://xoyondo.com/dp/4ReIvDs2KDbGzcO
 
 ### München
 **Wann?** Immer am 2ten Donnerstag im Monat:   
-12.04.2018  
-10.05.2018  
+??.05.2018  
 14.06.2018  
 **Wo?** Gaststätte Schlösselgarten, Cosimastraße 41, München; in der Kleingartenanlage    
 **Uhrzeit?** Ab 19 Uhr  
@@ -42,8 +41,9 @@ Dies könnte zur Gründung eines festen Stammtisches für LooperInHamburg führe
 ## Niedersachsen:  
   
 ### Hannover  
-#LooperInHannover Treffen war am 25. März 2018 in kleiner Runde, nächstes folgt.  
-Doodle link:   
+#LooperInHannover Treffen im Mai 2018  
+Link zur Terminfindung: 
+https://xoyondo.com/dp/mJnWbGa3yFrxNQJ  
  
  
 ## Schleswig-Holstein:  
@@ -67,13 +67,9 @@ https://doodle.com/poll/cfmxvbne8c87xirq
 ## Nordwürttemberg-Nordbaden:  
   
 ### Mannheim  
-Treffen am  
-8. April 2018 (Sonntag)  
-17 Uhr  
-Kaffee Kult, Seckenheimerstraße 34, 68165 Mannheim  
-Bitte fleißig eintragen:  
-https://doodle.com/poll/n3pbi8shub65m9im  
-Weiteres unter https://www.facebook.com/events/211311499620677/  
+Treffen war am  
+8. April 2018   
+
  
  
 ## Südbaden:  
