@@ -5,6 +5,7 @@ Getting Started:
 * [[Architecture, security implementation]]
 * [[Phones]]
 * [[Glossary]]
+* [[How can I help]]
 
 How to install AndroidAPS:
 * [[Building APK]]
