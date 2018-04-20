@@ -19,6 +19,7 @@ Configuration:
   * [[Accu Chek Combo Pump]]
   * [[Watchfaces]]
 * [[Preferences]]
+* [[Sensitivity detection & COB]]
 
 Usage:
 * [[Objectives]]
