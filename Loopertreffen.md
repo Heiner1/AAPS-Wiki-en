@@ -50,7 +50,8 @@ https://xoyondo.com/dp/mJnWbGa3yFrxNQJ
 ### Flensburg  
 Nächstes #LooperInFlensburg Treffen ist im Juni 2018 geplant.  
 https://xoyondo.com/dp/ZqVodAXAPPb0qUn  
-
+  
+  
   
   
 ## Rhein-Ruhr:  
