@@ -59,7 +59,7 @@ Doodle link: folgt
 Link zur Kölner WhatsApp Gruppe (funktioniert nur über das Smartphone):  
 https://chat.whatsapp.com/LYFYeEv2KhNDMbwSuGfBBT 
   
-Terminauswahl für das nächste Treffen:  
+Nächstes Treffen am 9. Juni 2018:  
 https://doodle.com/poll/cfmxvbne8c87xirq  
  
  
