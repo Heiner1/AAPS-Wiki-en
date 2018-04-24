@@ -48,8 +48,9 @@ https://xoyondo.com/dp/mJnWbGa3yFrxNQJ
 ## Schleswig-Holstein:  
   
 ### Flensburg  
-Nächstes #LooperInFlensburg Treffen ist im Frühjahr 2018 geplant.  
-Doodle link: folgt  
+Nächstes #LooperInFlensburg Treffen ist im Juni 2018 geplant.  
+https://xoyondo.com/dp/ZqVodAXAPPb0qUn  
+
   
   
 ## Rhein-Ruhr:  
