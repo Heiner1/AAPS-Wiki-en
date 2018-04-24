@@ -19,9 +19,9 @@ Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf
 **Event-Details: (vom 17.3.) https://www.facebook.com/events/1620410464691771/**  
 
 ### München
-**Wann?** Immer am 2ten Donnerstag im Monat:   
-??.05.2018  
-14.06.2018  
+**Wann?** Immer am 2ten Mittwoch im Monat:   
+09.05.2018  
+13.06.2018  
 **Wo?** Gaststätte Schlösselgarten, Cosimastraße 41, München; in der Kleingartenanlage    
 **Uhrzeit?** Ab 19 Uhr  
 https://xoyondo.com/u/Loopertreffen-Muenchen 
