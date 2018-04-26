@@ -1,9 +1,3 @@
-# Work in Progress
-
-- [ ] Add to _Usage_ section in sidebar when ready
-- [ ] Extend to explain the entire dialog, including use cases e.g. for Hypo TT (counteract overrcorrection from loop with fast-acting carbs)?
-- [ ] Maybe better screenshots showing a realistic example
-
 The _Carbs_ button on the overview tab has a _duration_ field since version 1.60 if engineering mode is enabled. 
 This can be used when meals are longer, like a brunch, or the consumed carbs are longer acting, like with fat and protein-rich meals. The _time_ field allows shifting the carbs to have them start sooner or later:
 
