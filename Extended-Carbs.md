@@ -3,7 +3,7 @@ This can be used when meals are longer, like a brunch, or the consumed carbs are
 
 <img src="https://user-images.githubusercontent.com/1732305/38613967-e2bd719a-3d8b-11e8-8c5f-b3c96607ad78.png" width=400>
 
-If a duration is specified, the entered carbs will be created over the specified time, split up into smaller carbs every 15m:
+If a _duration_ is specified, the entered carbs will be created over the specified time, split up into smaller carbs every 15m:
 
 <img src="https://user-images.githubusercontent.com/1732305/38613976-e52547c8-3d8b-11e8-91ff-4fbba4016e9b.png" width=400>
 
