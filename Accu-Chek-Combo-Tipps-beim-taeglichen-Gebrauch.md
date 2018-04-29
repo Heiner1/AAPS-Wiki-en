@@ -43,9 +43,9 @@ Gelegentlich kann AndroidAPS eine TBR CANCELED-Warnung nicht automatisch abbrech
 ![OnePower](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/PowerOne.png?raw=true)
 
 Typische Lebensdauer verschiedener Batterietypen:
-* **Energizer ULTIMATE LITHIUM**: 4 - 5 Wochen
+* **Energizer ULTIMATE LITHIUM**: 4 - 7 Wochen
 * **power one alkaline** (Varta): 2 - 4 Wochen
-* **Eneloop Akku** (BK-3MCCE): 2 - 14 Tage
+* **Eneloop Akku** (BK-3MCCE): 1 - 3 Wochen
 
 Sollte die Lebenszeit der Batterie deutlich kürzer, als die oben angegebenen Zeiten sein, prüfe bitte folgende mögliche Fehlerursachen:
 * Die neueste Version (ca. März 2018) der [ruffy App](https://github.com/MilosKozak/ruffy) hat die Batterie-Laufzeit Pumpe deutlich verlängert. Stelle daher sicher, dass Du die neueste ruffy-Version einsetzt.
@@ -72,8 +72,8 @@ Den richtigen Prozentsatz kann man über die durchschnittliche Basalrate im gew�
 ![Temporäre Basalrate](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/300_prozent_Basalrate.png?raw=true)
 
 # Alarme bei der Bolus-Abgabe
-* Stellt AndroidAPS fest, dass in derselben Minute ein gleich hoher Bolus, bereits abgegeben wurde, wird die **Bolusabgabe mit identischen Werten verhindert**. Daher einfach kurz warten und die Bolusabgabe **nach zwei Minuten nochmals ausführen**.
-* Hintergrund ist ein **Sicherheitsmechanismus**, der kontinuierlich die Bolushistorie der Pumpe ausliest, um das Insulin on Board (IOB) korrekt berechnen zu können, selbst wenn ein Bolus direkt über die Pumpe abgegeben wurde. Hier müssen nicht unterscheidbare Einträge verhindert werden.
+* Stellt AndroidAPS fest, dass in derselben Minute ein gleich hoher Bolus bereits erfolgreich abgegeben wurde, wird die **Bolusabgabe mit identischen Werten verhindert**. Daher einfach kurz warten und die Bolusabgabe **nach zwei Minuten nochmals ausführen**. Seit AAPS 2.0 kann man einen abgebrochenen oder aus anderen Gründen nicht abgegebenen Bous direkt wiederholen.
+* Hintergrund ist ein **Sicherheitsmechanismus**, der vor jedem Bolus die Bolushistorie der Pumpe ausliest, um das Insulin on Board (IOB) korrekt berechnen zu können, selbst wenn ein Bolus direkt über die Pumpe abgegeben wurde. Hier müssen nicht unterscheidbare Einträge verhindert werden.
 
 ![Doppelbolus](https://raw.githubusercontent.com/T-o-b-i-a-s/ComboLooping/f9c56c930dc564c1649cd8e3764e077ffc02c5ef/resources/Doppelbolus.png)
 
