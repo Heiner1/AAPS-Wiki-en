@@ -48,14 +48,14 @@
 ![OnePower](https://github.com/T-o-b-i-a-s/ComboLooping/blob/master/resources/PowerOne.png?raw=true)
 
 Ranges for typical life time of the different battery types are as follows:
-* **Energizer Ultimate Lithium**: 4 to 5 weeks
-* **Power One Alkaline** (Varta) from the servcie pack: 2 to 3 weeks
-* **Eneloop rechargable** batteries (BK-3MCCE): 2 to 14 days
+* **Energizer Ultimate Lithium**: 4 to 7 weeks
+* **Power One Alkaline** (Varta) from the servcie pack: 2 to 4 weeks
+* **Eneloop rechargable** batteries (BK-3MCCE): 1 to 3 weeks
 
 If your battery life is signifcantly shorter than the ranges given above, please check the following possible causes:
 * Die latest version (March 2018) of the [ruffy App](https://github.com/MilosKozak/ruffy) significantly improved pump battery lifetime. Make sure you are on that version if you have issues with a short battery lifetime.
-* There are some variants of the screw-on battery cap of the Combo pump, which partially short circuits the batteries and drain them quickly. The caps without this problem can be recognized by the golden metal contacts.
-* If the pump clock does not "survive" a short battery change, it is likely that the capacitor is broken which keeps the clock running during a brief power outage. In this case, only replacement of the pump by Roche will help, which is not a problem during the warranty period. 
+* There are some variants of the screw-on battery cap of the Combo pump, which partially short circuit the batteries and drain them quickly. The caps without this problem can be recognized by the golden metal contacts.
+* If the pump clock does not "survive" a short battery change, it is likely that the capacitor is broken which keeps the clock running during a brief power outage. In this case, only a replacement of the pump by Roche will help, which is not a problem during the warranty period. 
 * The smart phone hardware and software (Android operating system and bluetooth stack) also impact the battery lifetime of the pump, even though the exact factors are not completely known yet. If you have the opportunity, try another smartphone and compare battery lifetimes.
 
 # Daylight saving time changes
@@ -79,8 +79,8 @@ The OpenAPS algorithm does not support a parallel extended bolus or multiwave bo
 ![Disabled loop after multiwave bolus](https://raw.githubusercontent.com/T-o-b-i-a-s/ComboLooping/master/resources/Multiwave_Bolus.png)
 
 # Alarms at bolus delivery
-* If AndroidAPS detects that an identical bolus has already been given at the same minute, bolus delivery will be prevented with identical values. So just wait a moment and try to deliver the bolus again after two minutes.
-* Background is a safety mechanism that continuously reads the pump's bolus history to correctly calculate insulin on board (IOB), even when a bolus is delivered directly from the pump. Here indistinguishable entries must be prevented. 
+* If AndroidAPS detects that an identical has been successfully delivered at the same minute, bolus delivery will be prevented with identical numer of insulin units. If your really want to bolus the same inuslin twice in short succession, just wait two more minutes and then deliver the bolus again. If the fist bolus has been interruped ot was not delivered for other reasons, you can immediately re-submit the bolus since AAPS 2.0.
+* Background is a safety mechanism that reads the pump's bolus history before subm,itting a new bolus to correctly calculate insulin on board (IOB), even when a bolus is delivered directly from the pump. Here indistinguishable entries must be prevented.
 
 ![Double bolus](https://raw.githubusercontent.com/T-o-b-i-a-s/ComboLooping/f9c56c930dc564c1649cd8e3764e077ffc02c5ef/resources/Doppelbolus.png)
 
