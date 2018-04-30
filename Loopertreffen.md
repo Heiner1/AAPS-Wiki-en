@@ -41,7 +41,6 @@ Dies könnte zur Gründung eines festen Stammtisches für LooperInHamburg führe
   
 ### Hannover  
 #LooperInHannover Treffen im Mai 2018  
-Link zur Terminfindung: 
 https://xoyondo.com/dp/mJnWbGa3yFrxNQJ  
  
  
