@@ -4,7 +4,7 @@
 
 ## Die Liste der potentiellen Orte für Loopertreffen ist zusätzlich als Anregung für euch gedacht, Treffen zu organisieren. Ihr findet sie hier: https://doodle.com/poll/cpui3ifzrzyu3id8  
 
-## **Berlin**
+## Berlin
 #LooperInBerlin Treffen Mai? 2018  
 Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf    
  
@@ -52,8 +52,14 @@ Nächstes #LooperInFlensburg Treffen ist im Juni 2018 geplant.
 https://xoyondo.com/dp/ZqVodAXAPPb0qUn  
   
   
+## Region Lausitz:
+
+Hier ist ein erstes Treffen geplant!
+
+https://doodle.com/poll/4thziammayzebxcz  
   
   
+   
 ## Rhein-Main:  
   
 ### Frankfurt  
