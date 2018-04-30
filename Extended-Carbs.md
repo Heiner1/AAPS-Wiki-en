@@ -1,4 +1,4 @@
-The _Carbs_ button on the overview tab has a _duration_ field since version 1.60 if engineering mode is enabled. 
+The _Carbs_ button on the overview tab has a _duration_ field since version 2.0. 
 This can be used when meals are longer, like a brunch, or the consumed carbs are longer acting, like with fat and protein-rich meals. The _time_ field allows shifting the carbs to have them start sooner or later:
 
 <img src="https://user-images.githubusercontent.com/1732305/38613967-e2bd719a-3d8b-11e8-8c5f-b3c96607ad78.png" width=400>
