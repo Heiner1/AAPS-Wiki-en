@@ -4,6 +4,7 @@ Getting Started:
 * [[Screenshots]]
 * [[Architecture, security implementation]]
 * [[Phones]]
+* [[Pump Comparison]]
 * [[Glossary]]
 * [[How can I help]]
 
