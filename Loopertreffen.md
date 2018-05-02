@@ -63,7 +63,7 @@ https://doodle.com/poll/4thziammayzebxcz
   
 ### Frankfurt  
  
-#LooperInRheinMain Treffen ist am 11.05.2018 in Frankfurt geplant.
+#LooperInRheinMain Treffen ist am 11.05.2018 in Frankfurt geplant.  
 https://doodle.com/poll/c8v3r35c4vmy4rni
 
 
