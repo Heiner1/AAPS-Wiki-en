@@ -62,9 +62,9 @@ https://doodle.com/poll/4thziammayzebxcz
 ## Rhein-Main:  
   
 ### Frankfurt  
-  
-Terminfindung unter  
-https://doodle.com/poll/6q5ei6fsuzdetmb5  
+ 
+#LooperInRheinMain Treffen ist im 11.05.2018 geplant.
+https://doodle.com/poll/c8v3r35c4vmy4rni
 
 
 ## Rhein-Ruhr:  
@@ -94,7 +94,6 @@ Treffen war am
 ### Freiburg im Breisgau  
 Das letzte Treffen war am 18. März 2018, weitere sind in Planung.  
 Doodle link:   
-
 
 
 
