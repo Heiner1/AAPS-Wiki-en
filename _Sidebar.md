@@ -20,6 +20,7 @@ Configuration:
   * [[DanaRS Insulin Pump]]
   * [[Accu Chek Combo Pump]]
   * [[Watchfaces]]
+  * [[Future (possible) Pump Drivers]] 
 * [[Preferences]]
 * [[Sensitivity detection and COB]]
 
