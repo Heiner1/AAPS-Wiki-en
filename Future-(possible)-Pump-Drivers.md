@@ -10,7 +10,7 @@ This is list of some Pumps floating around there, and status of support for them
 
 **Java implementations:**  Partial implementation available [Rountrip2](https://github.com/TC2013/Roundtrip2)
 
-**AAPS implementation status:** Starting. See [Andy's AndroidAPS fork](https://github.com/andyrozman/AndroidAPS), branch riley_link_medtronic. Status: Base integration done (Medtronic Tab), we have now Medtronic virtual pump.  
+**AAPS implementation status:** Starting. See [Andy's AndroidAPS fork](https://github.com/andyrozman/AndroidAPS), branch riley_link_medtronic. Status: Base integration done (Medtronic Tab), we have now Medtronic virtual pump. At the moment most of work is being done on [Roundtrip2MedtronicAAPS](https://github.com/andyrozman/Roundtrip2MedtronicAAPS) to get framework and commands working.
 
 **Hardware requirement for AAPS:** RileyLink with Medtronic firmware (900 Mhz)
 
@@ -44,6 +44,14 @@ This is list of some Pumps floating around there, and status of support for them
 
 **Hardware requirement for AAPS:** Probably none. It's BT enabled.
 
+***
+
+
+## Cellnovo Pump
+
+**Loop status:** Currently not supported by any of loop system. Pump is Loop candidate, but since protocol is unknown at the time, I am not seeing this pump supported very soon. 
+
+**Hardware requirement for AAPS:** Probably none. It's BT enabled.
 
 ***
 
