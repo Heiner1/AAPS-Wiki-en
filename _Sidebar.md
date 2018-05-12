@@ -4,7 +4,8 @@ Getting Started:
 * [[Screenshots]]
 * [[Architecture, security implementation]]
 * [[Phones]]
-* [[Pump Comparison]]
+* [[Pump Choices]]
+  * [[Future (possible) Pump Drivers]] 
 * [[Glossary]]
 * [[How can I help]]
 
@@ -20,7 +21,6 @@ Configuration:
   * [[DanaRS Insulin Pump]]
   * [[Accu Chek Combo Pump]]
   * [[Watchfaces]]
-  * [[Future (possible) Pump Drivers]] 
 * [[Preferences]]
 * [[Sensitivity detection and COB]]
 
@@ -38,7 +38,6 @@ Sources:
 * [[Mentions]]
 * [[Connect with other users]]
 * [Facebook group](https://www.facebook.com/groups/1900195340201874/)
-* [AndroidAPS guide by Roumen Georgiev, in facebook group files](https://www.facebook.com/groups/1900195340201874/files/)
 
 CZ:
 * [[Instrukce v češtině]]
