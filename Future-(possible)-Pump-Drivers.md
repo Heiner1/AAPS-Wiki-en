@@ -48,7 +48,7 @@ This is list of some Pumps floating around there, and status of support for them
 ***
 
 
-## Ipsomed Pump
+## Ypsomed Pump
 
 **Loop status:** Currently not supported by any of loop system. Still trying to determine if the pump is actually loop candidate (I know some commands can be issued from phone app, but I am still waiting for official info, if V1 of their pump is a candidate). 
 
