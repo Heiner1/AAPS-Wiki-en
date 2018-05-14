@@ -2,6 +2,16 @@
 
 This is list of some Pumps floating around there, and status of support for them in any of Looping systems and then status in AAPS. On end there is some info, what is required for a pump to be "Loop capable".
 
+## Accu-chek Insight
+
+**Loop status:** Pump is loopable, and support is being added on AAPS
+
+**Other implementations:** None
+
+**Java implementations:** AAPS
+
+**AAPS implementation status:** Driver is already written and is currently in beta testing. It is available on dev branch or RC branch, with enabled Engineering mode.
+
 ## Medtronic
 
 **Loop status:** Some of older versions of pumps are loopable, but not the newer models (see down)
@@ -10,7 +20,7 @@ This is list of some Pumps floating around there, and status of support for them
 
 **Java implementations:**  Partial implementation available [Rountrip2](https://github.com/TC2013/Roundtrip2)
 
-**AAPS implementation status:** Starting. See [Andy's AndroidAPS fork](https://github.com/andyrozman/AndroidAPS), branch riley_link_medtronic. Status: Base integration done (Medtronic Tab), we have now Medtronic virtual pump. At the moment most of work is being done on [Roundtrip2MedtronicAAPS](https://github.com/andyrozman/Roundtrip2MedtronicAAPS) to get framework and commands working.
+**AAPS implementation status:** Starting. See [Andy's AndroidAPS fork](https://github.com/andyrozman/AndroidAPS), branch riley_link_medtronic (default branch). Status: Base integration done (Medtronic Tab), we have now Medtronic virtual pump. At the moment most of work is being done on [Roundtrip2RileyLinkAAPS](https://github.com/andyrozman/Roundtrip2RileyLinkAAPS) to get framework and commands working. There is project (Medtronic) and tickets opened for future development on that repository, development is being done on branch dev_medtronic (which is default branch there).
 
 **Hardware requirement for AAPS:** RileyLink with Medtronic firmware (900 Mhz)
 
