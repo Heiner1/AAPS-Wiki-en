@@ -5,7 +5,7 @@
 ## Die Liste der potentiellen Orte für Loopertreffen ist zusätzlich als Anregung für euch gedacht, Treffen zu organisieren. Ihr findet sie hier: https://doodle.com/poll/cpui3ifzrzyu3id8  
 
 ## Berlin
-#LooperInBerlin Treffen Mai? 2018  
+#LooperInBerlin Treffen Juni? 2018  
 Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf    
  
 
@@ -19,8 +19,7 @@ Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf
 **Event-Details: (vom 17.3.) https://www.facebook.com/events/1620410464691771/**  
 
 ### München
-**Wann?** Immer am 2ten Mittwoch im Monat:   
-09.05.2018  
+**Wann?** Immer am 2ten Mittwoch im Monat:     
 13.06.2018  
 **Wo?** Gaststätte Schlösselgarten, Cosimastraße 41, München; in der Kleingartenanlage    
 **Uhrzeit?** Ab 19 Uhr  
@@ -40,7 +39,7 @@ Dies könnte zur Gründung eines festen Stammtisches für LooperInHamburg führe
 ## Niedersachsen:  
   
 ### Hannover  
-#LooperInHannover Treffen im Mai 2018  
+#LooperInHannover Treffen 26. Mai 2018  
 https://xoyondo.com/dp/mJnWbGa3yFrxNQJ  
  
  
@@ -63,8 +62,7 @@ https://doodle.com/poll/4thziammayzebxcz
   
 ### Frankfurt  
  
-#LooperInRheinMain Treffen ist am 11.05.2018 in Frankfurt geplant.  
-https://doodle.com/poll/c8v3r35c4vmy4rni
+#LooperInRheinMain Treffen war am 11.05.2018 in Frankfurt.  
 
 
 ## Rhein-Ruhr:  
