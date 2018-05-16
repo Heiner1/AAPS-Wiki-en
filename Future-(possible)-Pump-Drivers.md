@@ -2,6 +2,19 @@
 
 This is list of some Pumps floating around there, and status of support for them in any of Looping systems and then status in AAPS. On end there is some info, what is required for a pump to be "Loop capable".
 
+***
+
+## Accu-chek Insight
+Loop status: Pump is loopable.
+
+Other implementations: None
+
+Java implementations: AAPS
+
+AAPS implementation status: Driver implementation is in progress (exact status unknown). If you are interested in their development there is gitter room [InsightINVESTIGATIONS/Lobby](https://gitter.im/InsightINVESTIGATIONS/Lobby) you can join.
+
+***
+
 ## Medtronic
 
 **Loop status:** Some of older versions of pumps are loopable, but not the newer models (see down)
