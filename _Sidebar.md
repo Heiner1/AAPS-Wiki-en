@@ -110,6 +110,8 @@ DE:
 * [[Mentions]]
 * [[Връзка с други потребители]]
 * [Facebook група](https://www.facebook.com/groups/1900195340201874/)
+Примери:
+* [Примерна конфигурация: Galaxy S7, DanaR, Dexcom G5 и SWR50](https://github.com/MilosKozak/AndroidAPS/wiki/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F:-Galaxy-S7,-DanaR,-Dexcom-G5-%D0%B8-SWR50/8ecf7d354ad97179df93aa51c36e3dc86c18b642)
 
 Подкрепа:
 * [[Как може да помогна?]]
