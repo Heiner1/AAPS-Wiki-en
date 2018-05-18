@@ -10,9 +10,9 @@ This is list of some Pumps floating around there, and status of support for them
 
 **Java implementations:**  Partial implementation available [Rountrip2](https://github.com/TC2013/Roundtrip2)
 
-**AAPS implementation status:** Starting. See [Andy's AndroidAPS fork](https://github.com/andyrozman/AndroidAPS), branch riley_link_medtronic (default branch). Status: Base integration done (Medtronic Tab), we have now Medtronic virtual pump. At the moment most of work is being done on [Roundtrip2RileyLinkAAPS](https://github.com/andyrozman/Roundtrip2RileyLinkAAPS) to get framework and commands working. There is project (Medtronic) and tickets opened for future development on that repository, development is being done on branch dev_medtronic (which is default branch there).
+**AAPS implementation status:** Starting. See [Andy's AndroidAPS fork](https://github.com/andyrozman/AndroidAPS), branch riley_link_medtronic (default branch). Status: Base integration done (Medtronic Tab), we have now Medtronic virtual pump. At the moment most of work is being done on [RileyLinkAAPS](https://github.com/andyrozman/RileyLinkAAPS) to get framework and commands working. There is project (Medtronic) and tickets opened for future development on that repository, development is being done on branch dev_medtronic (which is default branch there). There is also gitter room: RileyLinkAAPS/Lobby
 
-**Hardware requirement for AAPS:** RileyLink with Medtronic firmware (900 Mhz)
+**Hardware requirement for AAPS:** RileyLink with Medtronic firmware (RileyLink 1.0 - 900 Mhz)
 
 **Loopable versions:** 512-522, 523 (Fw 2.4A or lower), 554 (EU firmware 2.6A or lower, CA firmware 2.7A or lower). Same for 7xx versions. All other devices are not supported, and probably won't be.
 
@@ -40,7 +40,7 @@ This is list of some Pumps floating around there, and status of support for them
 
 ## Ypsomed Pump
 
-**Loop status:** Currently not supported by any of loop system. Still trying to determine if the pump is actually loop candidate (I know some commands can be issued from phone app, but I am still waiting for official info, if V1 of their pump is a candidate). 
+**Loop status:** Version 1 - 1.5 (2Q/2018) are not Loop candidates. While they do have BT communication, it seems that communication is very limited (uni directional: Pump->App). Maybe this will change in next versions.
 
 **Hardware requirement for AAPS:** Probably none. It's BT enabled.
 
