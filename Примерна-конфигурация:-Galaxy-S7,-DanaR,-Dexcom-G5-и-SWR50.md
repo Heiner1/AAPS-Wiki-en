@@ -45,10 +45,15 @@
 * Изберете името на приложението
 * Settings > изберете "Reveal Config Vars" 
 * Добавете променливи или променете, както следва:
+
 ENABLE = careportal food cage sage iage iob cob basal rawbg pushover bgi pump openaps openapsbasal loop
+
 DEVICESTATUS_ADVANCED = true
+
 PUMP_FIELDS = reservoir battery clock
+
 Аларма при ниско ниво на батерията на помпата (в %) може да се активират, както следва:
+
 PUMP_WARN_BATT_P = 51
 PUMP_URGENT_BATT_P = 26
 
