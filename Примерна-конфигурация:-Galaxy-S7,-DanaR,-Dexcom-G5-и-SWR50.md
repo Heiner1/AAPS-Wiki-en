@@ -15,7 +15,7 @@
 ## 1.	[Samsung Galaxy S7](http://www.samsung.com/global/galaxy/galaxy-s7/)
 От къде да го намерите:  търговци на електроника, интернет магазини, мобилни оператори
 
-Алтернативи: виж Android в Списъка на Dexcom съвместимост (точка "Dexcom G5 всички мобилни приложения", а не в "приложение Последователи Dexcom" име)
+Алтернативи: виж [Списъка на Dexcom за съвместими смартфони с ОС Андроид](https://www.dexcom.com/ous-compatibility-page) 
 
 ## 2.	[Dana R инсулинова помпа](http://www.sooil.com/eng/product/dana-r.php)
 От къде: В България по предписание на ендокринолог или чрез [фирмата дистрибутор Global MED](http://globalmed.bg/?page_id=19) 
