@@ -55,6 +55,7 @@ PUMP_FIELDS = reservoir battery clock
 Аларма при ниско ниво на батерията на помпата (в %) може да се активират, както следва:
 
 PUMP_WARN_BATT_P = 51
+
 PUMP_URGENT_BATT_P = 26
 
 ## 3.	Проверете версията на уебсайта на Nightscout
