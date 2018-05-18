@@ -65,7 +65,7 @@ PUMP_URGENT_BATT_P = 26
 В долния край на менюто трябва да има "Nightscout version 0.10.2 -..."
 Съвет: Ако се показва по-стара версия, напр. "0.10.1 -...", Nightscout се нуждае от актуализиране. За да го обновите следваите инструкциите на [http://www.nightscout.info/wiki/welcome/how-to-update-to-latest-cgm-remote-monitor-aka-cookie](http://www.nightscout.info/wiki/welcome/how-to-update-to-latest-cgm-remote-monitor-aka-cookie). Ако въпреки успешна актуализация показаната версия не се актуализира, дори след ръчен "Redeploy", вижте инструкциите в [http://www.nightscout.info/wiki/welcome/how-to-update-to-latest-cgm-remote-monitor-aka-cookie/update-my-fork-troubleshooting-part-2](http://www.nightscout.info/wiki/welcome/how-to-update-to-latest-cgm-remote-monitor-aka-cookie/update-my-fork-troubleshooting-part-2).
 ## Подгответе компютъра / ноутбука
-За да можете сами да създадете приложение за Android от кода на AAPS, на компютъра или ноутбука се изисква да има инсталирано Android Studio (Windows, Mac, Linux)> Подробности има на адрес [https://developer.android.com/studio /install.html](https://developer.android.com/studio /install.html)
+За да можете сами да създадете приложение за Android от кода на AAPS, на компютъра или ноутбука се изисква да има инсталирано Android Studio (Windows, Mac, Linux)> Подробности има на адрес [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
 # Настройте своя смартфон
 <img src="https://user-images.githubusercontent.com/32912987/34470734-6ee34ade-ef38-11e7-9214-337a9c607243.png" width="250">
 
