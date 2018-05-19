@@ -20,8 +20,7 @@ Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf
 
 ### München
 **Wann?** Immer am 2ten Mittwoch im Monat:   
-  
-13.06.2018 
+13.06.2018  
 11.07.2018  
 08.08.2018  
  
