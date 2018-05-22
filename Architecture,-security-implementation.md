@@ -1,3 +1,5 @@
+This page is obsolete now
+
 Application is built from plugins.
 Every plugin must `extends` Fragment and must `implements` PluginBase and may `implements` Interfaces. 
 So declaration looks like:
