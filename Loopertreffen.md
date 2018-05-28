@@ -42,10 +42,10 @@ Dies könnte zur Gründung eines festen Stammtisches für LooperInHamburg führe
 ## Niedersachsen:  
   
 ### Hannover  
-#LooperInHannover Treffen 26. Mai 2018  
-https://xoyondo.com/dp/mJnWbGa3yFrxNQJ  
- 
- 
+#LooperInHannover Letztes Treffen war am 26. Mai 2018.  
+Strahlende Gesichter und Vorfreude auf das nächste Treffen... 
+  
+  
 ## Schleswig-Holstein:  
   
 ### Flensburg  
