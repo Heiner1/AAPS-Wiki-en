@@ -49,7 +49,7 @@ Strahlende Gesichter und Vorfreude auf das nächste Treffen...
 ## Schleswig-Holstein:  
   
 ### Flensburg  
-Nächstes #LooperInFlensburg Treffen ist im Juni 2018 geplant.  
+Nächstes #LooperInFlensburg Treffen ist am 22. Juni 2018 geplant.  
 https://xoyondo.com/dp/ZqVodAXAPPb0qUn  
   
   
