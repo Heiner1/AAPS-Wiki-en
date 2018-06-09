@@ -29,6 +29,7 @@ Usage:
 * [[Open APS features]]
 * [[Profiles]]
 * [[SMS Commands]]
+* [[Extended carbs]]
 * [[Tips and tricks]]
   * [Combo specific Tips and Tricks](Accu-Chek-Combo-Tipps-and-Tricks)
 * [[Accessing logfiles]]
