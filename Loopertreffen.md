@@ -65,8 +65,8 @@ https://doodle.com/poll/4thziammayzebxcz
   
 ### Frankfurt  
  
-Das letzte LooperInRheinMain Treffen war am 11.05.2018 in Frankfurt.  
-#### Nächstes Treffen
+Für das nächste LooperInRheinMain Treffen bitte hier eintragen:   
+  
 **Doodle:** https://doodle.com/poll/ma2g52wmtb9d9qm2
 
 ## Rhein-Ruhr:  
