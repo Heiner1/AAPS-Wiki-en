@@ -20,7 +20,7 @@ Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf
 
 ### München
 **Wann?** Immer am 2ten Mittwoch im Monat:   
-13.06.2018  
+
 11.07.2018  
 08.08.2018  
  
@@ -76,8 +76,7 @@ Das letzte LooperInRheinMain Treffen war am 11.05.2018 in Frankfurt.
 Link zur Kölner WhatsApp Gruppe (funktioniert nur über das Smartphone):  
 https://chat.whatsapp.com/LYFYeEv2KhNDMbwSuGfBBT 
   
-Nächstes Treffen am 9. Juni 2018:  
-https://doodle.com/poll/cfmxvbne8c87xirq  
+Nächstes Treffen am ? 2018:   
  
 ### Lünen  
 Ein Treffen ist angedacht, nähere Informationen folgen.  
