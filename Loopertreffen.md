@@ -6,10 +6,8 @@
 
 ## Berlin
 #LooperInBerlin Treffen Juli (eventuell auch Sommerpause?) 2018  
-xoyondo Liste zum Eintragen folgt  
-ev. wieder Schulungsraum von Dr. Häußler, Teltower Damm 23, Zehlendorf    
- 
-
+https://xoyondo.com/dp/8McjS6odNdnUzHK/E8LHDdooYf - Bitte auch zweite Umfrage ausfüllen!  
+Diesmal ev. in Mitte/Moabit, Näheres folgt.  
 
 ## Bayern und Franken:
 
@@ -66,7 +64,7 @@ https://doodle.com/poll/4thziammayzebxcz
   
 ### Frankfurt  
  
-Für das nächste LooperInRheinMain Treffen bitte hier eintragen:   
+Das nächste LooperInRheinMain Treffen findet am 6. Juli 2018 statt:  
   
 **Doodle:** https://doodle.com/poll/ma2g52wmtb9d9qm2
 
