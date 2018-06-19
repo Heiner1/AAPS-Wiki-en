@@ -5,7 +5,7 @@
 ## Die Liste der potentiellen Orte für Loopertreffen ist zusätzlich als Anregung für euch gedacht, Treffen zu organisieren. Ihr findet sie hier: https://doodle.com/poll/cpui3ifzrzyu3id8  
 
 ## Berlin
-#LooperInBerlin Treffen Juli (eventuell auch Sommerpause?) 2018  
+#LooperInBerlin Treffen Juli 2018  
 https://xoyondo.com/dp/8McjS6odNdnUzHK/E8LHDdooYf - Bitte auch zweite Umfrage ausfüllen!  
 Diesmal ev. in Mitte/Moabit, Näheres folgt.  
 
