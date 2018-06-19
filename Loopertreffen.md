@@ -20,7 +20,7 @@ Diesmal ev. in Mitte/Moabit, Näheres folgt.
 ### München
 **Wann?** Immer am 2ten Mittwoch im Monat:   
 
-11.07.2018  
+**04**.07.2018 (ausnahmsweise eine Woche früher!)  
 08.08.2018  
  
 **Wo?** Gaststätte Schlösselgarten, Cosimastraße 41, München; in der Kleingartenanlage    
