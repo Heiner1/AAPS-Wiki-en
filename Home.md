@@ -1,3 +1,5 @@
+# This is the LEGACY Wiki. The new Wiki: http://wiki.androidaps.org
+
 ###  What is AndroidAPS?
 
 ###  Primary goals that made this app to be born
