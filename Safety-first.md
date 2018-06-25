@@ -1,1 +1,1 @@
-### new Wiki: http://wiki.androidaps.org
+### New Wiki: http://wiki.androidaps.org
