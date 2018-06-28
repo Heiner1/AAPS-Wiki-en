@@ -1,8 +1,8 @@
 # Treffen der Looper und Loop-Interessierten im deutschsprachigen Raum
 
-### _Bitte mir Bescheid geben, wenn ihr von neuen Terminen erfahrt oder z.B. doodle Listen für Treffen erstellt habt, damit ich die Seite aktuell halten kann! -> PM bei gitter (MissDazzle) oder über messenger bei facebook (Saskia Wolf) oder missdazzle@web.de_
+_Bitte mir Bescheid geben, wenn ihr von neuen Terminen erfahrt oder z.B. doodle Listen für Treffen erstellt habt, damit ich die Seite aktuell halten kann! -> PM bei gitter (MissDazzle) oder über messenger bei facebook (Saskia Wolf) oder missdazzle@web.de_
 
-### Die Liste der potentiellen Orte für Loopertreffen ist zusätzlich als Anregung für euch gedacht, Treffen zu organisieren. Ihr findet sie hier: https://doodle.com/poll/cpui3ifzrzyu3id8  
+Die Liste der potentiellen Orte für Loopertreffen ist zusätzlich als Anregung für euch gedacht, Treffen zu organisieren. Ihr findet sie hier: https://doodle.com/poll/cpui3ifzrzyu3id8  
 
 ## Berlin
 #LooperInBerlin Treffen Juli 2018  
