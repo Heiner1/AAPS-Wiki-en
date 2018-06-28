@@ -6,8 +6,8 @@
 
 ## Berlin
 #LooperInBerlin Treffen Juli 2018  
-https://xoyondo.com/dp/8McjS6odNdnUzHK/E8LHDdooYf - Bitte auch zweite Umfrage ausfüllen!  
-Diesmal ev. in Mitte/Moabit, Näheres folgt.  
+https://xoyondo.com/dp/8McjS6odNdnUzHK/E8LHDdooYf   
+Ort noch offen
 
 ## Bayern und Franken:
 
