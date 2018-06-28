@@ -84,7 +84,15 @@ Nächstes Treffen am ? 2018:
 ### Lünen  
 Ein Treffen ist angedacht, nähere Informationen folgen.  
 
- 
+
+## Rheinland-Pfalz:
+
+### Trier 
+
+Link zu einer Terminabsprache im Juli 2018:  
+https://doodle.com/poll/8vcv3d332a3sx8ra  
+
+
 ## Nordwürttemberg-Nordbaden:  
   
 ### Mannheim  
