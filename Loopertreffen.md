@@ -89,7 +89,7 @@ Ein Treffen ist angedacht, nähere Informationen folgen.
 
 ### Trier 
 
-Link zu einer Terminabsprache im Juli 2018:  
+Link zu einer Terminabsprache im Juli/August 2018:  
 https://doodle.com/poll/8vcv3d332a3sx8ra  
 
 
