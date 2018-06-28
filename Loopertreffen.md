@@ -64,7 +64,9 @@ https://doodle.com/poll/4thziammayzebxcz
   
 ### Frankfurt  
 **Wann?** 6. Juli 2018  
-**Wo?**   Ruderclub Griesheim (http://www.mainglueck-frankfurt.de/), Griesheimer Stadtweg 77a, 65933 Frankfurt am Main   
+**Wo?**   Ruderclub Griesheim (http://www.mainglueck-frankfurt.de/)  
+          Griesheimer Stadtweg 77a  
+65933 Frankfurt am Main   
 **Uhrzeit?** 18:30Uhr  
 **Doodle:** https://doodle.com/poll/ma2g52wmtb9d9qm2
 
